@@ -1,0 +1,181 @@
+package com.supermap.gwfs.grib2convert.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import com.supermap.disruptor.UniDisruptor;
+import com.supermap.disruptor.helper.DisruptorHelper;
+import com.supermap.gcpp.core.common.UniObject;
+import com.supermap.gwfs.grib2convert.entity.Grid_forecast;
+import com.supermap.gwfs.grib2convert.entity.GridsData;
+import com.supermap.gwfs.grib2convert.service.GribService;
+import com.supermap.gwfs.grib2convert.service.Grid_forecastService;
+import com.supermap.gwfs.grib2convert.service.WriteNCService;
+import com.supermap.gwfs.grib2convert.util.Logger;
+
+public class Grib2Controller{
+	private Logger logger = Logger.getLogger(this.getClass());
+	private GribService gribService = new GribService();
+	private Grid_forecastService grid_forecastService = new Grid_forecastService();
+	WriteNCService ncService = new WriteNCService();
+
+	public void startConvert(String filePath){
+		try{
+			logger.info("supermap::filePath : " + filePath);
+			List<GridsData> gridsDatas = gribService.listAllGrib(filePath);
+			logger.info("supermap::data size : " + gridsDatas.size());
+			if(gridsDatas.size() > 0){
+				boolean isPublished = false,isFitted = false;
+				GridsData gridData0 = gridsDatas.get(0);
+				String element = gridData0.getElement();
+				String forecastDate = gridData0.getDate().toString();
+				String forecastSequence = gridData0.getSequence();
+				int forecastLevel = gridData0.getLevel();
+				isFitted = "TMP".equals(element)?true:false;
+				logger.info("supermap::" + filePath + " read data is successful!");
+				UniObject ncBarrier = new UniObject();
+				ncBarrier.setValue("elementValue", element);
+				ncBarrier.setValue("createDate", forecastDate);
+				ncBarrier.setValue("sequenceValue", forecastSequence);
+				ncBarrier.setValue("levelValue", forecastLevel);
+				ncBarrier.setValue("isFitted", isFitted);
+				//标记是否调用disruptor(只有TMP时调用disruptor)
+				// 写数据
+				for(GridsData gridsData : gridsDatas){
+					boolean isWritten = writeNC(gridsData);
+					if(isWritten){
+						ArrayList<Grid_forecast> grid_forecast = grid_forecastService.findForcastVariables(gridsData);
+						if("TMP".equals(element)||"TMIN".equals(element)||"TMAX".equals(element)){
+							if(grid_forecast.size() > 0){
+								isPublished = true;
+								//
+								UniObject ncFile = new UniObject();
+								ncFile.setValue("originValue", grid_forecast.get(0).getOrigin_value());
+								ncFile.setValue("elementValue", element);
+								ncFile.setValue("createDate", forecastDate);
+								ncFile.setValue("sequenceValue", forecastSequence);
+								ncFile.setValue("validValue", gridsData.getValid());
+								ncFile.setValue("levelValue", forecastLevel);
+								//标记是否调用disruptor(只有TMP时调用disruptor)
+								ncFile.setValue("absolutePath", gridsData.getFilePath());
+								ncBarrier.setValue("originValue", grid_forecast.get(0).getOrigin_value());
+								ncBarrier.addContainedObject(ncFile);
+								//传给后面处理器模块进行解析和插值
+								//20170104
+//								UniDisruptor processorDisruptor = DisruptorHelper.getDisruptor("ProcessorHandler");
+//								if(processorDisruptor != null){
+//									processorDisruptor.publish(ncFile);
+//								}
+							}
+						}
+						if(grid_forecast.size() == 1){
+							Grid_forecast gForecast = grid_forecast.get(0);
+							int server_id = grid_forecastService.findServerId();
+							gForecast.setServer_id(server_id);
+							gForecast.setForecast_filename(gridsData.getFileName());
+							gForecast.setForecast_filepath(gridsData.getFilePath());
+							gForecast.setCreate_time(gridsData.getCreate_time());
+							gForecast.setForecast_date(gridsData.getDate());
+							gForecast.setCreate_time(gridsData.getCreate_time());
+							if("TMAX".equals(element) || "TMIN".equals(element)){
+								// 调用管理类
+//								// TODO
+//								UniObject paramter = new UniObject();
+//								getGridForecastToUni(paramter,gForecast);
+//								//设置标记表示谁在调用
+//								paramter.setValue("mark", 0);
+//								UniDisruptor processorDisruptor = DisruptorHelper.getDisruptor("GribManagementHandler");
+//								if(processorDisruptor != null){
+//									processorDisruptor.publish(paramter);
+//								}								
+							}else{
+								grid_forecastService.saveGridForcast(gForecast);
+							}
+						}else{
+							logger.error("supermap::"+gridsData.getFileName() + " " + gridsData.getElement() + "query data is error!");
+						}
+					}else{
+						logger.error("supermap::" + gridsData.getFilePath() + " writed fail");
+					}
+				}
+				//全部时效文件
+				if(isPublished){				
+					UniDisruptor timeDisruptor = DisruptorHelper.getDisruptor("TimeLocatorHandler");
+					if(timeDisruptor != null){
+						timeDisruptor.publish(ncBarrier);
+					}
+					
+//					if(isFitted){
+//						UniDisruptor fitterDisruptor = DisruptorHelper.getDisruptor("GridFitterHandler");
+//						if(fitterDisruptor != null){
+//							fitterDisruptor.publish(ncBarrier);
+//						}
+//					}
+				}
+				//20161008
+				//释放集合内存空间
+				gridsDatas.clear();						
+			}else{
+				logger.error("supermap::" + filePath + " file is wrong!");
+			}	
+		}catch(Exception e){
+			logger.error("supermap:: Grib2 Covert is error ! " + e);
+		}
+	}
+
+	/**
+	 * 
+	 * @Description: 把对象封装到UniObject中
+	 * @return void
+	 * @throws
+	 */
+	private void getGridForecastToUni(UniObject paramter, Grid_forecast gForecast)
+	{
+		paramter.setValue("origin_id", gForecast.getOrigin_id());
+		paramter.setValue("origin_name", gForecast.getOrigin_name());
+		paramter.setValue("origin_value", gForecast.getOrigin_value());
+		paramter.setValue("element_id", gForecast.getElement_id());
+		paramter.setValue("element_name", gForecast.getElement_name());
+		paramter.setValue("element_value", gForecast.getElement_value());
+		paramter.setValue("createDate", gForecast.getForecast_date());
+		paramter.setValue("forecast_sequence_id", gForecast.getForecast_sequence_id());
+		paramter.setValue("forecast_sequence_name", gForecast.getForecast_sequence_name());
+		paramter.setValue("createSequence", gForecast.getForecast_sequence_value());
+		paramter.setValue("forecast_valid_id", gForecast.getForecast_valid_id());
+		paramter.setValue("forecast_valid_name", gForecast.getForecast_valid_name());
+		paramter.setValue("forecastValid", gForecast.getForecast_valid_value());
+		paramter.setValue("forecast_level_id", gForecast.getForecast_level_id());
+		paramter.setValue("forecast_level_name", gForecast.getForecast_level_name());
+		paramter.setValue("forecast_level_value", gForecast.getForecast_level_value());
+		paramter.setValue("server_id", gForecast.getServer_id());
+		paramter.setValue("forecast_filename", gForecast.getForecast_filename());
+		paramter.setValue("forecast_filepath", gForecast.getForecast_filepath());
+		paramter.setValue("forecast_fileversion", gForecast.getForecast_fileversion());
+		paramter.setValue("create_time", gForecast.getCreate_time());
+		
+	}
+
+
+	public boolean writeNC(GridsData gridsData) {
+		// String element = gridsData.getElement();
+		//		int dIM_time = gridsData.getDimTime();
+		int forecastDate = gridsData.getForecast();
+		int valid = gridsData.getValid();
+		String unit = gridsData.getUnit();
+		int level = (int) gridsData.getLevel();
+		int cols = gridsData.getCols();
+		int rows = gridsData.getRows();
+		float left = gridsData.getLeft();
+		float bottom = gridsData.getBottom();
+		float dx = gridsData.getDeltaX();
+		float dy = gridsData.getDeltaY();
+		// float[] dvalue = gridsData.getdValue();
+		String path = gridsData.getFilePath();
+
+		Map<String, float[]> elementValue = gridsData.getElementValue();
+		//		return ncService.writeData(path, elementValue, level, left, bottom, dx, dy, dIM_time, cols, rows, unit);
+		//20160913
+		return ncService.writeData(path, elementValue, level, left, bottom, dx, dy, forecastDate, cols, rows, unit , valid);
+	}
+}

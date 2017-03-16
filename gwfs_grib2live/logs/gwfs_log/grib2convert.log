@@ -1,0 +1,306 @@
+[GWFS_sys] 2017-02-13 10:40:26  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\00\Z_NWGD_C_BABJ_20170208170126_P_RFFC_SCMOC-TMP_201702090000_00000.GRB2
+[GWFS_sys] 2017-02-13 10:40:26  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 10:40:26  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 10:40:26  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 10:40:26  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\01\Z_NWGD_C_BABJ_20170208180126_P_RFFC_SCMOC-TMP_201702090100_00000.GRB2
+[GWFS_sys] 2017-02-13 10:40:26  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 10:40:26  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 10:40:26  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 10:40:26  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\02\Z_NWGD_C_BABJ_20170208190126_P_RFFC_SCMOC-TMP_201702090200_00000.GRB2
+[GWFS_sys] 2017-02-13 10:40:26  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 10:40:26  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 10:40:26  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 10:40:26  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\03\Z_NWGD_C_BABJ_20170208200126_P_RFFC_SCMOC-TMP_201702090300_00000.GRB2
+[GWFS_sys] 2017-02-13 10:40:26  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 10:40:26  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 10:40:26  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 10:40:26  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\04\Z_NWGD_C_BABJ_20170208210126_P_RFFC_SCMOC-TMP_201702090400_00000.GRB2
+[GWFS_sys] 2017-02-13 10:40:26  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 10:40:26  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 10:40:26  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 10:40:26  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\05\Z_NWGD_C_BABJ_20170208220126_P_RFFC_SCMOC-TMP_201702090500_00000.GRB2
+[GWFS_sys] 2017-02-13 10:40:26  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 10:40:26  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 10:40:26  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 10:40:26  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\06\Z_NWGD_C_BABJ_20170208230136_P_RFFC_SCMOC-TMP_201702090600_00000.GRB2
+[GWFS_sys] 2017-02-13 10:40:26  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 10:40:26  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 10:40:26  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 10:40:26  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\07\Z_NWGD_C_BABJ_20170209000126_P_RFFC_SCMOC-TMP_201702090700_00000.GRB2
+[GWFS_sys] 2017-02-13 10:40:26  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 10:40:26  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 10:40:26  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 10:40:26  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\08\Z_NWGD_C_BABJ_20170209010206_P_RFFC_SCMOC-TMP_201702090800_00000.GRB2
+[GWFS_sys] 2017-02-13 10:40:26  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 10:40:26  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 10:40:26  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 10:40:26  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\09\Z_NWGD_C_BABJ_20170209020136_P_RFFC_SCMOC-TMP_201702090900_00000.GRB2
+[GWFS_sys] 2017-02-13 10:40:26  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 10:40:26  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 10:40:26  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 10:40:27  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\10\Z_NWGD_C_BABJ_20170209031106_P_RFFC_SCMOC-TMP_201702091000_00000.GRB2
+[GWFS_sys] 2017-02-13 10:40:27  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 10:40:27  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 10:40:27  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 10:40:27  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\11\Z_NWGD_C_BABJ_20170209040136_P_RFFC_SCMOC-TMP_201702091100_00000.GRB2
+[GWFS_sys] 2017-02-13 10:40:27  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 10:40:27  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 10:40:27  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 10:40:27  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\12\Z_NWGD_C_BABJ_20170209050126_P_RFFC_SCMOC-TMP_201702091200_00000.GRB2
+[GWFS_sys] 2017-02-13 10:40:27  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 10:40:27  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 10:40:27  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\00\Z_NWGD_C_BABJ_20170208170126_P_RFFC_SCMOC-TMP_201702090000_00000.GRB2
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\01\Z_NWGD_C_BABJ_20170208180126_P_RFFC_SCMOC-TMP_201702090100_00000.GRB2
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\02\Z_NWGD_C_BABJ_20170208190126_P_RFFC_SCMOC-TMP_201702090200_00000.GRB2
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\03\Z_NWGD_C_BABJ_20170208200126_P_RFFC_SCMOC-TMP_201702090300_00000.GRB2
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\04\Z_NWGD_C_BABJ_20170208210126_P_RFFC_SCMOC-TMP_201702090400_00000.GRB2
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\05\Z_NWGD_C_BABJ_20170208220126_P_RFFC_SCMOC-TMP_201702090500_00000.GRB2
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\06\Z_NWGD_C_BABJ_20170208230136_P_RFFC_SCMOC-TMP_201702090600_00000.GRB2
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\07\Z_NWGD_C_BABJ_20170209000126_P_RFFC_SCMOC-TMP_201702090700_00000.GRB2
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\08\Z_NWGD_C_BABJ_20170209010206_P_RFFC_SCMOC-TMP_201702090800_00000.GRB2
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\09\Z_NWGD_C_BABJ_20170209020136_P_RFFC_SCMOC-TMP_201702090900_00000.GRB2
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\10\Z_NWGD_C_BABJ_20170209031106_P_RFFC_SCMOC-TMP_201702091000_00000.GRB2
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\11\Z_NWGD_C_BABJ_20170209040136_P_RFFC_SCMOC-TMP_201702091100_00000.GRB2
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\12\Z_NWGD_C_BABJ_20170209050126_P_RFFC_SCMOC-TMP_201702091200_00000.GRB2
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:34:34  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:34:34  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:35:12  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\00\Z_NWGD_C_BABJ_20170208170126_P_RFFC_SCMOC-TMP_201702090000_00000.GRB2
+[GWFS_sys] 2017-02-13 11:35:12  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:35:12  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:35:20  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:41:00  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\00\Z_NWGD_C_BABJ_20170208170126_P_RFFC_SCMOC-TMP_201702090000_00000.GRB2
+[GWFS_sys] 2017-02-13 11:41:00  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:41:00  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:41:03  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:48:22  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\00\Z_NWGD_C_BABJ_20170208170126_P_RFFC_SCMOC-TMP_201702090000_00000.GRB2
+[GWFS_sys] 2017-02-13 11:48:22  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:48:23  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:48:24  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:49:17  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\00\Z_NWGD_C_BABJ_20170208170126_P_RFFC_SCMOC-TMP_201702090000_00000.GRB2
+[GWFS_sys] 2017-02-13 11:49:17  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:49:17  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:49:18  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:52:03  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\00\Z_NWGD_C_BABJ_20170208170126_P_RFFC_SCMOC-TMP_201702090000_00000.GRB2
+[GWFS_sys] 2017-02-13 11:52:03  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:52:03  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:52:04  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:52:48  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\00\Z_NWGD_C_BABJ_20170208170126_P_RFFC_SCMOC-TMP_201702090000_00000.GRB2
+[GWFS_sys] 2017-02-13 11:52:48  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:52:48  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:52:49  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:53:24 ERROR WriteNCService:70 : ZJ:null
+java.lang.NullPointerException
+	at com.supermap.gwfs.grib2live.service.WriteNCService.writeData(WriteNCService.java:81)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.writeNC(ProssTmp.java:88)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.TmaxComparison(ProssTmp.java:63)
+	at com.supermap.gwfs.grib2live.controller.Grib2Controller.startConvert(Grib2Controller.java:45)
+	at com.supermap.gwfs.grib2live.handler.Grib2ConvertThread.run(Grib2ConvertThread.java:21)
+	at com.supermap.gwfs.grib2live.test.TestClipGrab.main(TestClipGrab.java:25)
+[GWFS_sys] 2017-02-13 11:53:34  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\00\Z_NWGD_C_BABJ_20170208170126_P_RFFC_SCMOC-TMP_201702090000_00000.GRB2
+[GWFS_sys] 2017-02-13 11:53:34  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:53:34  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:53:34  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:53:38 ERROR WriteNCService:70 : ZJ:null
+java.lang.NullPointerException
+	at com.supermap.gwfs.grib2live.service.WriteNCService.writeData(WriteNCService.java:81)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.writeNC(ProssTmp.java:88)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.TmaxComparison(ProssTmp.java:63)
+	at com.supermap.gwfs.grib2live.controller.Grib2Controller.startConvert(Grib2Controller.java:45)
+	at com.supermap.gwfs.grib2live.handler.Grib2ConvertThread.run(Grib2ConvertThread.java:21)
+	at com.supermap.gwfs.grib2live.test.TestClipGrab.main(TestClipGrab.java:25)
+[GWFS_sys] 2017-02-13 11:53:44  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\00\Z_NWGD_C_BABJ_20170208170126_P_RFFC_SCMOC-TMP_201702090000_00000.GRB2
+[GWFS_sys] 2017-02-13 11:53:44  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:53:44  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:53:45  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:54:44 ERROR WriteNCService:70 : ZJ:null
+java.lang.NullPointerException
+	at com.supermap.gwfs.grib2live.service.WriteNCService.writeData(WriteNCService.java:81)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.writeNC(ProssTmp.java:88)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.TmaxComparison(ProssTmp.java:63)
+	at com.supermap.gwfs.grib2live.controller.Grib2Controller.startConvert(Grib2Controller.java:45)
+	at com.supermap.gwfs.grib2live.handler.Grib2ConvertThread.run(Grib2ConvertThread.java:21)
+	at com.supermap.gwfs.grib2live.test.TestClipGrab.main(TestClipGrab.java:25)
+[GWFS_sys] 2017-02-13 11:54:54  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\00\Z_NWGD_C_BABJ_20170208170126_P_RFFC_SCMOC-TMP_201702090000_00000.GRB2
+[GWFS_sys] 2017-02-13 11:54:54  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:54:54  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:54:54  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:54:56 ERROR WriteNCService:70 : ZJ:null
+java.lang.NullPointerException
+	at com.supermap.gwfs.grib2live.service.WriteNCService.writeData(WriteNCService.java:81)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.writeNC(ProssTmp.java:88)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.TmaxComparison(ProssTmp.java:63)
+	at com.supermap.gwfs.grib2live.controller.Grib2Controller.startConvert(Grib2Controller.java:45)
+	at com.supermap.gwfs.grib2live.handler.Grib2ConvertThread.run(Grib2ConvertThread.java:21)
+	at com.supermap.gwfs.grib2live.test.TestClipGrab.main(TestClipGrab.java:25)
+[GWFS_sys] 2017-02-13 11:54:58  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\01\Z_NWGD_C_BABJ_20170208180126_P_RFFC_SCMOC-TMP_201702090100_00000.GRB2
+[GWFS_sys] 2017-02-13 11:54:58  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:54:58  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:55:01  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:57:34  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\00\Z_NWGD_C_BABJ_20170208170126_P_RFFC_SCMOC-TMP_201702090000_00000.GRB2
+[GWFS_sys] 2017-02-13 11:57:34  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:57:34  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:57:35  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 11:57:53 ERROR WriteNCService:70 : ZJ:D:\mnt\data\local\central\live\TMAX\20170209\0\live\live_max.nc (系统找不到指定的路径。)
+java.io.FileNotFoundException: D:\mnt\data\local\central\live\TMAX\20170209\0\live\live_max.nc (系统找不到指定的路径。)
+	at java.io.RandomAccessFile.open(Native Method)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:241)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:122)
+	at ucar.unidata.io.RandomAccessFile.<init>(RandomAccessFile.java:277)
+	at ucar.unidata.io.RandomAccessFile.<init>(RandomAccessFile.java:259)
+	at ucar.nc2.iosp.netcdf3.N3iosp.create(N3iosp.java:647)
+	at ucar.nc2.NetcdfFileWriter.create(NetcdfFileWriter.java:671)
+	at com.supermap.gwfs.grib2live.service.WriteNCService.writeData(WriteNCService.java:87)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.writeNC(ProssTmp.java:92)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.TmaxComparison(ProssTmp.java:67)
+	at com.supermap.gwfs.grib2live.controller.Grib2Controller.startConvert(Grib2Controller.java:45)
+	at com.supermap.gwfs.grib2live.handler.Grib2ConvertThread.run(Grib2ConvertThread.java:21)
+	at com.supermap.gwfs.grib2live.test.TestClipGrab.main(TestClipGrab.java:25)
+[GWFS_sys] 2017-02-13 11:59:48  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\00\Z_NWGD_C_BABJ_20170208170126_P_RFFC_SCMOC-TMP_201702090000_00000.GRB2
+[GWFS_sys] 2017-02-13 11:59:48  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 11:59:49  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 11:59:51  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 12:00:12  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\01\Z_NWGD_C_BABJ_20170208180126_P_RFFC_SCMOC-TMP_201702090100_00000.GRB2
+[GWFS_sys] 2017-02-13 12:00:12  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 12:00:12  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 12:00:12  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 12:00:13  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\02\Z_NWGD_C_BABJ_20170208190126_P_RFFC_SCMOC-TMP_201702090200_00000.GRB2
+[GWFS_sys] 2017-02-13 12:00:13  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 12:00:13  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 12:00:13  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 12:00:14  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\03\Z_NWGD_C_BABJ_20170208200126_P_RFFC_SCMOC-TMP_201702090300_00000.GRB2
+[GWFS_sys] 2017-02-13 12:00:14  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 12:00:14  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 12:00:14  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 12:00:15  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\04\Z_NWGD_C_BABJ_20170208210126_P_RFFC_SCMOC-TMP_201702090400_00000.GRB2
+[GWFS_sys] 2017-02-13 12:00:15  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 12:00:15  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 12:00:15  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 12:00:16  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\05\Z_NWGD_C_BABJ_20170208220126_P_RFFC_SCMOC-TMP_201702090500_00000.GRB2
+[GWFS_sys] 2017-02-13 12:00:16  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 12:00:16  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 12:00:16  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 12:00:17  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\06\Z_NWGD_C_BABJ_20170208230136_P_RFFC_SCMOC-TMP_201702090600_00000.GRB2
+[GWFS_sys] 2017-02-13 12:00:17  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 12:00:17  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 12:00:17  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 12:00:18  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\07\Z_NWGD_C_BABJ_20170209000126_P_RFFC_SCMOC-TMP_201702090700_00000.GRB2
+[GWFS_sys] 2017-02-13 12:00:18  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 12:00:18  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 12:00:18  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 12:00:19  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\08\Z_NWGD_C_BABJ_20170209010206_P_RFFC_SCMOC-TMP_201702090800_00000.GRB2
+[GWFS_sys] 2017-02-13 12:00:19  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 12:00:19  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 12:00:19  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 12:00:20  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\09\Z_NWGD_C_BABJ_20170209020136_P_RFFC_SCMOC-TMP_201702090900_00000.GRB2
+[GWFS_sys] 2017-02-13 12:00:20  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 12:00:20  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 12:00:20  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 12:00:20  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\10\Z_NWGD_C_BABJ_20170209031106_P_RFFC_SCMOC-TMP_201702091000_00000.GRB2
+[GWFS_sys] 2017-02-13 12:00:20  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 12:00:20  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 12:00:21  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 12:00:22  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\11\Z_NWGD_C_BABJ_20170209040136_P_RFFC_SCMOC-TMP_201702091100_00000.GRB2
+[GWFS_sys] 2017-02-13 12:00:22  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 12:00:22  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 12:00:23  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 12:00:29  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\12\Z_NWGD_C_BABJ_20170209050126_P_RFFC_SCMOC-TMP_201702091200_00000.GRB2
+[GWFS_sys] 2017-02-13 12:00:29  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 12:00:29  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 12:00:31  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 14:30:19  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\00\Z_NWGD_C_BABJ_20170208170126_P_RFFC_SCMOC-TMP_201702090000_00000.GRB2
+[GWFS_sys] 2017-02-13 14:30:19  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 14:30:19  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 14:30:24  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 14:31:30  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\00\Z_NWGD_C_BABJ_20170208170126_P_RFFC_SCMOC-TMP_201702090000_00000.GRB2
+[GWFS_sys] 2017-02-13 14:31:30  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 14:31:30  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 14:31:40  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\00\Z_NWGD_C_BABJ_20170208170126_P_RFFC_SCMOC-TMP_201702090000_00000.GRB2
+[GWFS_sys] 2017-02-13 14:31:40  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 14:31:40  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 14:31:40  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 14:31:40  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\01\Z_NWGD_C_BABJ_20170208180126_P_RFFC_SCMOC-TMP_201702090100_00000.GRB2
+[GWFS_sys] 2017-02-13 14:31:40  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 14:31:40  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 14:31:40  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\02\Z_NWGD_C_BABJ_20170208190126_P_RFFC_SCMOC-TMP_201702090200_00000.GRB2
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\03\Z_NWGD_C_BABJ_20170208200126_P_RFFC_SCMOC-TMP_201702090300_00000.GRB2
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\04\Z_NWGD_C_BABJ_20170208210126_P_RFFC_SCMOC-TMP_201702090400_00000.GRB2
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\05\Z_NWGD_C_BABJ_20170208220126_P_RFFC_SCMOC-TMP_201702090500_00000.GRB2
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\06\Z_NWGD_C_BABJ_20170208230136_P_RFFC_SCMOC-TMP_201702090600_00000.GRB2
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\07\Z_NWGD_C_BABJ_20170209000126_P_RFFC_SCMOC-TMP_201702090700_00000.GRB2
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\08\Z_NWGD_C_BABJ_20170209010206_P_RFFC_SCMOC-TMP_201702090800_00000.GRB2
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\09\Z_NWGD_C_BABJ_20170209020136_P_RFFC_SCMOC-TMP_201702090900_00000.GRB2
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\10\Z_NWGD_C_BABJ_20170209031106_P_RFFC_SCMOC-TMP_201702091000_00000.GRB2
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\11\Z_NWGD_C_BABJ_20170209040136_P_RFFC_SCMOC-TMP_201702091100_00000.GRB2
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170209\12\Z_NWGD_C_BABJ_20170209050126_P_RFFC_SCMOC-TMP_201702091200_00000.GRB2
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-13 14:31:41  INFO GribService:50 : ZJ:create D:/mnt/data/local/central/live/TMP/20170209/0/live dirs is : true
+[GWFS_sys] 2017-02-13 14:31:41  INFO Grib2Controller:50 : ZJ:data size : 1

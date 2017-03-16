@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<feature>
+	</feature>
+	<size>
+		<!-- x,y,w,h -->
+		<!-- <chongqing>121.0,43.4,14.1,10.2</chongqing> -->
+		<chongqing>105,28,5.5,4.5</chongqing>
+	</size>
+	<write>
+		<rootpath>D:/mnt/data</rootpath>
+	</write>
+</list>

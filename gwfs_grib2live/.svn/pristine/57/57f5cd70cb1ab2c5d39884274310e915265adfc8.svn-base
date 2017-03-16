@@ -1,0 +1,8 @@
+c3p0.connection.driverclass = com.mysql.jdbc.Driver
+c3p0.connection.url = jdbc:mysql://172.24.176.172:3306/gwfs_test?characterEncoding=utf-8&autoReconnect=true
+c3p0.connection.username = root
+c3p0.connection.password = supermap
+c3p0.connection.initialsize = 20
+c3p0.connection.minsize = 10
+c3p0.connection.maxsize = 50
+c3p0.connection.acquireincrement = 2

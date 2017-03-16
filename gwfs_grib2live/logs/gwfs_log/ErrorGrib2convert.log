@@ -1,0 +1,47 @@
+[GWFS_sys] 2017-02-13 11:53:24 ERROR WriteNCService:70 : ZJ:null
+java.lang.NullPointerException
+	at com.supermap.gwfs.grib2live.service.WriteNCService.writeData(WriteNCService.java:81)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.writeNC(ProssTmp.java:88)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.TmaxComparison(ProssTmp.java:63)
+	at com.supermap.gwfs.grib2live.controller.Grib2Controller.startConvert(Grib2Controller.java:45)
+	at com.supermap.gwfs.grib2live.handler.Grib2ConvertThread.run(Grib2ConvertThread.java:21)
+	at com.supermap.gwfs.grib2live.test.TestClipGrab.main(TestClipGrab.java:25)
+[GWFS_sys] 2017-02-13 11:53:38 ERROR WriteNCService:70 : ZJ:null
+java.lang.NullPointerException
+	at com.supermap.gwfs.grib2live.service.WriteNCService.writeData(WriteNCService.java:81)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.writeNC(ProssTmp.java:88)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.TmaxComparison(ProssTmp.java:63)
+	at com.supermap.gwfs.grib2live.controller.Grib2Controller.startConvert(Grib2Controller.java:45)
+	at com.supermap.gwfs.grib2live.handler.Grib2ConvertThread.run(Grib2ConvertThread.java:21)
+	at com.supermap.gwfs.grib2live.test.TestClipGrab.main(TestClipGrab.java:25)
+[GWFS_sys] 2017-02-13 11:54:44 ERROR WriteNCService:70 : ZJ:null
+java.lang.NullPointerException
+	at com.supermap.gwfs.grib2live.service.WriteNCService.writeData(WriteNCService.java:81)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.writeNC(ProssTmp.java:88)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.TmaxComparison(ProssTmp.java:63)
+	at com.supermap.gwfs.grib2live.controller.Grib2Controller.startConvert(Grib2Controller.java:45)
+	at com.supermap.gwfs.grib2live.handler.Grib2ConvertThread.run(Grib2ConvertThread.java:21)
+	at com.supermap.gwfs.grib2live.test.TestClipGrab.main(TestClipGrab.java:25)
+[GWFS_sys] 2017-02-13 11:54:56 ERROR WriteNCService:70 : ZJ:null
+java.lang.NullPointerException
+	at com.supermap.gwfs.grib2live.service.WriteNCService.writeData(WriteNCService.java:81)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.writeNC(ProssTmp.java:88)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.TmaxComparison(ProssTmp.java:63)
+	at com.supermap.gwfs.grib2live.controller.Grib2Controller.startConvert(Grib2Controller.java:45)
+	at com.supermap.gwfs.grib2live.handler.Grib2ConvertThread.run(Grib2ConvertThread.java:21)
+	at com.supermap.gwfs.grib2live.test.TestClipGrab.main(TestClipGrab.java:25)
+[GWFS_sys] 2017-02-13 11:57:53 ERROR WriteNCService:70 : ZJ:D:\mnt\data\local\central\live\TMAX\20170209\0\live\live_max.nc (系统找不到指定的路径。)
+java.io.FileNotFoundException: D:\mnt\data\local\central\live\TMAX\20170209\0\live\live_max.nc (系统找不到指定的路径。)
+	at java.io.RandomAccessFile.open(Native Method)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:241)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:122)
+	at ucar.unidata.io.RandomAccessFile.<init>(RandomAccessFile.java:277)
+	at ucar.unidata.io.RandomAccessFile.<init>(RandomAccessFile.java:259)
+	at ucar.nc2.iosp.netcdf3.N3iosp.create(N3iosp.java:647)
+	at ucar.nc2.NetcdfFileWriter.create(NetcdfFileWriter.java:671)
+	at com.supermap.gwfs.grib2live.service.WriteNCService.writeData(WriteNCService.java:87)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.writeNC(ProssTmp.java:92)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.TmaxComparison(ProssTmp.java:67)
+	at com.supermap.gwfs.grib2live.controller.Grib2Controller.startConvert(Grib2Controller.java:45)
+	at com.supermap.gwfs.grib2live.handler.Grib2ConvertThread.run(Grib2ConvertThread.java:21)
+	at com.supermap.gwfs.grib2live.test.TestClipGrab.main(TestClipGrab.java:25)

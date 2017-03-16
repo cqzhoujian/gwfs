@@ -1,0 +1,730 @@
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\15\Z_NWGD_C_BABJ_20170213080056_P_RFFC_SCMOC-TMP_201702131500_00000.GRB2
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : TMP Comparison : 15小时实况。
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\16\Z_NWGD_C_BABJ_20170213094056_P_RFFC_SCMOC-TMP_201702131600_00000.GRB2
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : TMP Comparison : 16小时实况。
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\17\Z_NWGD_C_BABJ_20170213100056_P_RFFC_SCMOC-TMP_201702131700_00000.GRB2
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : TMP Comparison : 17小时实况。
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\18\Z_NWGD_C_BABJ_20170213110106_P_RFFC_SCMOC-TMP_201702131800_00000.GRB2
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : TMP Comparison : 18小时实况。
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\19\Z_NWGD_C_BABJ_20170213120106_P_RFFC_SCMOC-TMP_201702131900_00000.GRB2
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : TMP Comparison : 19小时实况。
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\20\Z_NWGD_C_BABJ_20170213130106_P_RFFC_SCMOC-TMP_201702132000_00000.GRB2
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : TMP Comparison : 20小时实况。
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\21\Z_NWGD_C_BABJ_20170213140106_P_RFFC_SCMOC-TMP_201702132100_00000.GRB2
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : TMP Comparison : 21小时实况。
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\22\Z_NWGD_C_BABJ_20170213150106_P_RFFC_SCMOC-TMP_201702132200_00000.GRB2
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : TMP Comparison : 22小时实况。
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\23\Z_NWGD_C_BABJ_20170213160056_P_RFFC_SCMOC-TMP_201702132300_00000.GRB2
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : TMP Comparison : 23小时实况。
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\00\Z_NWGD_C_BABJ_20170213170056_P_RFFC_SCMOC-TMP_201702140000_00000.GRB2
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : TMP Comparison : 0小时实况。
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\01\Z_NWGD_C_BABJ_20170213180106_P_RFFC_SCMOC-TMP_201702140100_00000.GRB2
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : TMP Comparison : 1小时实况。
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\02\Z_NWGD_C_BABJ_20170213190108_P_RFFC_SCMOC-TMP_201702140200_00000.GRB2
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : TMP Comparison : 2小时实况。
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\03\Z_NWGD_C_BABJ_20170213201106_P_RFFC_SCMOC-TMP_201702140300_00000.GRB2
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : TMP Comparison : 3小时实况。
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\04\Z_NWGD_C_BABJ_20170213211056_P_RFFC_SCMOC-TMP_201702140400_00000.GRB2
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : TMP Comparison : 4小时实况。
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\05\Z_NWGD_C_BABJ_20170213221057_P_RFFC_SCMOC-TMP_201702140500_00000.GRB2
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : TMP Comparison : 5小时实况。
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\06\Z_NWGD_C_BABJ_20170213230106_P_RFFC_SCMOC-TMP_201702140600_00000.GRB2
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : TMP Comparison : 6小时实况。
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\07\Z_NWGD_C_BABJ_20170214000056_P_RFFC_SCMOC-TMP_201702140700_00000.GRB2
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : TMP Comparison : 7小时实况。
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\08\Z_NWGD_C_BABJ_20170214010136_P_RFFC_SCMOC-TMP_201702140800_00000.GRB2
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:34:24  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : TMP Comparison : 8小时实况。
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:34:24  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:35:38  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\15\Z_NWGD_C_BABJ_20170213080056_P_RFFC_SCMOC-TMP_201702131500_00000.GRB2
+[GWFS_sys] 2017-02-14 09:35:38  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:35:38  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:35:42  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:35:47  INFO ProssTmp:50 : TMP Comparison : 15小时实况。
+[GWFS_sys] 2017-02-14 09:36:41 ERROR WriteNCService:70 : ZJ:D:\mnt\data\central\live\TMAX\20170213\0\live\live_max.nc (系统找不到指定的路径。)
+java.io.FileNotFoundException: D:\mnt\data\central\live\TMAX\20170213\0\live\live_max.nc (系统找不到指定的路径。)
+	at java.io.RandomAccessFile.open(Native Method)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:241)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:122)
+	at ucar.unidata.io.RandomAccessFile.<init>(RandomAccessFile.java:277)
+	at ucar.unidata.io.RandomAccessFile.<init>(RandomAccessFile.java:259)
+	at ucar.nc2.iosp.netcdf3.N3iosp.create(N3iosp.java:647)
+	at ucar.nc2.NetcdfFileWriter.create(NetcdfFileWriter.java:671)
+	at com.supermap.gwfs.grib2live.service.WriteNCService.writeData(WriteNCService.java:87)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.writeNC(ProssTmp.java:147)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.TmaxComparison(ProssTmp.java:122)
+	at com.supermap.gwfs.grib2live.controller.ProssTmp.TmpComparison(ProssTmp.java:58)
+	at com.supermap.gwfs.grib2live.controller.Grib2Controller.startConvert(Grib2Controller.java:38)
+	at com.supermap.gwfs.grib2live.handler.Grib2LiveThread.run(Grib2LiveThread.java:21)
+	at com.supermap.gwfs.grib2live.test.TestClipGrab.main(TestClipGrab.java:25)
+[GWFS_sys] 2017-02-14 09:36:52  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\15\Z_NWGD_C_BABJ_20170213080056_P_RFFC_SCMOC-TMP_201702131500_00000.GRB2
+[GWFS_sys] 2017-02-14 09:36:52  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:36:52  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:36:52  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:36:52  INFO ProssTmp:50 : TMP Comparison : 15小时实况。
+[GWFS_sys] 2017-02-14 09:36:59  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:37:05  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:39:25  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\15\Z_NWGD_C_BABJ_20170213080056_P_RFFC_SCMOC-TMP_201702131500_00000.GRB2
+[GWFS_sys] 2017-02-14 09:39:25  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:39:25  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:39:25  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:39:25  INFO ProssTmp:50 : TMP Comparison : 15小时实况。
+[GWFS_sys] 2017-02-14 09:39:44  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:42:00  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\15\Z_NWGD_C_BABJ_20170213080056_P_RFFC_SCMOC-TMP_201702131500_00000.GRB2
+[GWFS_sys] 2017-02-14 09:42:00  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:42:00  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:42:00  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:42:00  INFO ProssTmp:50 : TMP Comparison : 15小时实况。
+[GWFS_sys] 2017-02-14 09:42:03  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:42:05  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:43:02  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\15\Z_NWGD_C_BABJ_20170213080056_P_RFFC_SCMOC-TMP_201702131500_00000.GRB2
+[GWFS_sys] 2017-02-14 09:43:02  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:43:02  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:43:02  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:43:02  INFO ProssTmp:50 : TMP Comparison : 15小时实况。
+[GWFS_sys] 2017-02-14 09:43:04  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:45:10  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\15\Z_NWGD_C_BABJ_20170213080056_P_RFFC_SCMOC-TMP_201702131500_00000.GRB2
+[GWFS_sys] 2017-02-14 09:45:10  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:45:10  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:45:10  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:45:10  INFO ProssTmp:50 : TMP Comparison : 15小时实况。
+[GWFS_sys] 2017-02-14 09:45:17  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:02  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\15\Z_NWGD_C_BABJ_20170213080056_P_RFFC_SCMOC-TMP_201702131500_00000.GRB2
+[GWFS_sys] 2017-02-14 09:46:47  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:46:47  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : TMP Comparison : 15小时实况。
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\16\Z_NWGD_C_BABJ_20170213094056_P_RFFC_SCMOC-TMP_201702131600_00000.GRB2
+[GWFS_sys] 2017-02-14 09:46:47  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:46:47  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : TMP Comparison : 16小时实况。
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\17\Z_NWGD_C_BABJ_20170213100056_P_RFFC_SCMOC-TMP_201702131700_00000.GRB2
+[GWFS_sys] 2017-02-14 09:46:47  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:46:47  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : TMP Comparison : 17小时实况。
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\18\Z_NWGD_C_BABJ_20170213110106_P_RFFC_SCMOC-TMP_201702131800_00000.GRB2
+[GWFS_sys] 2017-02-14 09:46:47  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:46:47  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : TMP Comparison : 18小时实况。
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\19\Z_NWGD_C_BABJ_20170213120106_P_RFFC_SCMOC-TMP_201702131900_00000.GRB2
+[GWFS_sys] 2017-02-14 09:46:47  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:46:47  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : TMP Comparison : 19小时实况。
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\20\Z_NWGD_C_BABJ_20170213130106_P_RFFC_SCMOC-TMP_201702132000_00000.GRB2
+[GWFS_sys] 2017-02-14 09:46:47  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:46:47  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : TMP Comparison : 20小时实况。
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\21\Z_NWGD_C_BABJ_20170213140106_P_RFFC_SCMOC-TMP_201702132100_00000.GRB2
+[GWFS_sys] 2017-02-14 09:46:47  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:46:47  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : TMP Comparison : 21小时实况。
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\22\Z_NWGD_C_BABJ_20170213150106_P_RFFC_SCMOC-TMP_201702132200_00000.GRB2
+[GWFS_sys] 2017-02-14 09:46:47  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:46:47  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:46:47  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : TMP Comparison : 22小时实况。
+[GWFS_sys] 2017-02-14 09:46:47  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\23\Z_NWGD_C_BABJ_20170213160056_P_RFFC_SCMOC-TMP_201702132300_00000.GRB2
+[GWFS_sys] 2017-02-14 09:46:48  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:46:48  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : TMP Comparison : 23小时实况。
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\00\Z_NWGD_C_BABJ_20170213170056_P_RFFC_SCMOC-TMP_201702140000_00000.GRB2
+[GWFS_sys] 2017-02-14 09:46:48  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:46:48  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : TMP Comparison : 0小时实况。
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\01\Z_NWGD_C_BABJ_20170213180106_P_RFFC_SCMOC-TMP_201702140100_00000.GRB2
+[GWFS_sys] 2017-02-14 09:46:48  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:46:48  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : TMP Comparison : 1小时实况。
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\02\Z_NWGD_C_BABJ_20170213190108_P_RFFC_SCMOC-TMP_201702140200_00000.GRB2
+[GWFS_sys] 2017-02-14 09:46:48  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:46:48  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : TMP Comparison : 2小时实况。
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\03\Z_NWGD_C_BABJ_20170213201106_P_RFFC_SCMOC-TMP_201702140300_00000.GRB2
+[GWFS_sys] 2017-02-14 09:46:48  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:46:48  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : TMP Comparison : 3小时实况。
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\04\Z_NWGD_C_BABJ_20170213211056_P_RFFC_SCMOC-TMP_201702140400_00000.GRB2
+[GWFS_sys] 2017-02-14 09:46:48  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:46:48  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : TMP Comparison : 4小时实况。
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\05\Z_NWGD_C_BABJ_20170213221057_P_RFFC_SCMOC-TMP_201702140500_00000.GRB2
+[GWFS_sys] 2017-02-14 09:46:48  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:46:48  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : TMP Comparison : 5小时实况。
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\06\Z_NWGD_C_BABJ_20170213230106_P_RFFC_SCMOC-TMP_201702140600_00000.GRB2
+[GWFS_sys] 2017-02-14 09:46:48  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:46:48  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : TMP Comparison : 6小时实况。
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\07\Z_NWGD_C_BABJ_20170214000056_P_RFFC_SCMOC-TMP_201702140700_00000.GRB2
+[GWFS_sys] 2017-02-14 09:46:48  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:46:48  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : TMP Comparison : 7小时实况。
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\08\Z_NWGD_C_BABJ_20170214010136_P_RFFC_SCMOC-TMP_201702140800_00000.GRB2
+[GWFS_sys] 2017-02-14 09:46:48  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:46:48  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : TMP Comparison : 8小时实况。
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:46:48  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:49:47  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\15\Z_NWGD_C_BABJ_20170213080056_P_RFFC_SCMOC-TMP_201702131500_00000.GRB2
+[GWFS_sys] 2017-02-14 09:49:47  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:49:47  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:49:47  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:49:48  INFO ProssTmp:50 : TMP Comparison : 15小时实况。
+[GWFS_sys] 2017-02-14 09:49:50  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:50:03  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:50:33  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\16\Z_NWGD_C_BABJ_20170213094056_P_RFFC_SCMOC-TMP_201702131600_00000.GRB2
+[GWFS_sys] 2017-02-14 09:50:33  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:50:33  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:50:33  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:50:33  INFO ProssTmp:50 : TMP Comparison : 16小时实况。
+[GWFS_sys] 2017-02-14 09:50:35  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:50:38  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:50:58  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\15\Z_NWGD_C_BABJ_20170213080056_P_RFFC_SCMOC-TMP_201702131500_00000.GRB2
+[GWFS_sys] 2017-02-14 09:50:58  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:50:58  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:50:58  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:50:58  INFO ProssTmp:50 : TMP Comparison : 15小时实况。
+[GWFS_sys] 2017-02-14 09:51:00  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:51:02  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:51:28  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\16\Z_NWGD_C_BABJ_20170213094056_P_RFFC_SCMOC-TMP_201702131600_00000.GRB2
+[GWFS_sys] 2017-02-14 09:51:28  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:51:28  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:51:28  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:51:28  INFO ProssTmp:50 : TMP Comparison : 16小时实况。
+[GWFS_sys] 2017-02-14 09:51:36  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:55:38  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\15\Z_NWGD_C_BABJ_20170213080056_P_RFFC_SCMOC-TMP_201702131500_00000.GRB2
+[GWFS_sys] 2017-02-14 09:55:38  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:55:39  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:55:39  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:55:39  INFO ProssTmp:50 : TMP Comparison : 15小时实况。
+[GWFS_sys] 2017-02-14 09:55:40  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:55:43  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:56:15  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\16\Z_NWGD_C_BABJ_20170213094056_P_RFFC_SCMOC-TMP_201702131600_00000.GRB2
+[GWFS_sys] 2017-02-14 09:56:15  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:56:15  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:56:15  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:56:15  INFO ProssTmp:50 : TMP Comparison : 16小时实况。
+[GWFS_sys] 2017-02-14 09:56:16  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:26  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\15\Z_NWGD_C_BABJ_20170213080056_P_RFFC_SCMOC-TMP_201702131500_00000.GRB2
+[GWFS_sys] 2017-02-14 09:57:53  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:57:53  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : TMP Comparison : 15小时实况。
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\16\Z_NWGD_C_BABJ_20170213094056_P_RFFC_SCMOC-TMP_201702131600_00000.GRB2
+[GWFS_sys] 2017-02-14 09:57:53  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:57:53  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : TMP Comparison : 16小时实况。
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\17\Z_NWGD_C_BABJ_20170213100056_P_RFFC_SCMOC-TMP_201702131700_00000.GRB2
+[GWFS_sys] 2017-02-14 09:57:53  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:57:53  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : TMP Comparison : 17小时实况。
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\18\Z_NWGD_C_BABJ_20170213110106_P_RFFC_SCMOC-TMP_201702131800_00000.GRB2
+[GWFS_sys] 2017-02-14 09:57:53  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:57:53  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : TMP Comparison : 18小时实况。
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\19\Z_NWGD_C_BABJ_20170213120106_P_RFFC_SCMOC-TMP_201702131900_00000.GRB2
+[GWFS_sys] 2017-02-14 09:57:53  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:57:53  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : TMP Comparison : 19小时实况。
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\20\Z_NWGD_C_BABJ_20170213130106_P_RFFC_SCMOC-TMP_201702132000_00000.GRB2
+[GWFS_sys] 2017-02-14 09:57:53  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:57:53  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : TMP Comparison : 20小时实况。
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\21\Z_NWGD_C_BABJ_20170213140106_P_RFFC_SCMOC-TMP_201702132100_00000.GRB2
+[GWFS_sys] 2017-02-14 09:57:53  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:57:53  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : TMP Comparison : 21小时实况。
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\22\Z_NWGD_C_BABJ_20170213150106_P_RFFC_SCMOC-TMP_201702132200_00000.GRB2
+[GWFS_sys] 2017-02-14 09:57:53  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:57:53  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : TMP Comparison : 22小时实况。
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\23\Z_NWGD_C_BABJ_20170213160056_P_RFFC_SCMOC-TMP_201702132300_00000.GRB2
+[GWFS_sys] 2017-02-14 09:57:53  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:57:53  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:57:53  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:57:53  INFO ProssTmp:50 : TMP Comparison : 23小时实况。
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\00\Z_NWGD_C_BABJ_20170213170056_P_RFFC_SCMOC-TMP_201702140000_00000.GRB2
+[GWFS_sys] 2017-02-14 09:57:54  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:57:54  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : TMP Comparison : 0小时实况。
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\01\Z_NWGD_C_BABJ_20170213180106_P_RFFC_SCMOC-TMP_201702140100_00000.GRB2
+[GWFS_sys] 2017-02-14 09:57:54  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:57:54  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : TMP Comparison : 1小时实况。
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\02\Z_NWGD_C_BABJ_20170213190108_P_RFFC_SCMOC-TMP_201702140200_00000.GRB2
+[GWFS_sys] 2017-02-14 09:57:54  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:57:54  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : TMP Comparison : 2小时实况。
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\03\Z_NWGD_C_BABJ_20170213201106_P_RFFC_SCMOC-TMP_201702140300_00000.GRB2
+[GWFS_sys] 2017-02-14 09:57:54  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:57:54  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : TMP Comparison : 3小时实况。
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\04\Z_NWGD_C_BABJ_20170213211056_P_RFFC_SCMOC-TMP_201702140400_00000.GRB2
+[GWFS_sys] 2017-02-14 09:57:54  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:57:54  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : TMP Comparison : 4小时实况。
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\05\Z_NWGD_C_BABJ_20170213221057_P_RFFC_SCMOC-TMP_201702140500_00000.GRB2
+[GWFS_sys] 2017-02-14 09:57:54  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:57:54  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : TMP Comparison : 5小时实况。
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\06\Z_NWGD_C_BABJ_20170213230106_P_RFFC_SCMOC-TMP_201702140600_00000.GRB2
+[GWFS_sys] 2017-02-14 09:57:54  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:57:54  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : TMP Comparison : 6小时实况。
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\07\Z_NWGD_C_BABJ_20170214000056_P_RFFC_SCMOC-TMP_201702140700_00000.GRB2
+[GWFS_sys] 2017-02-14 09:57:54  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:57:54  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : TMP Comparison : 7小时实况。
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\08\Z_NWGD_C_BABJ_20170214010136_P_RFFC_SCMOC-TMP_201702140800_00000.GRB2
+[GWFS_sys] 2017-02-14 09:57:54  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 09:57:54  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : TMP Comparison : 8小时实况。
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/live_max.nc write of status : true
+[GWFS_sys] 2017-02-14 09:57:54  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/live_min.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\15\Z_NWGD_C_BABJ_20170213080056_P_RFFC_SCMOC-TMP_201702131500_00000.GRB2
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : TMP Comparison : 15小时实况。
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\16\Z_NWGD_C_BABJ_20170213094056_P_RFFC_SCMOC-TMP_201702131600_00000.GRB2
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : TMP Comparison : 16小时实况。
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\17\Z_NWGD_C_BABJ_20170213100056_P_RFFC_SCMOC-TMP_201702131700_00000.GRB2
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : TMP Comparison : 17小时实况。
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\18\Z_NWGD_C_BABJ_20170213110106_P_RFFC_SCMOC-TMP_201702131800_00000.GRB2
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : TMP Comparison : 18小时实况。
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\19\Z_NWGD_C_BABJ_20170213120106_P_RFFC_SCMOC-TMP_201702131900_00000.GRB2
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : TMP Comparison : 19小时实况。
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\20\Z_NWGD_C_BABJ_20170213130106_P_RFFC_SCMOC-TMP_201702132000_00000.GRB2
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : TMP Comparison : 20小时实况。
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\21\Z_NWGD_C_BABJ_20170213140106_P_RFFC_SCMOC-TMP_201702132100_00000.GRB2
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : TMP Comparison : 21小时实况。
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\22\Z_NWGD_C_BABJ_20170213150106_P_RFFC_SCMOC-TMP_201702132200_00000.GRB2
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : TMP Comparison : 22小时实况。
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\23\Z_NWGD_C_BABJ_20170213160056_P_RFFC_SCMOC-TMP_201702132300_00000.GRB2
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : TMP Comparison : 23小时实况。
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\00\Z_NWGD_C_BABJ_20170213170056_P_RFFC_SCMOC-TMP_201702140000_00000.GRB2
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : TMP Comparison : 0小时实况。
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\01\Z_NWGD_C_BABJ_20170213180106_P_RFFC_SCMOC-TMP_201702140100_00000.GRB2
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : TMP Comparison : 1小时实况。
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\02\Z_NWGD_C_BABJ_20170213190108_P_RFFC_SCMOC-TMP_201702140200_00000.GRB2
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : TMP Comparison : 2小时实况。
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\03\Z_NWGD_C_BABJ_20170213201106_P_RFFC_SCMOC-TMP_201702140300_00000.GRB2
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : TMP Comparison : 3小时实况。
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\04\Z_NWGD_C_BABJ_20170213211056_P_RFFC_SCMOC-TMP_201702140400_00000.GRB2
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : TMP Comparison : 4小时实况。
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\05\Z_NWGD_C_BABJ_20170213221057_P_RFFC_SCMOC-TMP_201702140500_00000.GRB2
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : TMP Comparison : 5小时实况。
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\06\Z_NWGD_C_BABJ_20170213230106_P_RFFC_SCMOC-TMP_201702140600_00000.GRB2
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : TMP Comparison : 6小时实况。
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\07\Z_NWGD_C_BABJ_20170214000056_P_RFFC_SCMOC-TMP_201702140700_00000.GRB2
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : TMP Comparison : 7小时实况。
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\08\Z_NWGD_C_BABJ_20170214010136_P_RFFC_SCMOC-TMP_201702140800_00000.GRB2
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 15:52:43  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : TMP Comparison : 8小时实况。
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 15:52:43  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:03  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\15\Z_NWGD_C_BABJ_20170213080056_P_RFFC_SCMOC-TMP_201702131500_00000.GRB2
+[GWFS_sys] 2017-02-14 16:10:03  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 16:10:03  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 16:10:03  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : TMP Comparison : 15小时实况。
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/20170213_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\16\Z_NWGD_C_BABJ_20170213094056_P_RFFC_SCMOC-TMP_201702131600_00000.GRB2
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : TMP Comparison : 16小时实况。
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/20170213_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\17\Z_NWGD_C_BABJ_20170213100056_P_RFFC_SCMOC-TMP_201702131700_00000.GRB2
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : TMP Comparison : 17小时实况。
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/20170213_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\18\Z_NWGD_C_BABJ_20170213110106_P_RFFC_SCMOC-TMP_201702131800_00000.GRB2
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : TMP Comparison : 18小时实况。
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/20170213_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\19\Z_NWGD_C_BABJ_20170213120106_P_RFFC_SCMOC-TMP_201702131900_00000.GRB2
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : TMP Comparison : 19小时实况。
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/20170213_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\20\Z_NWGD_C_BABJ_20170213130106_P_RFFC_SCMOC-TMP_201702132000_00000.GRB2
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : TMP Comparison : 20小时实况。
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/20170213_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\21\Z_NWGD_C_BABJ_20170213140106_P_RFFC_SCMOC-TMP_201702132100_00000.GRB2
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : TMP Comparison : 21小时实况。
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/20170213_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\22\Z_NWGD_C_BABJ_20170213150106_P_RFFC_SCMOC-TMP_201702132200_00000.GRB2
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : TMP Comparison : 22小时实况。
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/20170213_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\23\Z_NWGD_C_BABJ_20170213160056_P_RFFC_SCMOC-TMP_201702132300_00000.GRB2
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : TMP Comparison : 23小时实况。
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170213/0/live/2017-02-13_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170213/0/live/20170213_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\00\Z_NWGD_C_BABJ_20170213170056_P_RFFC_SCMOC-TMP_201702140000_00000.GRB2
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : TMP Comparison : 0小时实况。
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/20170214_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\01\Z_NWGD_C_BABJ_20170213180106_P_RFFC_SCMOC-TMP_201702140100_00000.GRB2
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : TMP Comparison : 1小时实况。
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/20170214_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\02\Z_NWGD_C_BABJ_20170213190108_P_RFFC_SCMOC-TMP_201702140200_00000.GRB2
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : TMP Comparison : 2小时实况。
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/20170214_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\03\Z_NWGD_C_BABJ_20170213201106_P_RFFC_SCMOC-TMP_201702140300_00000.GRB2
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : TMP Comparison : 3小时实况。
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/20170214_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\04\Z_NWGD_C_BABJ_20170213211056_P_RFFC_SCMOC-TMP_201702140400_00000.GRB2
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : TMP Comparison : 4小时实况。
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/20170214_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\05\Z_NWGD_C_BABJ_20170213221057_P_RFFC_SCMOC-TMP_201702140500_00000.GRB2
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : TMP Comparison : 5小时实况。
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/20170214_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\06\Z_NWGD_C_BABJ_20170213230106_P_RFFC_SCMOC-TMP_201702140600_00000.GRB2
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : TMP Comparison : 6小时实况。
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/20170214_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\07\Z_NWGD_C_BABJ_20170214000056_P_RFFC_SCMOC-TMP_201702140700_00000.GRB2
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : TMP Comparison : 7小时实况。
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/20170214_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170214\08\Z_NWGD_C_BABJ_20170214010136_P_RFFC_SCMOC-TMP_201702140800_00000.GRB2
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 16:10:04  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170214/0/live dirs is : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : TMP Comparison : 8小时实况。
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : ZJ:D:/mnt/data/central/live/TMAX/20170214/0/live/2017-02-14_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:04  INFO ProssTmp:50 : D:/mnt/data/central/live/TMIN/20170214/0/live/20170214_0.nc write of status : true
+[GWFS_sys] 2017-02-14 16:10:47  INFO Grib2Controller:50 : ZJ:filePath : E:\data\EN_grads_data\origin\TMP\20170213\15\Z_NWGD_C_BABJ_20170213080056_P_RFFC_SCMOC-TMP_201702131500_00000.GRB2
+[GWFS_sys] 2017-02-14 16:10:47  INFO GribService:50 : ZJ:being read Data!
+[GWFS_sys] 2017-02-14 16:10:47  INFO GribService:50 : ZJ:create D:/mnt/data/central/live/TMP/20170213/0/live dirs is : true
+[GWFS_sys] 2017-02-14 16:10:47  INFO Grib2Controller:50 : ZJ:data size : 1
+[GWFS_sys] 2017-02-14 16:10:47  INFO ProssTmp:50 : TMP Comparison : 15小时实况。

@@ -1,0 +1,30 @@
+package com.supermap.gwfs.grib2convert.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.supermap.gwfs.grib2convert.dao.Grid_forecastDao;
+import com.supermap.gwfs.grib2convert.entity.Grid_forecast;
+import com.supermap.gwfs.grib2convert.entity.GridsData;
+
+public class Grid_forecastService {
+
+	Grid_forecastDao dao = new Grid_forecastDao();
+
+	public List<Grid_forecast> listGridForcast(GridsData gridsData) {
+		return dao.findGridForcast(gridsData);
+	}
+
+	public void saveGridForcast(Grid_forecast grid_forecast) {
+		dao.saveGridForcast(grid_forecast);
+	}
+
+	public ArrayList<Grid_forecast> findForcastVariables(GridsData gridsData) {
+		return dao.findForcastVariables(gridsData);
+	}
+
+	public int findServerId(){
+		int server_id = dao.findServerId();
+		return server_id;
+	}
+}

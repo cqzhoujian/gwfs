@@ -1,0 +1,155 @@
+﻿<?xml version='1.0' encoding="UTF-8"?>
+<disruptors>
+<!-- 参数定义
+	disruptor：
+	    -name:disruptor的名字，全局唯一?
+		-bufferSize：ringbuffersize的大小.		  
+		-waitStrategy：
+		      BlockingWaitStrategy:阻塞式等待策略.
+			  SleepingWaitStrategy:
+			  YieldingWaitStrategy:
+		-handler:disruptor对应的具体处理类.
+	参数定义end -->	
+		<disruptor 
+	       name = "FTPDownloader"
+	       ringBufferSize = "512"  
+           producerType = "Single"  
+		   waitStrategy = "SleepingWaitStrategy">
+			 <handler class = "com.supermap.gwfs.executors.synchronizer.handler.DownloaderHandler" />
+		</disruptor>
+		
+		<disruptor 
+	       name = "ProcessorHandler"
+	       ringBufferSize = "512"
+           producerType = "Single"      
+		   waitStrategy = "SleepingWaitStrategy">
+			 <handler class = "com.supermap.gwfs.executors.synchronizer.loader.handler.ProcessorHandler" />
+		</disruptor>
+		
+		<!--disruptor 
+		
+		
+	       name = "ECConvertor"
+	       ringBufferSize = "1024"   
+           producerType = "Multi"   
+		   waitStrategy = "YieldingWaitStrategy">
+			 <handler class = "com.supermap.gwfs.executors.synchronizer.loader.handler.ConvertorHandler" />
+		</disruptor-->
+		<!--  -->
+		<disruptor 
+	       name = "DecompressorHandler"
+	       ringBufferSize = "512"   
+           producerType = "Multi"   
+		   waitStrategy = "SleepingWaitStrategy">
+			 <handler class = "com.supermap.gwfs.executors.synchronizer.loader.handler.DecompressHandler" />
+		</disruptor>
+		<!--  -->
+		<disruptor 
+	       name = "Simple2NcHandler"
+	       ringBufferSize = "512"   
+           producerType = "Multi"   
+		   waitStrategy = "SleepingWaitStrategy">
+			 <handler class = "com.supermap.gwfs.executors.synchronizer.decompressor.handler.Simple2NcHandler" />
+		</disruptor>
+		
+		<!--disruptor 
+	       name = "RelatorHandler"
+	       ringBufferSize = "512"    
+           producerType = "Single"  
+		   waitStrategy = "YieldingWaitStrategy">
+			 <handler class = "com.supermap.gwfs.executors.cimiss.rest.handler.RelatorHandler" />
+		</disruptor>
+		
+		<disruptor 
+	       name = "CurveCreater"
+	       ringBufferSize = "512"    
+           producerType = "Single"  
+		   waitStrategy = "YieldingWaitStrategy">
+			 <handler class = "com.supermap.gwfs.executors.creater.handler.CreaterHandler" />
+		</disruptor>
+		
+		<disruptor 
+	       name = "CentralHandler"
+	       ringBufferSize = "512"    
+           producerType = "Single"  
+		   waitStrategy = "YieldingWaitStrategy">
+			 <handler class = "com.supermap.gwfs.grib2convert.handler.Grib2ConvertHandler" />
+		</disruptor-->
+		
+		<!--新裁切程序  -->
+		<disruptor 
+	       name = "ClipperHandler"
+	       ringBufferSize = "1024"    
+           producerType = "Single"  
+		   waitStrategy = "YieldingWaitStrategy">
+			 <handler class = "com.supermap.gwfs.executors.synchronizer.clipper.handler.ClipperHandler" />
+		</disruptor>
+		<disruptor 
+	       name = "EfiClipperHandler"
+	       ringBufferSize = "1024"    
+           producerType = "Single"  
+		   waitStrategy = "YieldingWaitStrategy">
+			 <handler class = "com.supermap.gwfs.executors.synchronizer.clipper.efi.handler.EfiClipperHandler" />
+		</disruptor>
+		
+		<disruptor 
+	       name = "CorrectorHandler"
+	       ringBufferSize = "512"    
+           producerType = "Single"  
+		   waitStrategy = "SleepingWaitStrategy">
+			 <handler class = "com.supermap.gwfs.executors.synchronizer.processor.handler.CorrectorHandler" />
+		</disruptor>
+		
+		<disruptor 
+	       name = "RevisalHandler"
+	       ringBufferSize = "256"    
+           producerType = "Multi"  
+		   waitStrategy = "YieldingWaitStrategy">
+			 <handler class = "com.supermap.gwfs.executors.synchronizer.processor.handler.RevisalHandler" />
+		</disruptor>
+		
+		<disruptor 
+	       name = "CreaterHandler"
+	       ringBufferSize = "512"    
+           producerType = "Single"  
+		   waitStrategy = "SleepingWaitStrategy">
+			 <handler class = "com.supermap.gwfs.dispatcher.creater.temperature.handler.CreaterHandler" />
+		</disruptor>
+		<!-- 20161205 micapse采集 -->
+		<disruptor 
+	       name = "Micaps4gridHandler"
+	       ringBufferSize = "1024"    
+           producerType = "Single"  
+		   waitStrategy = "YieldingWaitStrategy">
+			 <handler class = "com.supermap.gwfs.sychronizer.micaps4grid.handler.Micaps4gridHandler" />
+		</disruptor>
+		
+		<!--  -->
+		<disruptor 
+	       name = "GridFitterHandler"
+	       ringBufferSize = "1024"    
+           producerType = "Single"  
+		   waitStrategy = "YieldingWaitStrategy">
+			 <handler class = "com.supermap.gwfs.dispatcher.creater.temperature.handler.GridFitterHandler" />
+		</disruptor>
+		
+		<!--  -->
+		<disruptor 
+	       name = "GribManagementHandler"
+	       ringBufferSize = "512"  
+           producerType = "Single"  
+		   waitStrategy = "SleepingWaitStrategy">
+			 <handler class = "com.supermap.gwfs.manager.handler.Grib2ManagerHandler" />
+		</disruptor>
+		
+		
+		
+		<disruptor 
+	       name = "CentralLiveHandler"
+	       ringBufferSize = "512"  
+           producerType = "Single"  
+		   waitStrategy = "SleepingWaitStrategy">
+			 <handler class = "com.supermap.gwfs.grib2live.handler.Grib2LiveHandler" />
+		</disruptor>
+		
+</disruptors>

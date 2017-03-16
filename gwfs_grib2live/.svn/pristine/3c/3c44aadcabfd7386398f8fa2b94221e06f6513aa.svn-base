@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_80"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="lib/disruptor-3.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-dbcp.jar"/>
+	<classpathentry kind="lib" path="lib/commons-pool.jar"/>
+	<classpathentry kind="lib" path="lib/netcdf-4.3.23.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/grib-4.3.23.jar"/>
+	<classpathentry kind="lib" path="lib/jdom-2.0.5.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.12-bin.jar"/>
+	<classpathentry kind="lib" path="lib/commons-beanutils-1.9.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_DB"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_Disruptor"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_GCPP"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_Creater"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

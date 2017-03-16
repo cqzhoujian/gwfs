@@ -1,0 +1,95 @@
+[GWFS_sys] 2017-02-07 17:50:31  INFO Grib2Controller:50 : supermap::filePath : C:\Users\LQ\Desktop\Z_NWGD_C_BABJ_20170207010106_P_RFFC_SCMOC-TMAX_201702070800_00000.GRB2
+[GWFS_sys] 2017-02-07 17:50:35  INFO GribService:50 : supermap::being read Data!
+[GWFS_sys] 2017-02-07 17:50:43  INFO GribService:50 : supermap::create D:/mnt/data/local/central/TMAX/20170207/08/0/central dirs is : true
+[GWFS_sys] 2017-02-07 17:50:43  INFO Grib2Controller:50 : supermap::data size : 1
+[GWFS_sys] 2017-02-07 17:50:43  INFO Grib2Controller:50 : supermap::C:\Users\LQ\Desktop\Z_NWGD_C_BABJ_20170207010106_P_RFFC_SCMOC-TMAX_201702070800_00000.GRB2 read data is successful!
+[GWFS_sys] 2017-02-07 17:50:47  INFO MLog:80 : MLog clients using log4j logging.
+[GWFS_sys] 2017-02-07 17:50:47  INFO C3P0Registry:204 : Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+[GWFS_sys] 2017-02-07 17:50:47  INFO AbstractPoolBackedDataSource:462 : Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> gwfs, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 30v9449m6nk151mz0ktn|6f760238, idleConnectionTestPeriod -> 14400, initialPoolSize -> 20, jdbcUrl -> jdbc:mysql://172.24.176.172:3306/gwfs_test?characterEncoding=utf-8&autoReconnect=true, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 10800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[GWFS_sys] 2017-02-07 17:50:47  INFO Grid_forecastDao:50 : select o.id as origin_id,o.name as origin_name,o.val as  origin_value,e.id as element_id,e.name as element_name,e.val as  element_value,l.id as forecast_level_id,l.name as forecast_level_name,l.val as forecast_level_value,s.id as forecast_sequence_id,s.name as forecast_sequence_name,s.val as forecast_sequence_value,v.id as forecast_valid_id,v.name as forecast_valid_name,v.val as forecast_valid_value  from  t_forecast_origin o  join t_forecast_element e on o.id=e.origin_id   join t_forecast_sequence s on o.id=s.origin_id  join t_forecast_level l on e.id=l.element_id  join t_forecast_valid v on e.id=v.element_id where o.val=? and e.val=? and l.val=? and s.val=? and v.val=? 
+[GWFS_sys] 2017-02-07 17:50:47  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@1003cac6
+[GWFS_sys] 2017-02-07 17:50:47  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@33666bf5
+[GWFS_sys] 2017-02-07 17:50:47 ERROR Grid_forecastDao:66 : supermap::not find ip address!
+[GWFS_sys] 2017-02-07 18:01:17  INFO Grib2Controller:50 : supermap::filePath : C:\Users\LQ\Desktop\Z_NWGD_C_BABJ_20170207010106_P_RFFC_SCMOC-TMAX_201702070800_00000.GRB2
+[GWFS_sys] 2017-02-07 18:01:55  INFO GribService:50 : supermap::being read Data!
+[GWFS_sys] 2017-02-07 18:05:59  INFO Grib2Controller:50 : supermap::filePath : C:\Users\LQ\Desktop\Z_NWGD_C_BABJ_20170204201156_P_RFFC_SCMOC-TMAX_201702050800_24024.GRB2
+[GWFS_sys] 2017-02-07 18:06:27  INFO GribService:50 : supermap::being read Data!
+[GWFS_sys] 2017-02-07 18:09:06  INFO Grib2Controller:50 : supermap::filePath : C:\Users\LQ\Desktop\Z_NWGD_C_BABJ_20170204201156_P_RFFC_SCMOC-TMAX_201702050800_24024.GRB2
+[GWFS_sys] 2017-02-07 18:09:09  INFO GribService:50 : supermap::being read Data!
+[GWFS_sys] 2017-02-07 18:09:13  INFO GribService:50 : supermap::create D:/mnt/data/local/central/TMAX/20170205/08/0/central dirs is : true
+[GWFS_sys] 2017-02-07 18:09:17  INFO GribService:50 : supermap::create D:/mnt/data/local/central/TMAX/20170205/08/0/central dirs is : true
+[GWFS_sys] 2017-02-07 18:09:22  INFO GribService:50 : supermap::create D:/mnt/data/local/central/TMAX/20170205/08/0/central dirs is : true
+[GWFS_sys] 2017-02-07 18:09:25  INFO GribService:50 : supermap::create D:/mnt/data/local/central/TMAX/20170205/08/0/central dirs is : true
+[GWFS_sys] 2017-02-07 18:09:26  INFO GribService:50 : supermap::create D:/mnt/data/local/central/TMAX/20170205/08/0/central dirs is : true
+[GWFS_sys] 2017-02-07 18:09:28  INFO GribService:50 : supermap::create D:/mnt/data/local/central/TMAX/20170205/08/0/central dirs is : true
+[GWFS_sys] 2017-02-07 18:09:31  INFO GribService:50 : supermap::create D:/mnt/data/local/central/TMAX/20170205/08/0/central dirs is : true
+[GWFS_sys] 2017-02-07 18:09:33  INFO GribService:50 : supermap::create D:/mnt/data/local/central/TMAX/20170205/08/0/central dirs is : true
+[GWFS_sys] 2017-02-07 18:09:34  INFO GribService:50 : supermap::create D:/mnt/data/local/central/TMAX/20170205/08/0/central dirs is : true
+[GWFS_sys] 2017-02-07 18:09:36  INFO GribService:50 : supermap::create D:/mnt/data/local/central/TMAX/20170205/08/0/central dirs is : true
+[GWFS_sys] 2017-02-07 18:09:36  INFO Grib2Controller:50 : supermap::data size : 10
+[GWFS_sys] 2017-02-07 18:09:36  INFO Grib2Controller:50 : supermap::C:\Users\LQ\Desktop\Z_NWGD_C_BABJ_20170204201156_P_RFFC_SCMOC-TMAX_201702050800_24024.GRB2 read data is successful!
+[GWFS_sys] 2017-02-07 18:09:37  INFO MLog:80 : MLog clients using log4j logging.
+[GWFS_sys] 2017-02-07 18:09:37  INFO C3P0Registry:204 : Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+[GWFS_sys] 2017-02-07 18:09:37  INFO AbstractPoolBackedDataSource:462 : Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> gwfs, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 30v9449m6o88zgn6d4vz|7adbbfc0, idleConnectionTestPeriod -> 14400, initialPoolSize -> 20, jdbcUrl -> jdbc:mysql://172.24.176.172:3306/gwfs_test?characterEncoding=utf-8&autoReconnect=true, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 10800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : select o.id as origin_id,o.name as origin_name,o.val as  origin_value,e.id as element_id,e.name as element_name,e.val as  element_value,l.id as forecast_level_id,l.name as forecast_level_name,l.val as forecast_level_value,s.id as forecast_sequence_id,s.name as forecast_sequence_name,s.val as forecast_sequence_value,v.id as forecast_valid_id,v.name as forecast_valid_name,v.val as forecast_valid_value  from  t_forecast_origin o  join t_forecast_element e on o.id=e.origin_id   join t_forecast_sequence s on o.id=s.origin_id  join t_forecast_level l on e.id=l.element_id  join t_forecast_valid v on e.id=v.element_id where o.val=? and e.val=? and l.val=? and s.val=? and v.val=? 
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@2db9ab7a
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@ccc474
+[GWFS_sys] 2017-02-07 18:09:37 ERROR Grid_forecastDao:66 : supermap::not find ip address!
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : select o.id as origin_id,o.name as origin_name,o.val as  origin_value,e.id as element_id,e.name as element_name,e.val as  element_value,l.id as forecast_level_id,l.name as forecast_level_name,l.val as forecast_level_value,s.id as forecast_sequence_id,s.name as forecast_sequence_name,s.val as forecast_sequence_value,v.id as forecast_valid_id,v.name as forecast_valid_name,v.val as forecast_valid_value  from  t_forecast_origin o  join t_forecast_element e on o.id=e.origin_id   join t_forecast_sequence s on o.id=s.origin_id  join t_forecast_level l on e.id=l.element_id  join t_forecast_valid v on e.id=v.element_id where o.val=? and e.val=? and l.val=? and s.val=? and v.val=? 
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@181d20c2
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@f6a4c4a
+[GWFS_sys] 2017-02-07 18:09:37 ERROR Grid_forecastDao:66 : supermap::not find ip address!
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : select o.id as origin_id,o.name as origin_name,o.val as  origin_value,e.id as element_id,e.name as element_name,e.val as  element_value,l.id as forecast_level_id,l.name as forecast_level_name,l.val as forecast_level_value,s.id as forecast_sequence_id,s.name as forecast_sequence_name,s.val as forecast_sequence_value,v.id as forecast_valid_id,v.name as forecast_valid_name,v.val as forecast_valid_value  from  t_forecast_origin o  join t_forecast_element e on o.id=e.origin_id   join t_forecast_sequence s on o.id=s.origin_id  join t_forecast_level l on e.id=l.element_id  join t_forecast_valid v on e.id=v.element_id where o.val=? and e.val=? and l.val=? and s.val=? and v.val=? 
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@1d79997b
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@1a89ebe0
+[GWFS_sys] 2017-02-07 18:09:37 ERROR Grid_forecastDao:66 : supermap::not find ip address!
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : select o.id as origin_id,o.name as origin_name,o.val as  origin_value,e.id as element_id,e.name as element_name,e.val as  element_value,l.id as forecast_level_id,l.name as forecast_level_name,l.val as forecast_level_value,s.id as forecast_sequence_id,s.name as forecast_sequence_name,s.val as forecast_sequence_value,v.id as forecast_valid_id,v.name as forecast_valid_name,v.val as forecast_valid_value  from  t_forecast_origin o  join t_forecast_element e on o.id=e.origin_id   join t_forecast_sequence s on o.id=s.origin_id  join t_forecast_level l on e.id=l.element_id  join t_forecast_valid v on e.id=v.element_id where o.val=? and e.val=? and l.val=? and s.val=? and v.val=? 
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@700f9f94
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@307de4fe
+[GWFS_sys] 2017-02-07 18:09:37 ERROR Grid_forecastDao:66 : supermap::not find ip address!
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : select o.id as origin_id,o.name as origin_name,o.val as  origin_value,e.id as element_id,e.name as element_name,e.val as  element_value,l.id as forecast_level_id,l.name as forecast_level_name,l.val as forecast_level_value,s.id as forecast_sequence_id,s.name as forecast_sequence_name,s.val as forecast_sequence_value,v.id as forecast_valid_id,v.name as forecast_valid_name,v.val as forecast_valid_value  from  t_forecast_origin o  join t_forecast_element e on o.id=e.origin_id   join t_forecast_sequence s on o.id=s.origin_id  join t_forecast_level l on e.id=l.element_id  join t_forecast_valid v on e.id=v.element_id where o.val=? and e.val=? and l.val=? and s.val=? and v.val=? 
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@71932060
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@355971ce
+[GWFS_sys] 2017-02-07 18:09:37 ERROR Grid_forecastDao:66 : supermap::not find ip address!
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : select o.id as origin_id,o.name as origin_name,o.val as  origin_value,e.id as element_id,e.name as element_name,e.val as  element_value,l.id as forecast_level_id,l.name as forecast_level_name,l.val as forecast_level_value,s.id as forecast_sequence_id,s.name as forecast_sequence_name,s.val as forecast_sequence_value,v.id as forecast_valid_id,v.name as forecast_valid_name,v.val as forecast_valid_value  from  t_forecast_origin o  join t_forecast_element e on o.id=e.origin_id   join t_forecast_sequence s on o.id=s.origin_id  join t_forecast_level l on e.id=l.element_id  join t_forecast_valid v on e.id=v.element_id where o.val=? and e.val=? and l.val=? and s.val=? and v.val=? 
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@5a11dc87
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@5129607b
+[GWFS_sys] 2017-02-07 18:09:37 ERROR Grid_forecastDao:66 : supermap::not find ip address!
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : select o.id as origin_id,o.name as origin_name,o.val as  origin_value,e.id as element_id,e.name as element_name,e.val as  element_value,l.id as forecast_level_id,l.name as forecast_level_name,l.val as forecast_level_value,s.id as forecast_sequence_id,s.name as forecast_sequence_name,s.val as forecast_sequence_value,v.id as forecast_valid_id,v.name as forecast_valid_name,v.val as forecast_valid_value  from  t_forecast_origin o  join t_forecast_element e on o.id=e.origin_id   join t_forecast_sequence s on o.id=s.origin_id  join t_forecast_level l on e.id=l.element_id  join t_forecast_valid v on e.id=v.element_id where o.val=? and e.val=? and l.val=? and s.val=? and v.val=? 
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@4fbd89c9
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@714e0383
+[GWFS_sys] 2017-02-07 18:09:37 ERROR Grid_forecastDao:66 : supermap::not find ip address!
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : select o.id as origin_id,o.name as origin_name,o.val as  origin_value,e.id as element_id,e.name as element_name,e.val as  element_value,l.id as forecast_level_id,l.name as forecast_level_name,l.val as forecast_level_value,s.id as forecast_sequence_id,s.name as forecast_sequence_name,s.val as forecast_sequence_value,v.id as forecast_valid_id,v.name as forecast_valid_name,v.val as forecast_valid_value  from  t_forecast_origin o  join t_forecast_element e on o.id=e.origin_id   join t_forecast_sequence s on o.id=s.origin_id  join t_forecast_level l on e.id=l.element_id  join t_forecast_valid v on e.id=v.element_id where o.val=? and e.val=? and l.val=? and s.val=? and v.val=? 
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@44f9c0c
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@47330c96
+[GWFS_sys] 2017-02-07 18:09:37 ERROR Grid_forecastDao:66 : supermap::not find ip address!
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : select o.id as origin_id,o.name as origin_name,o.val as  origin_value,e.id as element_id,e.name as element_name,e.val as  element_value,l.id as forecast_level_id,l.name as forecast_level_name,l.val as forecast_level_value,s.id as forecast_sequence_id,s.name as forecast_sequence_name,s.val as forecast_sequence_value,v.id as forecast_valid_id,v.name as forecast_valid_name,v.val as forecast_valid_value  from  t_forecast_origin o  join t_forecast_element e on o.id=e.origin_id   join t_forecast_sequence s on o.id=s.origin_id  join t_forecast_level l on e.id=l.element_id  join t_forecast_valid v on e.id=v.element_id where o.val=? and e.val=? and l.val=? and s.val=? and v.val=? 
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@14b89cc2
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@7f7b6d5e
+[GWFS_sys] 2017-02-07 18:09:37 ERROR Grid_forecastDao:66 : supermap::not find ip address!
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : select o.id as origin_id,o.name as origin_name,o.val as  origin_value,e.id as element_id,e.name as element_name,e.val as  element_value,l.id as forecast_level_id,l.name as forecast_level_name,l.val as forecast_level_value,s.id as forecast_sequence_id,s.name as forecast_sequence_name,s.val as forecast_sequence_value,v.id as forecast_valid_id,v.name as forecast_valid_name,v.val as forecast_valid_value  from  t_forecast_origin o  join t_forecast_element e on o.id=e.origin_id   join t_forecast_sequence s on o.id=s.origin_id  join t_forecast_level l on e.id=l.element_id  join t_forecast_valid v on e.id=v.element_id where o.val=? and e.val=? and l.val=? and s.val=? and v.val=? 
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@12efdb85
+[GWFS_sys] 2017-02-07 18:09:37  INFO Grid_forecastDao:50 : supermap::executeQuery 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@6ea20f02
+[GWFS_sys] 2017-02-07 18:09:37 ERROR Grid_forecastDao:66 : supermap::not find ip address!

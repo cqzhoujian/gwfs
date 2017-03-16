@@ -1,0 +1,176 @@
+package com.supermap.gwfs.grib2convert.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.supermap.gwfs.db.helper.JDBCHelper;
+import com.supermap.gwfs.grib2convert.entity.Grid_forecast;
+import com.supermap.gwfs.grib2convert.entity.GridsData;
+import com.supermap.gwfs.grib2convert.util.DBUtil;
+import com.supermap.gwfs.grib2convert.util.Logger;
+import com.supermap.gwfs.grib2convert.util.PublicUtil;
+
+public class Grid_forecastDao {
+	private Logger logger = Logger.getLogger(this.getClass());
+	private static final String FIND_GRID_FORCAST = "select * from t_grid_forecast" + "where " + "origin_value=? " + "and forecast_date=?" + "and element_value=? " + "and forecast_sequence_value=? " + "and forecast_level_value=? " + "and forecast_valid_value=?";
+	private static final String SAVE_GRID_FORCAST = "insert into t_grid_forecast " + "(id," + "origin_id," + "origin_name," + "origin_value," + "element_id," + "element_name," + "element_value," + "forecast_date," + "forecast_sequence_id," + "forecast_sequence_name," + "forecast_sequence_value," + "forecast_level_id," + "forecast_level_name," + "forecast_level_value," + "forecast_valid_id," + "forecast_valid_name," + "forecast_valid_value," + "server_id," + "forecast_filename," + "forecast_fileversion," + "forecast_filepath," + "create_time)" + "values (0,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+	private static final String FIND_GRID_FORCAST_VARIABLES = "select o.id as origin_id,o.name as origin_name,o.val as  origin_value," + "e.id as element_id,e.name as element_name,e.val as  element_value," + "l.id as forecast_level_id,l.name as forecast_level_name,l.val as forecast_level_value," + "s.id as forecast_sequence_id,s.name as forecast_sequence_name,s.val as forecast_sequence_value," + "v.id as forecast_valid_id,v.name as forecast_valid_name,v.val as forecast_valid_value " + " from " + " t_forecast_origin o " + " join t_forecast_element e on o.id=e.origin_id  " + " join t_forecast_sequence s on o.id=s.origin_id " + " join t_forecast_level l on e.id=l.element_id " + " join t_forecast_valid v on e.id=v.element_id " + "where " + "o.val=? " + "and e.val=? " + "and l.val=? "
+			+ "and s.val=? " + "and v.val=? ";
+	private static final String FIND_SERVER_ID = "select id from t_server where ip=?";
+
+	public List<Grid_forecast> findGridForcast(GridsData gridsData) {
+		Connection conn = null;
+		PreparedStatement ps = null;
+		ResultSet rs =null;
+		ArrayList<Grid_forecast> grid_forecasts = new ArrayList<Grid_forecast>();
+		try {
+			conn = JDBCHelper.getConnection();
+			ps = conn.prepareStatement(FIND_GRID_FORCAST);
+
+			ps.setString(1, "central");
+			ps.setDate(2, gridsData.getDate());
+			ps.setString(3, gridsData.getElement());
+			ps.setString(4, gridsData.getSequence());
+			ps.setInt(5, gridsData.getLevel());
+			ps.setInt(6, gridsData.getValid());
+			rs = ps.executeQuery();
+			while (rs.next()) {
+				int id = rs.getInt("id");
+				Grid_forecast gf = new Grid_forecast();
+				gf.setId(id);
+				grid_forecasts.add(gf);
+			}
+		}catch(Exception e) {
+			logger.error("supermap::"+e.getMessage(), e);
+		}finally{
+			//关闭 rs ps,回收conn
+			JDBCHelper.free(rs, ps, conn);
+		}
+		return grid_forecasts;
+	}
+
+	/**
+	 * 保存
+	 * @param gridsData
+	 */
+	public void saveGridForcast(Grid_forecast grid_forecast) {
+		Connection connection = null;
+		PreparedStatement ps = null;
+		
+		try {
+			connection = JDBCHelper.getConnection();
+			ps = connection.prepareStatement(SAVE_GRID_FORCAST, new String[] { "id" });
+			// 20
+			ps.setInt(1, grid_forecast.getOrigin_id());
+			ps.setString(2, grid_forecast.getOrigin_name());
+			ps.setString(3, grid_forecast.getOrigin_value());
+			ps.setInt(4, grid_forecast.getElement_id());
+			ps.setString(5, grid_forecast.getElement_name());
+			ps.setString(6, grid_forecast.getElement_value());
+			ps.setDate(7, grid_forecast.getForecast_date());
+			ps.setInt(8, grid_forecast.getForecast_sequence_id());
+			ps.setString(9, grid_forecast.getForecast_sequence_name());
+			ps.setString(10, grid_forecast.getForecast_sequence_value());
+			ps.setInt(11, grid_forecast.getForecast_level_id());
+			ps.setString(12, grid_forecast.getForecast_level_name());
+			ps.setInt(13, grid_forecast.getForecast_level_value());
+			ps.setInt(14, grid_forecast.getForecast_valid_id());
+			ps.setString(15, grid_forecast.getForecast_valid_name());
+			ps.setInt(16, grid_forecast.getForecast_valid_value());
+			ps.setInt(17, grid_forecast.getServer_id());
+			ps.setString(18, grid_forecast.getForecast_filename());
+			ps.setString(19, grid_forecast.getForecast_fileversion());
+			ps.setString(20, grid_forecast.getForecast_filepath());
+			ps.setTimestamp(21, grid_forecast.getCreate_time());
+			logger.info("supermap::executeUpdate \n" + ps.toString().substring(ps.toString().indexOf(":") + 1));
+			if (ps.executeUpdate() > 0) {
+				logger.info("supermap::insert db is successful!");
+			} else {
+				logger.error("supermap::insert db is fail!");
+			}
+		} catch (Exception e) {
+			logger.error("supermap::insert db is error! error :" + e.getMessage(), e);
+		} finally {
+			JDBCHelper.free(ps, connection);
+		}
+	}
+
+	public ArrayList<Grid_forecast> findForcastVariables(GridsData gridsData) {
+		ArrayList<Grid_forecast> grid_forecasts = new ArrayList<Grid_forecast>();
+		Connection conn = null;
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		try {
+			conn = JDBCHelper.getConnection();
+			ps = conn.prepareStatement(FIND_GRID_FORCAST_VARIABLES);
+			logger.info(FIND_GRID_FORCAST_VARIABLES);
+			ps.setString(1, "central");
+			ps.setString(2, gridsData.getElement());
+			System.err.println(gridsData.getElement());
+			ps.setInt(3, gridsData.getLevel());
+			ps.setString(4, gridsData.getSequence());
+			ps.setInt(5, gridsData.getValid());
+			logger.info("supermap::executeQuery \n" + ps.toString().substring(ps.toString().indexOf(":") + 1));
+			rs = ps.executeQuery();
+			
+			while (rs.next()) {
+				int origin_id = rs.getInt("origin_id");
+				String origin_name = rs.getString("origin_name");
+				String origin_value = rs.getString("origin_value");
+				int element_id = rs.getInt("element_id");
+				String element_name = rs.getString("element_name");
+				String element_value = rs.getString("element_value");
+				int forecast_level_id = rs.getInt("forecast_level_id");
+				String forecast_level_name = rs.getString("forecast_level_name");
+				int forecast_level_value = rs.getInt("forecast_level_value");
+				int forecast_sequence_id = rs.getInt("forecast_sequence_id");
+				String forecast_sequence_name = rs.getString("forecast_sequence_name");
+				String forecast_sequence_value = rs.getString("forecast_sequence_value");
+				int forecast_valid_id = rs.getInt("forecast_valid_id");
+				String forecast_valid_name = rs.getString("forecast_valid_name");
+				int forecast_valid_value = rs.getInt("forecast_valid_value");
+				Grid_forecast gf = new Grid_forecast(0, origin_id, origin_name, origin_value, element_id, element_name, element_value, null, forecast_sequence_id, forecast_sequence_name, forecast_sequence_value, forecast_level_id, forecast_level_name, forecast_level_value, forecast_valid_id, forecast_valid_name, forecast_valid_value, null, null, origin_value, null, null);
+				grid_forecasts.add(gf);
+			}
+		} catch (Exception e) {
+			logger.error("supermap::query ForcastVariables is error , error:" + e.getMessage(), e);
+		} finally {
+			JDBCHelper.free(rs, ps, conn);
+		}
+		return grid_forecasts;
+	}
+
+	public int findServerId() {
+		int id = 0;
+		Connection conn = null;
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		try {
+			String ip = PublicUtil.getIp();
+			if ("127.0.0.1".equals(ip)) {
+				ip = "172.24.176.170";
+			}
+			conn = JDBCHelper.getConnection();
+			ps = conn.prepareStatement(FIND_SERVER_ID);
+			ps.setString(1, ip);
+			logger.info("supermap::executeQuery \n" + ps.toString().substring(ps.toString().indexOf(":") + 1));
+			rs = ps.executeQuery();
+			while (rs.next()) {
+				id = rs.getInt("id");
+			}
+			if (id < 1) {
+				logger.error("supermap::not find ip address!");
+				id = 1;
+			}
+		} catch (Exception e) {
+			logger.error("supermap::query ip address is error ! error : " + e.getMessage(), e);
+		} finally {
+			JDBCHelper.free(rs, ps, conn);
+		}
+		return id;
+	}
+}

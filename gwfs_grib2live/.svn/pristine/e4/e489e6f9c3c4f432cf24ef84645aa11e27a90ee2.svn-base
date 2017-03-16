@@ -1,0 +1,24 @@
+package com.supermap.gwfs.grib2convert.handler;
+
+import com.supermap.gwfs.grib2convert.controller.Grib2Controller;
+
+public class Grib2ConvertThread extends Thread {
+
+	private Grib2Controller controller;
+	private String filePath;
+
+	private Grib2ConvertThread() {
+		controller = new Grib2Controller();
+	}
+
+	public Grib2ConvertThread(String filePath) {
+		this();
+		this.filePath = filePath;
+	}
+
+	@Override
+	public void run() {
+		controller.startConvert(filePath);
+	}
+
+}
