@@ -1,0 +1,131 @@
+package com.supermap.gwfs.manager.handler;
+
+import com.supermap.commons.logging.Logger;
+import com.supermap.commons.logging.factory.LoggerFactory;
+import com.supermap.disruptor.event.UniEvent;
+import com.supermap.disruptor.handler.IHandler;
+import com.supermap.gcpp.core.common.UniObject;
+
+/**  
+ * @Description: TODO
+ * @author zhoujian
+ * @date 2016-11-4
+ * @version V1.0 
+ */
+public class ManagerHandler implements IHandler
+{
+	private Logger logger = LoggerFactory.getLogger("ManagerHandler");
+	@Override
+	public void onEvent(UniEvent event, long sequence, boolean endOfBatch) throws Exception
+	{
+		Object value = event.getValue();
+		try
+		{
+			if (value instanceof UniObject)
+			{
+				UniObject parameter = (UniObject)value;
+				String time = parameter.getStringValue("time");
+				String timeSequrence = parameter.getStringValue("timeSequrence");
+				String timeValid = parameter.getStringValue("timeValid");
+				String sfc1AbsolutePath = parameter.getStringValue("absolutePath");
+				int type = parameter.getIntegerValue("type");
+				logger.info("调用降水客观订正管理者参数 : " + parameter);
+				if ("08".equals(timeSequrence))
+				{
+					Manager.getInstance().manager_08(time, timeSequrence, timeValid , sfc1AbsolutePath,type);
+				}
+				else {
+					Manager.getInstance().manager_20(time, timeSequrence, timeValid , sfc1AbsolutePath,type);
+				}
+//				pool.execute(managerThread);
+			}
+		}catch (Exception e) {
+			logger.error("调用管理者Handler异常 ， 异常 : " + e);
+		}
+	}
+	public static void main(String[] args)
+	{
+		for (int i = 0; i <= 240; )
+		{
+			i = i +3;
+			UniEvent uniEvent = new UniEvent();
+			UniObject uniObject = new UniObject();
+			uniObject.setStringValue("time", "20161103");
+			uniObject.setStringValue("timeSequrence", "00");
+			if(i <= 72)
+			{
+				uniObject.setStringValue("timeValid", String.valueOf(i));
+			}
+			else {
+				i = i + 3;
+				uniObject.setStringValue("timeValid", String.valueOf(i));
+			}
+			uniEvent.setValue(uniObject);
+			try
+			{
+				new ManagerHandler().onEvent(uniEvent, 100, true);
+			}
+			catch (Exception e)
+			{
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
+		
+		for (int i = 0; i <= 36; )
+		{
+			i = i +3;
+			UniEvent uniEvent = new UniEvent();
+			UniObject uniObject = new UniObject();
+			uniObject.setStringValue("time", "20161103");
+			uniObject.setStringValue("timeSequrence", "12");
+			if(i <= 36)
+			{
+				uniObject.setStringValue("timeValid", String.valueOf(i));
+			}
+//			else {
+//				i = i + 3;
+//				uniObject.setStringValue("timeValid", String.valueOf(i));
+//			}
+			uniEvent.setValue(uniObject);
+			try
+			{
+				new ManagerHandler().onEvent(uniEvent, 100, true);
+			}
+			catch (Exception e)
+			{
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
+		for (int i = 0; i <= 36; )
+		{
+			i = i +3;
+			UniEvent uniEvent = new UniEvent();
+			UniObject uniObject = new UniObject();
+			uniObject.setStringValue("time", "20161107");
+			uniObject.setStringValue("timeSequrence", "00");
+			if(i <= 36)
+			{
+				uniObject.setStringValue("timeValid", String.valueOf(i));
+			}
+//			else {
+//				i = i + 3;
+//				uniObject.setStringValue("timeValid", String.valueOf(i));
+//			}
+			uniEvent.setValue(uniObject);
+			try
+			{
+				new ManagerHandler().onEvent(uniEvent, 100, true);
+			}
+			catch (Exception e)
+			{
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+
+}

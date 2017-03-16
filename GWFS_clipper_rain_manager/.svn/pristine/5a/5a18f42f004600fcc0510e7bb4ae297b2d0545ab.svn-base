@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger_config>
+	<logger name="ManagerHandler" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console" />
+			<handler type="file"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="managerHandler_"
+				suffix=".log" append="true" directory="logs/gwfs/rainproduct/manager" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	<logger name="Manager" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console" />
+			<handler type="file"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="manager_"
+				suffix=".log" append="true" directory="logs/gwfs/rainproduct/manager" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+</logger_config>

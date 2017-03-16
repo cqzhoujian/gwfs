@@ -1,0 +1,185 @@
+package com.supermap.gwfs.manager.handler;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import com.supermap.commons.logging.Logger;
+import com.supermap.commons.logging.factory.LoggerFactory;
+import com.supermap.disruptor.UniDisruptor;
+import com.supermap.disruptor.helper.DisruptorHelper;
+import com.supermap.gcpp.core.common.UniObject;
+
+/**  
+ * @Description: TODO
+ * @author zhoujian
+ * @date 2016-11-4
+ * @version V1.0 
+ */
+public class Manager
+{
+	private Logger logger = LoggerFactory.getLogger("Manager");
+	private  Map<String, Map<String, List<String>>> map = null;// new HashMap<String, Map<String,List<Integer>>>();
+	private  Map<String, Map<String, List<String>>> map_20 = null;
+	private  Map<String, List<String>> tmp = null;//new HashMap<String, List<Integer>>();
+	private  List<String> list = null;//new ArrayList<Integer>();
+	private static Manager manager = null;
+	private Manager()
+	{
+		map = new HashMap<String, Map<String,List<String>>>();
+		map_20 = new HashMap<String, Map<String,List<String>>>();
+		tmp = new HashMap<String, List<String>>();
+		list = new ArrayList<String>();
+	}
+	
+	public synchronized static Manager getInstance()
+	{
+		if(manager == null)
+			manager = new Manager();
+		return manager;
+	}
+	
+	public  void manager_08(String time,String timeSequence,String timeValid,String sfc1AbsolutePath , int type)
+	{
+		logger.info("manager("+ time +"," + timeSequence + "," + timeValid + ")被调用     " + sfc1AbsolutePath+"  type = " + type );
+		try
+		{
+			/**
+			 * disruptor接维立程序
+			 * 
+			 */
+			UniDisruptor disruptor_wl = DisruptorHelper.getDisruptor("ProcessorHandler");
+			UniObject uniObject_wl = new UniObject();
+			uniObject_wl.setStringValue("absolutePath", sfc1AbsolutePath);
+			uniObject_wl.setIntegerValue("type", type);
+			if (disruptor_wl != null)
+			{
+				logger.info("调用开始wl程序开始" + uniObject_wl);
+				disruptor_wl.publish(uniObject_wl);
+			}
+			
+			if (map.containsKey(time)) //存在
+			{
+				if(map.get(time).containsKey(timeSequence))
+				{
+					map.get(time).get(timeSequence).add(timeValid);
+					//接降水程序
+					if (map.get(time).get(timeSequence).size() == 52)
+					{
+						logger.info("调用降水参数 : " + map);
+						
+						//调用降水handler
+						UniDisruptor disruptor = DisruptorHelper.getDisruptor("CustomHandler");
+						UniObject uniObject = new UniObject();
+						uniObject.setStringValue("time", time);
+						uniObject.setStringValue("timeSequnce", timeSequence);
+						uniObject.setValue("timeValids", map.get(time).get(timeSequence));
+						logger.debug("disruptor : " + disruptor);
+						if (disruptor != null)
+						{
+							logger.info("调用开始" + uniObject);
+							disruptor.publish(uniObject);
+//							map.clear();
+//							tmp.clear();
+//							list.clear();
+						}
+					}
+				}
+				else
+				{
+					map = new HashMap<String, Map<String,List<String>>>();
+					tmp = new HashMap<String, List<String>>();
+					list = new ArrayList<String>();
+					list.add(timeValid);
+					tmp.put(timeSequence, list);
+					map.put(time, tmp);
+				}
+			}
+			else
+			{	//不存在
+				map = new HashMap<String, Map<String,List<String>>>();
+				tmp = new HashMap<String, List<String>>();
+				list = new ArrayList<String>();
+				list.add(timeValid);
+				tmp.put(timeSequence, list);
+				map.put(time, tmp);
+			}
+		}
+		catch (Exception e)
+		{
+			logger.error("获取降水参数异常 , 异常 : " + e);
+		}
+	}
+	
+	public  void manager_20(String time,String timeSequence,String timeValid,String sfc1AbsolutePath,int type)
+	{
+		logger.info("manager("+ time +"," + timeSequence + "," + timeValid + ")被调用     " + sfc1AbsolutePath + "  type = "+type);
+		try
+		{
+			/**
+			 * disruptor接维立程序
+			 * 
+			 */
+			UniDisruptor disruptor_wl = DisruptorHelper.getDisruptor("ProcessorHandler");
+			UniObject uniObject_wl = new UniObject();
+			uniObject_wl.setStringValue("absolutePath", sfc1AbsolutePath);
+			uniObject_wl.setIntegerValue("type", type);
+			if (disruptor_wl != null)
+			{
+				logger.info("调用开始wl程序开始" + uniObject_wl);
+				disruptor_wl.publish(uniObject_wl);
+			}
+			
+			if (map_20.containsKey(time)) //存在
+			{
+				if(map_20.get(time).containsKey(timeSequence))
+				{
+					map_20.get(time).get(timeSequence).add(timeValid);
+					if (map_20.get(time).get(timeSequence).size() == 52)
+					{
+						logger.info("调用降水参数 : " + map_20);
+						
+						//调用降水handler
+						UniDisruptor disruptor = DisruptorHelper.getDisruptor("CustomHandler_12");
+						UniObject uniObject = new UniObject();
+						uniObject.setStringValue("time", time);
+						uniObject.setStringValue("timeSequnce", timeSequence);
+						uniObject.setValue("timeValids", map_20.get(time).get(timeSequence));
+						logger.debug("disruptor : " + disruptor);
+						if (disruptor != null)
+						{
+							logger.error("调用开始" + uniObject);
+							disruptor.publish(uniObject);
+//							map.clear();
+//							tmp.clear();
+//							list.clear();
+						}
+					}
+				}
+				else
+				{
+					map_20 = new HashMap<String, Map<String,List<String>>>();
+					tmp = new HashMap<String, List<String>>();
+					list = new ArrayList<String>();
+					list.add(timeValid);
+					tmp.put(timeSequence, list);
+					map_20.put(time, tmp);
+				}
+			}
+			else
+			{	//不存在
+				map_20 = new HashMap<String, Map<String,List<String>>>();
+				tmp = new HashMap<String, List<String>>();
+				list = new ArrayList<String>();
+				list.add(timeValid);
+				tmp.put(timeSequence, list);
+				map_20.put(time, tmp);
+			}
+		}
+		catch (Exception e)
+		{
+			logger.error("获取降水参数异常 , 异常 : " + e);
+		}
+	}
+}

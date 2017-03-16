@@ -1,0 +1,382 @@
+2016-12-20 16:22:23 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 0  被调用！
+2016-12-20 16:22:34 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 6  被调用！
+2016-12-20 16:22:42 com.supermap.gwfs.manager.handler.NewManager  manager  (line:117)
+[Manager:INFO] 未处理的数据：[6]
+2016-12-20 16:22:58 com.supermap.gwfs.manager.handler.NewManager  manager  (line:183)
+[Manager:INFO] ------------[6]
+2016-12-20 16:23:02 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 12  被调用！
+2016-12-20 16:23:12 com.supermap.gwfs.manager.handler.NewManager  manager  (line:117)
+[Manager:INFO] 未处理的数据：[6, 12]
+2016-12-20 16:24:22 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 0  被调用！
+2016-12-20 16:24:25 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 6  被调用！
+2016-12-20 16:24:27 com.supermap.gwfs.manager.handler.NewManager  manager  (line:117)
+[Manager:INFO] 未处理的数据：[6]
+2016-12-20 16:24:27 com.supermap.gwfs.manager.handler.NewManager  manager  (line:183)
+[Manager:INFO] ------------[6]
+2016-12-20 16:24:40 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 18  被调用！
+2016-12-20 16:24:57 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 0  被调用！
+2016-12-20 16:24:58 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 6  被调用！
+2016-12-20 16:25:01 com.supermap.gwfs.manager.handler.NewManager  manager  (line:117)
+[Manager:INFO] 未处理的数据：[6]
+2016-12-20 16:25:01 com.supermap.gwfs.manager.handler.NewManager  manager  (line:183)
+[Manager:INFO] ------------[6]
+2016-12-20 16:25:03 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 12  被调用！
+2016-12-20 16:25:04 com.supermap.gwfs.manager.handler.NewManager  manager  (line:117)
+[Manager:INFO] 未处理的数据：[6, 12]
+2016-12-20 16:25:04 com.supermap.gwfs.manager.handler.NewManager  manager  (line:183)
+[Manager:INFO] ------------[6, 12]
+2016-12-20 16:25:25 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 0  被调用！
+2016-12-20 16:25:26 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 6  被调用！
+2016-12-20 16:25:27 com.supermap.gwfs.manager.handler.NewManager  manager  (line:117)
+[Manager:INFO] 未处理的数据：[6]
+2016-12-20 16:25:27 com.supermap.gwfs.manager.handler.NewManager  manager  (line:183)
+[Manager:INFO] ------------[6]
+2016-12-20 16:25:28 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 12  被调用！
+2016-12-20 16:25:29 com.supermap.gwfs.manager.handler.NewManager  manager  (line:117)
+[Manager:INFO] 未处理的数据：[6, 12]
+2016-12-20 16:25:29 com.supermap.gwfs.manager.handler.NewManager  manager  (line:183)
+[Manager:INFO] ------------[6, 12]
+2016-12-20 16:25:31 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 15  被调用！
+2016-12-20 16:25:55 com.supermap.gwfs.manager.handler.NewManager  manager  (line:79)
+[Manager:DEBUG] disruptor : com.supermap.disruptor.UniDisruptor@52a55130
+2016-12-20 16:25:57 com.supermap.gwfs.manager.handler.NewManager  manager  (line:82)
+[Manager:INFO] 调用开始**************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: time           Value: 20161219
+Attribute: timeSequnce           Value: 08
+Attribute: timeValids           Value: 15
+
+2016-12-20 16:25:59 com.supermap.gwfs.manager.handler.NewManager  manager  (line:117)
+[Manager:INFO] 未处理的数据：[6, 12]
+2016-12-20 16:26:49 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 0  被调用！
+2016-12-20 16:26:50 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 6  被调用！
+2016-12-20 16:26:51 com.supermap.gwfs.manager.handler.NewManager  manager  (line:117)
+[Manager:INFO] 未处理的数据：[6]
+2016-12-20 16:26:51 com.supermap.gwfs.manager.handler.NewManager  manager  (line:183)
+[Manager:INFO] ------------[6]
+2016-12-20 16:26:52 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 12  被调用！
+2016-12-20 16:26:53 com.supermap.gwfs.manager.handler.NewManager  manager  (line:117)
+[Manager:INFO] 未处理的数据：[6, 12]
+2016-12-20 16:26:53 com.supermap.gwfs.manager.handler.NewManager  manager  (line:183)
+[Manager:INFO] ------------[6, 12]
+2016-12-20 16:26:53 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 9  被调用！
+2016-12-20 16:26:56 com.supermap.gwfs.manager.handler.NewManager  manager  (line:79)
+[Manager:DEBUG] disruptor : com.supermap.disruptor.UniDisruptor@316ce88a
+2016-12-20 16:26:56 com.supermap.gwfs.manager.handler.NewManager  manager  (line:82)
+[Manager:INFO] 调用开始**************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: time           Value: 20161219
+Attribute: timeSequnce           Value: 08
+Attribute: timeValids           Value: 9
+
+2016-12-20 16:26:56 com.supermap.gwfs.manager.handler.NewManager  manager  (line:117)
+[Manager:INFO] 未处理的数据：[6, 12]
+2016-12-20 16:26:56 com.supermap.gwfs.manager.handler.NewManager  manager  (line:137)
+[Manager:INFO] 循环中
+2016-12-20 16:26:56 com.supermap.gwfs.manager.handler.NewManager  manager  (line:138)
+[Manager:DEBUG] disruptor : com.supermap.disruptor.UniDisruptor@316ce88a
+2016-12-20 16:26:56 com.supermap.gwfs.manager.handler.NewManager  manager  (line:141)
+[Manager:INFO] 调用开始**************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: time           Value: 20161219
+Attribute: timeSequnce           Value: 08
+Attribute: timeValids           Value: 12
+
+2016-12-20 16:26:56 com.supermap.gwfs.manager.handler.NewManager  manager  (line:143)
+[Manager:INFO] ============[6]
+2016-12-20 16:26:56 com.supermap.gwfs.manager.handler.NewManager  manager  (line:183)
+[Manager:INFO] ------------[6]
+2016-12-20 16:27:00 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 15  被调用！
+2016-12-20 16:27:06 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 0  被调用！
+2016-12-20 16:27:09 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 6  被调用！
+2016-12-20 16:27:10 com.supermap.gwfs.manager.handler.NewManager  manager  (line:117)
+[Manager:INFO] 未处理的数据：[6]
+2016-12-20 16:27:10 com.supermap.gwfs.manager.handler.NewManager  manager  (line:183)
+[Manager:INFO] ------------[6]
+2016-12-20 16:27:14 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 12  被调用！
+2016-12-20 16:27:15 com.supermap.gwfs.manager.handler.NewManager  manager  (line:117)
+[Manager:INFO] 未处理的数据：[6, 12]
+2016-12-20 16:27:15 com.supermap.gwfs.manager.handler.NewManager  manager  (line:183)
+[Manager:INFO] ------------[6, 12]
+2016-12-20 16:27:15 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 9  被调用！
+2016-12-20 16:27:19 com.supermap.gwfs.manager.handler.NewManager  manager  (line:79)
+[Manager:DEBUG] disruptor : com.supermap.disruptor.UniDisruptor@6516d55f
+2016-12-20 16:27:19 com.supermap.gwfs.manager.handler.NewManager  manager  (line:82)
+[Manager:INFO] 调用开始**************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: time           Value: 20161219
+Attribute: timeSequnce           Value: 08
+Attribute: timeValids           Value: 9
+
+2016-12-20 16:27:19 com.supermap.gwfs.manager.handler.NewManager  manager  (line:117)
+[Manager:INFO] 未处理的数据：[6, 12]
+2016-12-20 16:27:19 com.supermap.gwfs.manager.handler.NewManager  manager  (line:137)
+[Manager:INFO] 循环中
+2016-12-20 16:27:19 com.supermap.gwfs.manager.handler.NewManager  manager  (line:138)
+[Manager:DEBUG] disruptor : com.supermap.disruptor.UniDisruptor@6516d55f
+2016-12-20 16:27:19 com.supermap.gwfs.manager.handler.NewManager  manager  (line:141)
+[Manager:INFO] 调用开始**************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: time           Value: 20161219
+Attribute: timeSequnce           Value: 08
+Attribute: timeValids           Value: 12
+
+2016-12-20 16:27:19 com.supermap.gwfs.manager.handler.NewManager  manager  (line:143)
+[Manager:INFO] ============[6]
+2016-12-20 16:27:19 com.supermap.gwfs.manager.handler.NewManager  manager  (line:183)
+[Manager:INFO] ------------[6]
+2016-12-20 16:27:21 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 15  被调用！
+2016-12-20 16:27:25 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 0  被调用！
+2016-12-20 16:27:34 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 6  被调用！
+2016-12-20 16:27:41 com.supermap.gwfs.manager.handler.NewManager  manager  (line:117)
+[Manager:INFO] 未处理的数据：[6]
+2016-12-20 16:27:45 com.supermap.gwfs.manager.handler.NewManager  manager  (line:183)
+[Manager:INFO] ------------[6]
+2016-12-20 16:27:50 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 12  被调用！
+2016-12-20 16:28:16 com.supermap.gwfs.manager.handler.NewManager  manager  (line:117)
+[Manager:INFO] 未处理的数据：[6, 12]
+2016-12-20 16:28:23 com.supermap.gwfs.manager.handler.NewManager  manager  (line:183)
+[Manager:INFO] ------------[6, 12]
+2016-12-20 16:28:29 com.supermap.gwfs.manager.handler.NewManager  manager  (line:59)
+[Manager:INFO] 20161219  08 9  被调用！
+2016-12-20 16:28:58 com.supermap.gwfs.manager.handler.NewManager  manager  (line:79)
+[Manager:DEBUG] disruptor : com.supermap.disruptor.UniDisruptor@1732781b
+2016-12-20 16:29:00 com.supermap.gwfs.manager.handler.NewManager  manager  (line:82)
+[Manager:INFO] 调用开始**************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: time           Value: 20161219
+Attribute: timeSequnce           Value: 08
+Attribute: timeValids           Value: 9
+
+2016-12-20 16:29:03 com.supermap.gwfs.manager.handler.NewManager  manager  (line:117)
+[Manager:INFO] 未处理的数据：[6, 12]
+2016-12-20 16:29:27 com.supermap.gwfs.manager.handler.NewManager  manager  (line:137)
+[Manager:INFO] 循环中
+2016-12-20 16:29:28 com.supermap.gwfs.manager.handler.NewManager  manager  (line:138)
+[Manager:DEBUG] disruptor : com.supermap.disruptor.UniDisruptor@1732781b
+2016-12-20 16:29:28 com.supermap.gwfs.manager.handler.NewManager  manager  (line:141)
+[Manager:INFO] 调用开始**************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: time           Value: 20161219
+Attribute: timeSequnce           Value: 08
+Attribute: timeValids           Value: 12
+
+2016-12-20 16:29:30 com.supermap.gwfs.manager.handler.NewManager  manager  (line:143)
+[Manager:INFO] ============[6]
+2017-01-16 12:09:24 com.supermap.gwfs.manager.handler.NewManager  manager  (line:87)
+[Manager:INFO] ZJ:20170116200000  20 12  be call.
+2017-01-16 12:09:46 com.supermap.gwfs.manager.handler.NewManager  manager  (line:87)
+[Manager:INFO] ZJ:20170119153320  08 12  be call.
+2017-01-16 12:09:46 com.supermap.gwfs.manager.handler.NewManager  manager  (line:142)
+[Manager:INFO] ZJ:valids of waiting for treatment :[12]
+2017-01-16 12:11:14 com.supermap.gwfs.manager.handler.NewManager  manager  (line:91)
+[Manager:INFO] ZJ:20170116200000  20 0  be call.
+2017-01-16 12:11:21 com.supermap.gwfs.manager.handler.NewManager  manager  (line:91)
+[Manager:INFO] ZJ:20170116200000  20 3  be call.
+2017-01-16 12:11:21 com.supermap.gwfs.manager.handler.NewManager  manager  (line:112)
+[Manager:INFO] ZJ:beings the call : **************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: timeSequnce           Value: 20
+Attribute: time           Value: 20170116200000
+Attribute: timeValids           Value: 3
+
+2017-01-16 12:11:21 com.supermap.gwfs.manager.handler.NewManager  manager  (line:146)
+[Manager:INFO] ZJ:valids of waiting for treatment :[]
+2017-01-16 12:12:11 com.supermap.gwfs.manager.handler.NewManager  manager  (line:91)
+[Manager:INFO] ZJ:20170117  08 0  be call.
+2017-01-16 12:12:16 com.supermap.gwfs.manager.handler.NewManager  manager  (line:91)
+[Manager:INFO] ZJ:20170117  08 3  be call.
+2017-01-16 12:12:16 com.supermap.gwfs.manager.handler.NewManager  manager  (line:112)
+[Manager:INFO] ZJ:beings the call : **************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: timeSequnce           Value: 08
+Attribute: time           Value: 20170117
+Attribute: timeValids           Value: 3
+
+2017-01-16 12:12:16 com.supermap.gwfs.manager.handler.NewManager  manager  (line:146)
+[Manager:INFO] ZJ:valids of waiting for treatment :[]
+2017-01-16 14:16:02 com.supermap.gwfs.manager.handler.NewManager  manager  (line:93)
+[Manager:INFO] ZJ:20170116  20 0  be call.
+2017-01-16 14:16:09 com.supermap.gwfs.manager.handler.NewManager  manager  (line:93)
+[Manager:INFO] ZJ:20170116  20 3  be call.
+2017-01-16 14:16:09 com.supermap.gwfs.manager.handler.NewManager  manager  (line:114)
+[Manager:INFO] ZJ:beings the call : **************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: timeSequnce           Value: 20
+Attribute: time           Value: 20170116
+Attribute: timeValids           Value: 3
+
+2017-01-16 14:16:09 com.supermap.gwfs.manager.handler.NewManager  manager  (line:148)
+[Manager:INFO] ZJ:valids of waiting for treatment :[]
+2017-01-16 14:16:11 com.supermap.gwfs.manager.handler.NewManager  manager  (line:93)
+[Manager:INFO] ZJ:20170116  20 6  be call.
+2017-01-16 14:16:11 com.supermap.gwfs.manager.handler.NewManager  manager  (line:114)
+[Manager:INFO] ZJ:beings the call : **************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: timeSequnce           Value: 20
+Attribute: time           Value: 20170116
+Attribute: timeValids           Value: 6
+
+2017-01-16 14:16:11 com.supermap.gwfs.manager.handler.NewManager  manager  (line:148)
+[Manager:INFO] ZJ:valids of waiting for treatment :[]
+2017-01-16 14:16:12 com.supermap.gwfs.manager.handler.NewManager  manager  (line:93)
+[Manager:INFO] ZJ:20170116  20 9  be call.
+2017-01-16 14:16:12 com.supermap.gwfs.manager.handler.NewManager  manager  (line:114)
+[Manager:INFO] ZJ:beings the call : **************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: timeSequnce           Value: 20
+Attribute: time           Value: 20170116
+Attribute: timeValids           Value: 9
+
+2017-01-16 14:16:12 com.supermap.gwfs.manager.handler.NewManager  manager  (line:148)
+[Manager:INFO] ZJ:valids of waiting for treatment :[]
+2017-01-16 14:16:13 com.supermap.gwfs.manager.handler.NewManager  manager  (line:93)
+[Manager:INFO] ZJ:20170116  20 12  be call.
+2017-01-16 14:16:13 com.supermap.gwfs.manager.handler.NewManager  manager  (line:114)
+[Manager:INFO] ZJ:beings the call : **************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: timeSequnce           Value: 20
+Attribute: time           Value: 20170116
+Attribute: timeValids           Value: 12
+
+2017-01-16 14:16:13 com.supermap.gwfs.manager.handler.NewManager  manager  (line:148)
+[Manager:INFO] ZJ:valids of waiting for treatment :[]
+2017-01-16 14:17:06 com.supermap.gwfs.manager.handler.NewManager  manager  (line:93)
+[Manager:INFO] ZJ:20170116  20 0  be call.
+2017-01-16 14:17:08 com.supermap.gwfs.manager.handler.NewManager  manager  (line:93)
+[Manager:INFO] ZJ:20170116  20 3  be call.
+2017-01-16 14:17:08 com.supermap.gwfs.manager.handler.NewManager  manager  (line:114)
+[Manager:INFO] ZJ:beings the call : **************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: timeSequnce           Value: 20
+Attribute: time           Value: 20170116
+Attribute: timeValids           Value: 3
+
+2017-01-16 14:17:08 com.supermap.gwfs.manager.handler.NewManager  manager  (line:148)
+[Manager:INFO] ZJ:valids of waiting for treatment :[]
+2017-01-16 14:17:09 com.supermap.gwfs.manager.handler.NewManager  manager  (line:93)
+[Manager:INFO] ZJ:20170116  20 6  be call.
+2017-01-16 14:17:09 com.supermap.gwfs.manager.handler.NewManager  manager  (line:114)
+[Manager:INFO] ZJ:beings the call : **************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: timeSequnce           Value: 20
+Attribute: time           Value: 20170116
+Attribute: timeValids           Value: 6
+
+2017-01-16 14:17:09 com.supermap.gwfs.manager.handler.NewManager  manager  (line:148)
+[Manager:INFO] ZJ:valids of waiting for treatment :[]
+2017-01-16 14:17:10 com.supermap.gwfs.manager.handler.NewManager  manager  (line:93)
+[Manager:INFO] ZJ:20170116  20 9  be call.
+2017-01-16 14:17:10 com.supermap.gwfs.manager.handler.NewManager  manager  (line:114)
+[Manager:INFO] ZJ:beings the call : **************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: timeSequnce           Value: 20
+Attribute: time           Value: 20170116
+Attribute: timeValids           Value: 9
+
+2017-01-16 14:17:10 com.supermap.gwfs.manager.handler.NewManager  manager  (line:148)
+[Manager:INFO] ZJ:valids of waiting for treatment :[]
+2017-01-16 14:17:12 com.supermap.gwfs.manager.handler.NewManager  manager  (line:93)
+[Manager:INFO] ZJ:20170116  20 12  be call.
+2017-01-16 14:17:12 com.supermap.gwfs.manager.handler.NewManager  manager  (line:114)
+[Manager:INFO] ZJ:beings the call : **************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: timeSequnce           Value: 20
+Attribute: time           Value: 20170116
+Attribute: timeValids           Value: 12
+
+2017-01-16 14:17:12 com.supermap.gwfs.manager.handler.NewManager  manager  (line:148)
+[Manager:INFO] ZJ:valids of waiting for treatment :[]
+2017-01-16 14:17:46 com.supermap.gwfs.manager.handler.NewManager  manager  (line:93)
+[Manager:INFO] ZJ:20170116  20 0  be call.
+2017-01-16 14:17:47 com.supermap.gwfs.manager.handler.NewManager  manager  (line:93)
+[Manager:INFO] ZJ:20170116  20 3  be call.
+2017-01-16 14:17:47 com.supermap.gwfs.manager.handler.NewManager  manager  (line:114)
+[Manager:INFO] ZJ:beings the call : **************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: timeSequnce           Value: 20
+Attribute: time           Value: 20170116
+Attribute: timeValids           Value: 3
+
+2017-01-16 14:17:47 com.supermap.gwfs.manager.handler.NewManager  manager  (line:148)
+[Manager:INFO] ZJ:valids of waiting for treatment :[]
+2017-01-16 14:17:47 com.supermap.gwfs.manager.handler.NewManager  manager  (line:93)
+[Manager:INFO] ZJ:20170116  20 6  be call.
+2017-01-16 14:17:47 com.supermap.gwfs.manager.handler.NewManager  manager  (line:114)
+[Manager:INFO] ZJ:beings the call : **************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: timeSequnce           Value: 20
+Attribute: time           Value: 20170116
+Attribute: timeValids           Value: 6
+
+2017-01-16 14:17:47 com.supermap.gwfs.manager.handler.NewManager  manager  (line:148)
+[Manager:INFO] ZJ:valids of waiting for treatment :[]
+2017-01-16 14:17:48 com.supermap.gwfs.manager.handler.NewManager  manager  (line:93)
+[Manager:INFO] ZJ:20170116  20 9  be call.
+2017-01-16 14:17:48 com.supermap.gwfs.manager.handler.NewManager  manager  (line:114)
+[Manager:INFO] ZJ:beings the call : **************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: timeSequnce           Value: 20
+Attribute: time           Value: 20170116
+Attribute: timeValids           Value: 9
+
+2017-01-16 14:17:48 com.supermap.gwfs.manager.handler.NewManager  manager  (line:148)
+[Manager:INFO] ZJ:valids of waiting for treatment :[]
+2017-01-16 14:17:48 com.supermap.gwfs.manager.handler.NewManager  manager  (line:93)
+[Manager:INFO] ZJ:20170116  20 12  be call.
+2017-01-16 14:17:48 com.supermap.gwfs.manager.handler.NewManager  manager  (line:114)
+[Manager:INFO] ZJ:beings the call : **************************** UniObject Content ****************************
+Object Name:
+The attributes and values are shown as follows:
+Attribute: timeSequnce           Value: 20
+Attribute: time           Value: 20170116
+Attribute: timeValids           Value: 12
+
+2017-01-16 14:17:48 com.supermap.gwfs.manager.handler.NewManager  manager  (line:148)
+[Manager:INFO] ZJ:valids of waiting for treatment :[]

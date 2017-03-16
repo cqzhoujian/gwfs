@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<disruptors>
+<!-- 参数定义
+	disruptor：
+	    -name:disruptor的名字，全局唯一?
+		-bufferSize：ringbuffersize的大小.		  
+		-waitStrategy：
+		      BlockingWaitStrategy:阻塞式等待策略.
+			  SleepingWaitStrategy:
+			  YieldingWaitStrategy:
+		-handler:disruptor对应的具体处理类.
+	参数定义end -->	
+		<disruptor 
+	       name = "CustomHandler"
+	       ringBufferSize = "1024"  
+           producerType = "Single"  
+		   waitStrategy = "YieldingWaitStrategy">
+			 <handler class = "com.supermap.gwfs.rainproduct.handler.CustomHandler" />
+		</disruptor>
+		<disruptor 
+	       name = "CustomHandler_12"
+	       ringBufferSize = "1024"  
+           producerType = "Single"  
+		   waitStrategy = "YieldingWaitStrategy">
+			 <handler class = "com.supermap.gwfs.rainproduct.handler.CustomHandler_12" />
+		</disruptor>
+</disruptors>

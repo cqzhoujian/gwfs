@@ -1,0 +1,178 @@
+package com.supermap.gwfs.manager.handler;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import com.supermap.commons.logging.Logger;
+import com.supermap.commons.logging.factory.LoggerFactory;
+import com.supermap.disruptor.UniDisruptor;
+import com.supermap.disruptor.helper.DisruptorHelper;
+import com.supermap.gcpp.core.common.UniObject;
+
+/**  
+ * @Description: 管理裁切之后的程序调用
+ * @author zhoujian
+ * @date 2016-12-19
+ * @version V1.0 
+ */
+public class NewManager
+{
+	private Logger logger = LoggerFactory.getLogger("Manager");
+	private static int[] status = new int[53];				//每个时效状态的数组
+	private static List<Integer> valids = new ArrayList<Integer>();		//未处理的时效集合
+	private static NewManager newManager = null;
+	private static String flag = null;				//标识  是否为同一天的同一时次
+	private NewManager()
+	{
+	}
+	public static synchronized NewManager getInstance(String time , String sequrence)
+	{
+		if (newManager == null)
+		{
+			newManager = new NewManager();
+		}
+		if (flag != null)
+		{
+			if (flag.equals(time+sequrence))
+			{
+				return newManager;
+			}
+			else
+			{
+				flag = time + sequrence;
+				Arrays.fill(status, 0);
+				valids.clear();
+				return newManager;
+			}
+		}
+		else
+		{
+			flag = time + sequrence;
+			return newManager;
+		}
+	}
+	
+	public synchronized void  manager(String time, String sequrence , String valid)
+	{
+		try
+		{
+			logger.info("ZJ:" + time + "  " + sequrence + " " + valid + "  be call.");
+			int validTmp = Integer.parseInt(valid);
+			
+			if (validTmp <= 72)
+			{
+				if (validTmp == 0 )
+				{
+					status[validTmp/3] = 1;
+					return ;
+				}
+				if (status[validTmp/3 - 1] ==1)
+				{
+					status[validTmp / 3] = 1;
+					//调用后面程序的disrupter
+					//调用降水handler
+					UniDisruptor disruptor = DisruptorHelper.getDisruptor("CustomHandler");
+					UniObject uniObject = new UniObject();
+					uniObject.setStringValue("time", time);
+					uniObject.setStringValue("timeSequnce", sequrence);
+					uniObject.setValue("timeValids",validTmp);
+					if (disruptor != null)
+					{
+						logger.info("ZJ:beings the call : " + uniObject);
+						disruptor.publish(uniObject);
+					}
+				}
+				else
+				{
+					status[validTmp/3] = 1;
+					valids.add(validTmp);
+				}
+			}
+			else
+			{
+				if (status[validTmp/3 - (validTmp - 72)/6 - 1] == 1)
+				{
+					status[validTmp/3 - (validTmp - 72)/6] = 1;
+					//调用之后的程序
+					//调用降水handler
+					UniDisruptor disruptor = DisruptorHelper.getDisruptor("CustomHandler");
+					UniObject uniObject = new UniObject();
+					uniObject.setStringValue("time", time);
+					uniObject.setStringValue("timeSequnce", sequrence);
+					uniObject.setValue("timeValids",validTmp);
+					if (disruptor != null)
+					{
+						logger.info("ZJ:beings the call : " + uniObject);
+						disruptor.publish(uniObject);
+					}
+				}
+				else
+				{
+					status[validTmp/3 - (validTmp - 72)/6] = 1;
+					valids.add(validTmp);
+				}
+			}
+			logger.info("ZJ:valids of waiting for treatment :" + valids);
+			boolean flag1 = true;
+			while (flag1)
+			{
+				for (int i = 0; i < valids.size(); i++)
+				{
+					int validTemp = valids.get(i);  
+					if (validTemp <= 72)
+					{
+						if (status[validTemp / 3 - 1] == 1)
+						{
+							//调用后续程序
+							//调用降水handler
+							UniDisruptor disruptor = DisruptorHelper.getDisruptor("CustomHandler");
+							UniObject uniObject = new UniObject();
+							uniObject.setStringValue("time", time);
+							uniObject.setStringValue("timeSequnce", sequrence);
+							uniObject.setValue("timeValids",validTemp);
+							if (disruptor != null)
+							{
+								valids.remove(i);
+								logger.info("ZJ:beings the call : " + uniObject);
+								disruptor.publish(uniObject);
+							}
+						}
+						else
+						{
+							continue;
+						}
+					}
+					else
+					{
+						if (status[validTemp / 3 - (validTemp - 72)/6 - 1] == 1)
+						{
+							//调用后续程序
+							//调用降水handler
+							UniDisruptor disruptor = DisruptorHelper.getDisruptor("CustomHandler");
+							UniObject uniObject = new UniObject();
+							uniObject.setStringValue("time", time);
+							uniObject.setStringValue("timeSequnce", sequrence);
+							uniObject.setValue("timeValids",validTemp);
+							if (disruptor != null)
+							{
+								valids.remove(i);
+								logger.info("ZJ:beings the call : " + uniObject);
+								disruptor.publish(uniObject);
+							}
+						}
+						else
+						{
+							continue;
+						}
+					}
+				}
+				flag1 = false;
+			}
+		}
+		catch (Exception e)
+		{
+			logger.error("ZJ:manager() method handles exceptions  , e : " + e);
+		}
+	}
+}

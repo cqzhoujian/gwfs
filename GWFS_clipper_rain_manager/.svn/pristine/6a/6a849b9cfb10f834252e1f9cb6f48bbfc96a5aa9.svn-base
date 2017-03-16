@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_80"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_Disruptor"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_Logger"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_rainproduct_v1.0.0"/>
+	<classpathentry kind="lib" path="/gwfs_ncclipper/lib/disruptor-3.2.0.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_GCPP"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
