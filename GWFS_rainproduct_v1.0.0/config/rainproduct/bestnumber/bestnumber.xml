@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!-- 各层次要素 -->
+	<feature>
+		<!-- 平均海平面气压 -->
+		<sfc>msl</sfc>
+		<!-- 位势高度 -->
+		<pl500>gh</pl500>
+		<!-- 位势高度 相对湿度 -->
+		<pl700>gh,r</pl700>
+		<!-- 温度 相对湿度 -->
+		<pl850>t,r</pl850>
+	</feature>
+	<!-- 范围 -->
+	<size>
+		<sfc>90,120,25,40</sfc>
+		<pl500>90,120,20,40</pl500>
+		<pl700>100,115,23,36</pl700>
+		<pl850>100,114,23,35</pl850>
+	</size>
+	<!-- 排除站点  无用-->
+	<exception>
+		<sfc></sfc>
+		<pl500>41923,42724,42410,42314</pl500>
+	</exception>
+	<!-- 最优成员个数 -->
+	<bestNumber>
+		<number>30</number>
+	</bestNumber>
+	<!-- 本地目录 -->
+	<write>
+		<rootpathLocal>D:/mnt/data</rootpathLocal>
+		<!-- <rootpathLocal>E:/mnt/data/local/JiHeYuBao</rootpathLocal> -->
+		<!-- /JiHeYuBao/Product/ 为FTP根目录 -->
+		<rootpath147>/daily/en_netcdf</rootpath147>
+	</write>
+</list>

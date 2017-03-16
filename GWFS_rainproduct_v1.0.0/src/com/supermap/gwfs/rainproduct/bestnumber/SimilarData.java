@@ -1,0 +1,823 @@
+package com.supermap.gwfs.rainproduct.bestnumber;
+
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.codehaus.jettison.json.JSONObject;
+
+import ucar.nc2.NetcdfFile;
+
+import com.mg.objects.DatasetRaster;
+import com.mg.objects.Datasource;
+import com.mg.objects.Scanline;
+import com.mg.objects.Workspace;
+import com.supermap.commons.logging.Logger;
+import com.supermap.commons.logging.factory.LoggerFactory;
+import com.supermap.gcpp.core.common.UniObject;
+import com.supermap.gwfs.mg.common.util.MGException;
+import com.supermap.gwfs.mg.common.util.MGutil;
+import com.supermap.gwfs.rainproduct.util.NetCDFUtil;
+
+/**  
+ * @Description: 各个层次数据处理
+ * @author zhoujian
+ * @date 2016-10-24
+ * @version V1.0 
+ */
+public class SimilarData
+{
+	private Logger logger = LoggerFactory.getLogger("BestNumber");
+	private Logger logger_p = LoggerFactory.getLogger("ProbabilityAvg");
+	/**
+	 * 
+	 * @Description: 获取PL500标准化之后的成员数据
+	 * @return List<Map<Integer, Double>>
+	 * @throws
+	 */
+	
+	@SuppressWarnings("unchecked")
+	public Map<Integer, Double> getPl500SimilaryData(UniObject uniObject, String lvl, String[] localFilePath)
+	{
+		Map<Integer, Double> map = new HashMap<Integer, Double>();
+		try
+		{
+			String path = localFilePath[0];
+			List<String> features = (List<String>)uniObject.getValue("pl500Feature");
+			String size = uniObject.getStringValue("pl500Size");
+			List<Map<Integer, Double>> lists = getSimilaryData(path,features,size,lvl);
+			if (lists.size() == 1)
+			{
+				map = lists.get(0);
+			}
+			else if(lists.size() == 2)
+			{
+				map = getFeatureAvg(lists.get(0) , lists.get(1));
+			}
+		}
+		catch (Exception e)
+		{
+			logger.error("获取Pl500SimilaryData的数据异常 , 异常 : " + e);
+		}
+		
+		return map;
+		
+	}
+	/**
+	 * 
+	 * @Description:  获取PL750标准化之后的成员数据
+	 * @return Map<Integer,Double>
+	 * @throws
+	 */
+	@SuppressWarnings("unchecked")
+	public Map<Integer, Double> getPl750SimilaryData(UniObject uniObject, String lvl, String[] localFilePath)
+	{
+
+		Map<Integer, Double> map = new HashMap<Integer, Double>();
+		try
+		{
+			String path = localFilePath[0];
+			List<String> features = (List<String>)uniObject.getValue("pl700Feature");
+			String size = uniObject.getStringValue("pl700Size");
+			List<Map<Integer, Double>> lists = getSimilaryData(path,features,size,lvl);
+			if (lists.size() == 1)
+			{
+				map = lists.get(0);
+			}
+			else if (lists.size() ==2)
+			{
+				map = getFeatureAvg(lists.get(0), lists.get(1));
+			}
+		}
+		catch (Exception e)
+		{
+			logger.error("获取Pl750SimilaryData的数据异常 , 异常 : " + e);
+		}
+		
+		return map;
+	}
+	
+	/**
+	 * 
+	 * @Description: 获取PL800标准化之后的成员数据
+	 * @return Map<Integer,Double>
+	 * @throws
+	 */
+	@SuppressWarnings("unchecked")
+	public Map<Integer, Double> getPl800SimilaryData(UniObject uniObject, String lvl, String[] localFilePath)
+	{
+
+		Map<Integer, Double> map = new HashMap<Integer, Double>();
+		try
+		{
+			String path = localFilePath[0];
+			List<String> features = (List<String>)uniObject.getValue("pl850Feature");
+			String size = uniObject.getStringValue("pl850Size");
+			List<Map<Integer, Double>> lists = getSimilaryData(path,features,size,lvl);
+			if (lists.size() == 1)
+			{
+				map = lists.get(0);
+			}
+			else if (lists.size() ==2)
+			{
+				map = getFeatureAvg(lists.get(0), lists.get(1));
+			}
+		}
+		catch (Exception e)
+		{
+			logger.error("获取Pl800SimilaryData的数据异常 , 异常 : " + e);
+		}
+		
+		return map;
+	}
+	
+	/**
+	 * 
+	 * @Description: 获取sfc标准化之后的成员数据
+	 * @return Map<Integer,Double>
+	 * @throws
+	 */
+	@SuppressWarnings("unchecked")
+	public Map<Integer, Double> getSfcSimilaryData(UniObject uniObject, String lvl, String[] localFilePath)
+	{
+		Map<Integer, Double> map = new HashMap<Integer, Double>();
+		try
+		{
+			String path = localFilePath[1];
+			List<String> features = (List<String>)uniObject.getValue("sfcFeature");
+			String size = uniObject.getStringValue("sfcSize");
+			List<Map<Integer, Double>> lists = getSimilaryData(path,features,size,lvl);
+			if (lists.size() == 1)
+			{
+				map = lists.get(0);
+			}
+			else if (lists.size() ==2)
+			{
+				map = getFeatureAvg(lists.get(0), lists.get(1));
+			}
+		}
+		catch (Exception e)
+		{
+			logger.error("获取sfcSimilaryData的数据异常 , 异常 : " + e);
+		}
+		return map;
+	}
+	
+	/**
+	 * 
+	 * @Description: 不同要素的成员标准化之后求平均
+	 * @return Map<Integer,Double>
+	 * @throws
+	 */
+	private Map<Integer, Double> getFeatureAvg(Map<Integer, Double> map1, Map<Integer, Double> map2)
+	{
+
+		Map<Integer, Double> resultMap = null;
+		try
+		{
+			resultMap = new HashMap<Integer, Double>();
+			for (Integer integer : map1.keySet())
+			{
+				resultMap.put(integer, (map1.get(integer) + map2.get(integer))/2);
+			}
+		}
+		catch (Exception e)
+		{
+			logger.error("成员标准化平均异常 , 异常 : " + e);
+		}
+		
+		return resultMap;
+	}
+	
+	/**
+	 * 
+	 * @Description: 获取成员标准化之后的多要素数据
+	 * @return List<Map<Integer,Double>>
+	 * @throws
+	 */
+	public List<Map<Integer, Double>> getSimilaryData(String path , List<String> features , String size ,String lvl)
+	{
+		List<Map<Integer, Double>> lists = new ArrayList<Map<Integer,Double>>();
+		for (String feature : features)
+		{
+			/**************【获取nc成员数据】************/
+			Map<Integer, List<Double>> map = getNumberData(path,feature,size,lvl);
+			
+			/**************【每个成员平均数】*************/
+			Map<Integer, Double> avgMap = getNumberAvg(map);
+			
+			/**************【获取每个成员标准差】**********/
+			Map<Integer , Double> StandardMap = getNumberStandar(map,avgMap);
+			
+			/**************【标准化成员数据】*************/
+			Map<Integer, List<Double>> standNumberMap = getNumbStandardization(map,StandardMap,avgMap);
+			
+			
+			
+			/*************【获取平均场】****************/
+			List<Double> avgList = getAvgData(map);
+			
+			/**************【平均场平均数】**************/
+			double avgP = getAvg(avgList);
+			/**************【平均场标准差】**************/
+			double standardP = getAvgStandard(avgList , avgP);
+			
+			/**************【标准化平均场】***************/
+			List<Double> standListP = getAvgStandardization(avgList , avgP , standardP);
+			
+			/**************【计算每个成员和平均场之差】*******/
+			Map<Integer, List<Double >> chaMap = getDistance(standNumberMap,standListP);
+			
+			/**************【每个成员距离求平均数】*******/
+			Map<Integer, Double> standAvgMap = getNumberAvg(chaMap);
+			lists.add(standAvgMap);
+		}
+		
+		return lists;
+	}
+	
+	/**
+	 * 
+	 * @Description: 平均数
+	 * @return Map<Integer,Double>
+	 * @throws
+	 */
+	private Map<Integer, Double> getNumberAvg(Map<Integer, List<Double>> map)
+	{
+		//1. 成员平均数
+		Map<Integer, Double> avgMap = new HashMap<Integer, Double>();
+		try
+		{
+			for (int i = 0; i < map.size(); i++)
+			{
+				double sum = 0;
+				for (int j = 0; j < map.get(i).size(); j++)
+				{
+					sum += map.get(i).get(j);
+				}
+				double avg = sum / map.get(i).size();
+				avgMap.put(i, avg);
+			}
+		}
+		catch (Exception e)
+		{
+			logger.error("求平均数异常 , 异常 : " + e);
+		}
+		
+		return avgMap;
+	}
+	
+	/**
+	 * 
+	 * @Description: 每个成员和平均场距离
+	 * @return Map<Integer,List<Double>>
+	 * @throws
+	 */
+	private Map<Integer, List<Double>> getDistance(Map<Integer, List<Double>> standNumberMap, List<Double> standListP)
+	{
+		Map<Integer, List<Double >> chaMap = null;
+		try
+		{
+			chaMap = new HashMap<Integer, List<Double>>();
+			for (int i = 0; i < standNumberMap.size(); i++) //成员 
+			{
+				List<Double> list_cha = new ArrayList<Double>();
+				for (int j = 0; j < standNumberMap.get(i).size(); j++)
+				{
+					double tmp = standNumberMap.get(i).get(j) - standListP.get(j) ;
+					list_cha.add(Math.abs(tmp));
+				}
+				chaMap.put(i, list_cha);
+			}
+		}
+		catch (Exception e)
+		{
+			logger.error("计算平均场和成员距离时异常 , 异常 : " + e);
+		}
+		
+		return chaMap;
+	}
+
+	/**
+	 * 
+	 * @Description: 标准化平均场
+	 * @return List<Double>
+	 * @throws
+	 */
+	private List<Double> getAvgStandardization(List<Double> avgList, double avgP, double standardP)
+	{
+		List<Double> standListP = null;
+		try
+		{
+			standListP = new ArrayList<Double>();
+			for (int i = 0; i < avgList.size(); i++)
+			{
+				double standData = (avgList.get(i) - avgP)/ standardP;
+				standListP.add(standData);
+			}
+		}
+		catch (Exception e)
+		{
+			logger.error("标准化平均场异常 , 异常 : " + e);
+		}
+		return standListP;
+	}
+
+	/**
+	 * 
+	 * @Description: 平均场的平均数
+	 * @return double
+	 * @throws
+	 */
+	private double getAvg(List<Double> avgList)
+	{
+		double avgP = 0;
+		// 1.平均数
+		for (int i = 0; i < avgList.size(); i++)
+		{
+			avgP += avgList.get(i);
+		}
+		avgP = avgP / avgList.size();
+		
+		return avgP;
+	}
+
+	/**
+	 * 
+	 * @Description: 标准化成员数据
+	 * @return Map<Integer,List<Double>>
+	 * @throws
+	 */
+	private Map<Integer, List<Double>> getNumbStandardization(Map<Integer, List<Double>> map, Map<Integer, Double> standardMap,Map<Integer, Double> avgMap)
+	{
+		Map<Integer, List<Double>> standNumberMap = null;
+		try
+		{
+			standNumberMap = new HashMap<Integer, List<Double>>();
+			for (int i = 0; i < map.size(); i++)
+			{
+				List<Double> standList = new ArrayList<Double>();
+				for (int j = 0; j < map.get(i).size(); j++)
+				{
+					double standData = (map.get(i).get(j) - avgMap.get(i))/ standardMap.get(i);
+					standList.add(standData);
+				}
+				standNumberMap.put(i, standList);
+			}
+			
+		}
+		catch (Exception e)
+		{
+			logger.error("标准化成员数据异常 , 异常 : " + e);
+		}
+		return standNumberMap;
+	}
+
+	private double getAvgStandard(List<Double> avgList,double avgP)
+	{
+		double standardP = 0;
+		try
+		{
+			// 1.标准差
+			for (int i = 0; i < avgList.size(); i++)
+			{
+				standardP += Math.pow(avgList.get(i) - avgP,2);
+			}
+			standardP = Math.sqrt(standardP/avgList.size());
+		}
+		catch (Exception e)
+		{
+			logger.error("获取平均场标准差异常 , 异常 : " + e);
+		}
+		return standardP;
+	}
+
+	/**
+	 * 
+	 * @Description: 成员标准差
+	 * @return Map<Integer,Double>
+	 * @throws
+	 */
+	private Map<Integer, Double> getNumberStandar(Map<Integer, List<Double>> map,Map<Integer, Double> avgMap)
+	{
+		Map<Integer , Double> StandardMap = null;
+		try
+		{
+			
+			//2. 计算标准差 = ((x1 - x)^2 * (1/N) ) 开根号  （其中x是平均数）
+			// Math.pow(b,2);//表示b的平方
+			// Math.sqrt(b); //表示b开平方
+			StandardMap = new HashMap<Integer, Double>(); 
+			for (int i = 0; i < map.size(); i++)
+			{
+				double standard = 0;
+				for (int j = 0; j < map.get(i).size(); j++)
+				{
+					standard += Math.pow( map.get(i).get(j) - avgMap.get(i),2);
+				}
+				standard = standard/map.get(i).size();
+				StandardMap.put(i, Math.sqrt(standard));
+			}
+		}
+		catch (Exception e)
+		{
+			logger.error("获取成员标准差异常 , 异常 ： " + e);
+		}
+		
+		return StandardMap;
+	}
+
+	/**
+	 * 
+	 * @Description: 平均场
+	 * @return List<Double>
+	 * @throws
+	 */
+	public List<Double> getAvgData(Map<Integer, List<Double>> map)
+	{
+		List<Double> avgList = null;
+		try
+		{
+			avgList = new ArrayList<Double>();
+			int number = map.size();
+			int index = Integer.parseInt(map.keySet().toArray()[0].toString());
+			int length = map.get(index).size();
+			
+			for (int i = 0; i < length; i++)//4000
+			{
+				double sum = 0;
+				for (int j = 0; j < number; j++) // 成员
+				{
+					sum += map.get(j).get(i);
+				}
+				//平均数
+				sum = sum / number;
+				avgList.add(sum);
+			}
+		}
+		catch (Exception e)
+		{
+			logger.error("获取平均场数据异常 , 异常 ： " + e);
+		}
+		
+		return avgList;
+	}
+
+	/**
+	 * 
+	 * @Description: 获取目标文件的成员数据
+	 * @return Map<Integer,List<Double>>
+	 * @throws
+	 */
+	public synchronized Map<Integer, List<Double>> getNumberData(String path, String feature, String size,String lvl)
+	{
+		Map<Integer, List<Double>> map = null;
+		DatasetRaster dRasterR = null;
+		NetcdfFile netcdf = null;
+		Workspace ws = null;
+		try
+		{
+			map = new HashMap<Integer, List<Double>>();
+			netcdf = NetcdfFile.open(path);
+			Rectangle2D geoBounds = NetCDFUtil.getBounds(size);
+			Rectangle2D cellBounds = NetCDFUtil.getCellBounds(netcdf, geoBounds);
+			int startX = (int)cellBounds.getX();
+			int startY = (int)cellBounds.getY();
+			int enfX = (int) (startX + cellBounds.getWidth());
+			int enfY = (int) (startY + cellBounds.getHeight());
+			
+			ws = new Workspace();
+			// --------------------------------------------------------------------------------------------------------------------------------------------------------
+			// 栅格数据--格点数据
+			String str = MGutil.getDatasourceParameter("netCDF", "readNetCDF", path);
+			Datasource dSource = ws.OpenDatasource(str);
+			if (dSource == null) 
+			{
+				throw new MGException("Datasource null");
+			}
+			
+			String strMetadata;
+			JSONObject jsonObj;
+			String var;
+			int number;
+			String level;
+			for (int c = 0; c < dSource.GetDatasetCount(); c++) 
+			{
+				dRasterR = (DatasetRaster) dSource.GetDataset(c);
+
+				strMetadata = dRasterR.GetMetadata();
+				jsonObj = new JSONObject(strMetadata);
+				var = jsonObj.getString("NETCDF_VARNAME");
+				number = jsonObj.getInt("NETCDF_DIM_number");
+
+				level = jsonObj.getString("NETCDF_DIM_level");
+				if ("surface".equals(lvl)) 
+				{
+					if (!feature.equalsIgnoreCase(var))
+						continue;
+				} else
+				{
+					if (!(lvl.equals(level) && feature.equalsIgnoreCase(var)))
+						continue;
+				}
+				
+				/************【获取nc数据】*************/
+//					Map<Point2D, Float> vMap = new HashMap<Point2D, Float>();
+				List<Double> list = new ArrayList<Double>();
+//					Point2D point;
+				//栅格数据扫描线
+				Scanline sl = new Scanline(dRasterR.GetValueType(), dRasterR.GetWidth());
+
+				dRasterR.Open();
+				// *******循环y(lat)
+				//
+				//
+				for (int n = 0; n < dRasterR.GetHeight(); n++) {
+					if(n >= startY && n < enfY)
+					{
+						dRasterR.GetScanline(0, n, sl);//根据行列获取扫描线
+						for (int j = 0; j < sl.GetValueCount(); j++) {
+							if(j >= startX && j < enfX)//判断是否在范围
+							{
+								double v = sl.GetValue(j);
+//									point = new Point2D.Float();
+//									point.setLocation(j, n);
+//									vMap.put(point, (float) v);
+								list.add(v);
+							}
+						}
+					}
+				}
+				map.put(number, list);
+			}
+		}
+		catch (Exception e)
+		{
+			logger.error("使用组件获取" + path + "数据异常 , 异常 : " + e);
+		}
+		finally
+		{
+			try
+			{
+				if (dRasterR != null)
+				{
+					dRasterR.Close();
+				}
+				if (netcdf != null)
+				{
+					netcdf.close();
+				}
+				if (ws != null)
+				{
+					ws.CloseDatasource("readNetCDF");
+				}
+			}
+			catch (IOException e)
+			{
+				logger.error("关闭资源异常 , 异常 ： " + e);
+			}
+		}
+		return map;
+	}
+	/**
+	 * 
+	 * @Description: 获取nc文件中的数据(范围 ， 格距 ，x ，y)
+	 * @return void
+	 * @throws
+	 */
+	private synchronized void getNetcdfData(UniObject uniObject, NetcdfFile netcdf)
+	{
+		String size = NetCDFUtil.getSize(netcdf);
+		float dx = NetCDFUtil.getDxy(netcdf , "longitude");
+		float dy = NetCDFUtil.getDxy(netcdf , "latitude");
+//		int time = NetCDFUtil.getTime(netcdf);
+		
+		uniObject.setStringValue("size", size);
+		uniObject.setFloatValue("dx", dx);
+		uniObject.setFloatValue("dy", dy);
+//		uniObject.setIntegerValue("time", time);
+	}
+	/**
+	 * 
+	 * @Description: 3h降水 (后 - 前)
+	 * @return Map<Integer, Map<Point2D, Double>> <成员 , Map<格点 , 降水量>>
+	 * @throws
+	 */
+	public Map<Integer, Map<Point2D, Double>> get3hRainData(Map<Integer, Map<Point2D, Double>> rainSumMap, Map<Integer, Map<Point2D, Double>> rainTempMap)
+	{
+		Map<Integer, Map<Point2D, Double>> resultMap = new HashMap<Integer, Map<Point2D,Double>>();
+		try
+		{
+			for (Integer integer : rainSumMap.keySet())
+			{
+				Map<Point2D, Double> tmpMap = new HashMap<Point2D, Double>();
+				for (Point2D point : rainSumMap.get(integer).keySet())
+				{
+					//rainTempMap == null 前一个时效的数据为空
+					if (rainTempMap != null)
+					{
+						tmpMap.put(point,rainSumMap.get(integer).get(point) - rainTempMap.get(integer).get(point));
+					}
+					else
+					{
+						tmpMap.put(point,rainSumMap.get(integer).get(point) - 0.0);
+					}
+				}
+				resultMap.put(integer, tmpMap);
+			}
+		}
+		catch (Exception e)
+		{
+			logger_p.error("获取每3h降水异常 , 异常 : " + e);
+		}
+		
+		return resultMap;
+	}
+	
+	public Map<Point2D, Double> getAvgData(Map<Integer, Map<Point2D, Double>> bestMap, LinkedHashMap<Integer, Double> bestNumberMap)
+	{
+		Map<Point2D, Double> tmpMap = null;
+		try
+		{
+			tmpMap = new HashMap<Point2D, Double>();
+			int number = bestMap.size();
+			int index = Integer.parseInt(bestMap.keySet().toArray()[0].toString());
+			for (Point2D point : bestMap.get(index).keySet())
+			{
+				double sum = 0;
+				for (Integer integer : bestMap.keySet())
+				{
+					sum += bestMap.get(integer).get(point);
+				}
+				//平均数
+				sum = sum / number;
+				tmpMap.put(point, sum);
+			}
+		}
+		catch (Exception e)
+		{
+			logger_p.error("获取最优成员3h降水平均异常 , 异常 : " + e);
+		}
+		return tmpMap;
+	}
+	/**
+	 * @Description: 获取降水成员数据
+	 * @return Map<Integer,Map<Point,Double>>
+	 * @throws
+	 */
+	public synchronized Map<Integer, Map<Point2D, Double>> getNumberRainData(UniObject uniObject , String path, String feature, String size, String lvl,LinkedHashMap<Integer, Double> bestNumber)
+	{
+		Map<Integer, Map<Point2D, Double>> map = null;
+		DatasetRaster dRasterR = null;
+		NetcdfFile netcdf = null;
+		Datasource dSource = null;
+		Workspace ws = null;
+		try
+		{
+			map = new HashMap<Integer, Map<Point2D, Double>>();
+			netcdf = NetcdfFile.open(path);
+			//获取nc数据 -- 范围  格距 
+			getNetcdfData(uniObject, netcdf);
+			
+			Rectangle2D geoBounds = NetCDFUtil.getBounds(size);
+			Rectangle2D cellBounds = NetCDFUtil.getCellBounds(netcdf, geoBounds);
+			int startX = (int)cellBounds.getX();
+			int startY = (int)cellBounds.getY();
+			int enfX = (int) (startX + cellBounds.getWidth());
+			int enfY = (int) (startY + cellBounds.getHeight());
+			
+			ws = new Workspace();
+			// --------------------------------------------------------------------------------------------------------------------------------------------------------
+			// 栅格数据--格点数据
+			String str = MGutil.getDatasourceParameter("netCDF", "readNetCDF", path);
+			dSource = ws.OpenDatasource(str);
+			if (dSource == null) 
+			{
+				throw new MGException("Datasource null");
+			}
+			
+			String strMetadata;
+			JSONObject jsonObj;
+			String var;
+			int number;
+			String level;
+			for (int c = 0; c < dSource.GetDatasetCount(); c++) 
+			{
+				dRasterR = (DatasetRaster) dSource.GetDataset(c);
+
+				strMetadata = dRasterR.GetMetadata();
+				jsonObj = new JSONObject(strMetadata);
+				var = jsonObj.getString("NETCDF_VARNAME");
+				number = jsonObj.getInt("NETCDF_DIM_number");
+
+				level = jsonObj.getString("NETCDF_DIM_level");
+				if ("surface".equals(lvl)) 
+				{
+					if (!feature.equalsIgnoreCase(var))
+						continue;
+				} else
+				{
+					if (!(lvl.equals(level) && feature.equalsIgnoreCase(var) && bestNumber.containsKey(number)))
+						continue;
+				}
+				
+				/************【获取nc数据】*************/
+				Map<Point2D, Double> vMap = new HashMap<Point2D, Double>();
+					Point2D point;
+				//栅格数据扫描线
+				Scanline sl = new Scanline(dRasterR.GetValueType(), dRasterR.GetWidth());
+
+				dRasterR.Open();
+				// *******循环y(lat)
+				//
+				// TODO 过滤是否在范围中 
+				//
+				for (int n = 0; n < dRasterR.GetHeight(); n++) {
+					if(n >= startY && n < enfY)
+					{
+						dRasterR.GetScanline(0, n, sl);//根据行列获取扫描线
+						for (int j = 0; j < sl.GetValueCount(); j++) {
+							if(j >= startX && j < enfX)//判断是否在范围
+							{
+								double v = sl.GetValue(j) * 1000;
+									point = new Point2D.Float();
+									point.setLocation(j, n);
+									vMap.put(point,  v);
+//								list.add(v);
+							}
+						}
+					}
+				}
+				map.put(number, vMap);
+			}
+		}
+		catch (Exception e)
+		{
+			logger_p.error("使用组件获取" + path + "降水数据异常 , 异常 : " + e);
+		}
+		finally
+		{
+			try
+			{
+				if(dRasterR != null)
+				{
+					dRasterR.Close();
+				}
+				if (netcdf != null)
+				{
+					netcdf.close();
+				}
+				if (ws != null)
+				{
+					ws.CloseDatasource("readNetCDF");
+				}
+			}
+			catch (IOException e)
+			{
+				logger.error("关闭资源异常 , 异常 ： " + e);
+			}
+		}
+		
+		return map;
+	}
+	/**
+	 * 
+	 * @Description: 获取文件的预报时间
+	 * @return int
+	 * @throws
+	 */
+	public synchronized int getForcastTime(String path)
+	{
+		int time = 0;
+		NetcdfFile netcdf = null;
+		try
+		{
+			netcdf = NetcdfFile.open(path);
+			time = NetCDFUtil.getTime(netcdf);
+		}
+		catch (IOException e)
+		{
+			logger.error("获取Time变量异常 , 异常 : " + e);
+		}
+		finally
+		{
+			try
+			{
+				if (netcdf != null)
+				{
+					netcdf.close();
+				}
+			}
+			catch (IOException e)
+			{
+				logger.error("关闭NetcdfFile对象异常 ， 异常 : " + e);
+			}
+		}
+		return time;
+	}
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rain>
+	<ER12>
+		<step1>0-60-3</step1>
+		<step2>60-240-6</step2>
+	</ER12>
+	<ER24>
+		<step1>0-60-3</step1>
+		<step2>60-240-6</step2>
+	</ER24>
+</rain>
+

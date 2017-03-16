@@ -1,0 +1,258 @@
+package com.supermap.gwfs.rainproduct.util;
+
+import java.awt.geom.Rectangle2D;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import ucar.ma2.Array;
+import ucar.nc2.NetcdfFile;
+import ucar.nc2.Variable;
+
+/**  
+ * @Description: 处理nc类型数据
+ * @author zhoujian
+ * @date 2016-10-21
+ * @version V1.0 
+ */
+public class NetCDFUtil
+{
+	
+	/**
+	 * 获取范围
+	 * @param size
+	 * @return
+	 */
+	public static Rectangle2D getBounds(String size) {
+		Rectangle2D bounds = new Rectangle2D.Float();
+		String[] str = size.split(",");
+		List<Float> flos = new ArrayList<Float>();
+		for (int i = 0; i < str.length; i++) {
+			flos.add(Float.parseFloat(str[i]));
+		}
+		bounds.setRect(flos.get(0), flos.get(2), flos.get(1) - flos.get(0), flos.get(3) - flos.get(2));
+		return bounds;
+	}
+	
+	/**
+	 *  地理范围-->栅格范围
+	 * @param netcdfFile
+	 * @param geoBounds
+	 * @return
+	 */
+	public static Rectangle2D getCellBounds(NetcdfFile netcdfFile, Rectangle2D geoBounds) {
+		Rectangle2D cellBounds = new Rectangle2D.Float();
+		Variable latVar = getLat(netcdfFile);
+		Variable lonVar = getLon(netcdfFile);
+		float startX = (float) geoBounds.getX(), startY = (float) geoBounds.getY(), endX = (float) (startX + geoBounds.getWidth()), endY = (float) (startY + geoBounds.getHeight());
+		//裁切lon后的startx坐标是在原始坐标集合的下标，裁切结束的endx坐标是在原始坐标集合的下标  CellEndX - cellStartX + 1 = lon开始到结束的格子数
+		int cellStartX = getIndex(lonVar, startX), CellEndX = getIndex(lonVar, endX);
+		//裁切lat后的starty在原始坐标集合的下标，endy在原始坐标集合中的下标 cellStartY - CellEndY + 1 = lat开始到结束的格子数
+		int cellStartY = getIndex(latVar, startY), CellEndY = getIndex(latVar, endY);
+		
+		cellBounds.setRect(cellStartX, cellStartY, CellEndX - cellStartX + 1, CellEndY - cellStartY + 1);
+		return cellBounds;
+	}
+	/**
+	 * @Description: 纬度
+	 * @return Variable
+	 * @throws
+	 */
+	public static Variable getLat(NetcdfFile ncfile) {
+		Variable latVar = ncfile.findVariable("latitude");
+		return latVar;
+	}
+	/**
+	 * @Description: 经度
+	 * @return Variable
+	 * @throws
+	 */
+	public static Variable getLon(NetcdfFile ncfile) {
+		Variable lonVar = ncfile.findVariable("longitude");
+		return lonVar;
+	}
+	
+	
+	/**
+	 * @Description: 获取level在原始nc中的下标
+	 * @param @param cfFile
+	 * @param @param list  裁切的层list
+	 * @param @return
+	 * @return List<Integer>
+	 * @throws
+	 */
+	public static List<Integer> getLevelIndex(NetcdfFile cfFile, List<String> list) {
+		List<Integer> indexsList = new ArrayList<Integer>();
+		Variable lvlVar = cfFile.findVariable("level");
+		for (String lvl : list) {
+			int index = getIndex(lvlVar, Integer.parseInt(lvl));
+			indexsList.add(index);
+		}
+		return indexsList;
+	}
+	
+	/**
+	 * 
+	 * @Description: 获取参数i在原始nc中的下标
+	 * @return int
+	 * @throws
+	 */
+	public static int getIndex(Variable var, float i) {
+		int index = 0;
+		try {
+			Array array = var.read();
+			List<Float> list = asFloatList(array);
+			return list.indexOf(i);
+		} catch (IOException e) {
+			index = -1;
+		}
+		return index;
+	}
+	/**
+	 * @Description: 获取i在原始nc中的下标
+	 * @return int
+	 * @throws
+	 */
+	public static int getIndex(Variable var, int i) {
+		int index = 0;
+		try {
+			Array array = var.read();
+			List<Integer> list = asIntList(array);
+			return list.indexOf(i);
+		} catch (IOException e) {
+			index = -1;
+		}
+		return index;
+	}
+	/**
+	 * @Description: Array --> List<Integer>
+	 * @return List<Integer>
+	 * @throws
+	 */
+	private static List<Integer> asIntList(Array array) {
+		int[] arrjava = (int[]) array.copyTo1DJavaArray();
+		return asList(arrjava);
+	}
+
+	/**
+	 * @Description: Array --> List<Float>
+	 * @return List<Float>
+	 * @throws
+	 */
+	private static List<Float> asFloatList(Array array) {
+		float[] arrjava = (float[]) array.copyTo1DJavaArray();
+		return asList(arrjava);
+	}
+	/**
+	 * @Description: int[] --> List<Integer>
+	 * @return List<Integer>
+	 * @throws
+	 */
+	public static List<Integer> asList(int[] arr) {
+		List<Integer> list = new ArrayList<Integer>();
+		for (int i : arr) {
+			list.add(i);
+		}
+		return list;
+	}
+	/**
+	 * @Description: float[] --> List<Float>
+	 * @return List<Float>
+	 * @throws
+	 */
+	public static List<Float> asList(float[] arr) {
+		List<Float> list = new ArrayList<Float>();
+		for (float f : arr) {
+			list.add(f);
+		}
+		return list;
+	}
+	/**
+	 * @Description: 获取成员在原始nc中下标
+	 * @return List<Integer>
+	 * @throws
+	 */
+	public static List<Integer> getNumberIndex(NetcdfFile ncFile) {
+		List<Integer> indexsList = new ArrayList<Integer>();
+		Variable numVar = ncFile.findVariable("number");
+		for (int i = 1; i <= 50; i++) {
+			int index = getIndex(numVar, i);
+			indexsList.add(index);
+		}
+
+		return indexsList;
+	}
+	
+	/**
+	 * 
+	 * @Description: 获取nc数据中原始范围
+	 * @return String
+	 * @throws
+	 */
+	public static String getSize(NetcdfFile netcdf)
+	{
+		StringBuffer size = new StringBuffer();
+		try
+		{
+			Variable lonVar = netcdf.findVariable("longitude");
+			Array lonValues =  lonVar.read();
+			float[] data_lon = (float[])lonValues.copyTo1DJavaArray();
+			float startLon = data_lon[0];
+			float endLon = data_lon[data_lon.length - 1];
+			
+			Variable latVar = netcdf.findVariable("latitude");
+			Array latValues =  latVar.read();
+			float[] data_lat = (float[])latValues.copyTo1DJavaArray();
+			float startLat = data_lat[0];
+			float endLat = data_lat[data_lat.length - 1];
+			
+			size.append(startLon).append(",").append(endLon).append(",").append(startLat).append(",").append(endLat);
+		}
+		catch (IOException e)
+		{
+			e.printStackTrace();
+		}
+		return size.toString();
+	}
+
+	public static float getDxy(NetcdfFile netcdf, String dim)
+	{
+		float dxy = 0f;
+		try
+		{
+			Variable Var = netcdf.findVariable("longitude");
+			Array Values =  Var.read();
+			float[] data = (float[])Values.copyTo1DJavaArray();
+			float start = data[0];
+			float end = data[1];
+			dxy = end - start;
+		}
+		catch (IOException e)
+		{
+			e.printStackTrace();
+		}
+		return dxy;
+	}
+	
+	/**
+	 * 
+	 * @Description: nc中的time
+	 * @return int
+	 * @throws
+	 */
+	public static int getTime(NetcdfFile netcdf)
+	{
+		int time = 0 ;
+		try
+		{
+			Variable Var = netcdf.findVariable("time");
+			Array values =  Var.read();
+			time = values.getInt(0);
+		}
+		catch (IOException e)
+		{
+			e.printStackTrace();
+		}
+		return time;
+	}
+}

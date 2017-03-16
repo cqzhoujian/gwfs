@@ -1,0 +1,53 @@
+package com.supermap.gwfs.rainproduct.handler;
+
+import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+import com.supermap.commons.logging.Logger;
+import com.supermap.commons.logging.factory.LoggerFactory;
+import com.supermap.disruptor.event.UniEvent;
+import com.supermap.disruptor.handler.IHandler;
+import com.supermap.gcpp.core.common.UniObject;
+import com.supermap.gwfs.rainproduct.correction.CustomCorrection;
+
+/**  
+ * @Description: 降水客观订正Handler
+ * @author zhoujian
+ * @date 2016-10-31
+ * @version V1.0 
+ */
+public class CustomHandler_12 implements IHandler
+{
+	private Logger logger = LoggerFactory.getLogger("CustomHandler");
+	private CustomCorrection corrThread;
+	private ExecutorService pool = Executors.newFixedThreadPool(2);
+	@SuppressWarnings("unchecked")
+	@Override
+	public void onEvent(UniEvent event, long sequence, boolean endOfBatch) throws Exception
+	{
+		Object value = event.getValue();
+		try
+		{
+			if (value instanceof UniObject)
+			{
+				UniObject parameter = (UniObject)value;
+				String time = parameter.getStringValue("time");
+				String timeSequrence = parameter.getStringValue("timeSequnce");
+				List<String> timeValid = (List<String>)parameter.getValue("timeValids");
+				logger.info("调用降水客观订正参数 : " + parameter);
+				for (int i = 0; i < timeValid.size();i++)
+				{
+					logger.info("准备创建 " + timeValid.get(i) + " 时效的降水对象");
+					corrThread = new CustomCorrection(time, timeSequrence, timeValid.get(i));
+					logger.info(time + " " + timeSequrence + " " + timeValid + " Thread: " + corrThread);
+					pool.execute(corrThread);
+				}
+			}
+		}
+		catch (Exception e)
+		{
+			logger.error("CorrectionHandler 异常 , 异常 : " + e);
+		}
+	}
+}

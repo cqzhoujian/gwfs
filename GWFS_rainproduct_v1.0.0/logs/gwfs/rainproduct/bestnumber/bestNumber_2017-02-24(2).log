@@ -1,0 +1,864 @@
+2017-02-24 11:49:59 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@18fa2b54
+2017-02-24 11:49:59 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@5032a49b
+2017-02-24 11:50:03 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_90.nc 文件下载成功!
+2017-02-24 11:50:04 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_90.nc 文件下载成功!
+2017-02-24 11:50:04 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_90.nc 文件下载成功!
+2017-02-24 11:50:04 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_84.nc 文件下载成功!
+2017-02-24 11:50:05 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:50:06 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:50:06 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:50:06 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@30cf0c95
+2017-02-24 11:50:06 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@6943233b
+2017-02-24 11:50:10 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_96.nc 文件下载成功!
+2017-02-24 11:50:11 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_96.nc 文件下载成功!
+2017-02-24 11:50:12 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_96.nc 文件下载成功!
+2017-02-24 11:50:12 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_90.nc 文件下载成功!
+2017-02-24 11:50:13 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:50:14 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:50:14 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:50:14 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@1ec7f146
+2017-02-24 11:50:14 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@58b13a73
+2017-02-24 11:50:18 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_102.nc 文件下载成功!
+2017-02-24 11:50:19 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_102.nc 文件下载成功!
+2017-02-24 11:50:19 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_102.nc 文件下载成功!
+2017-02-24 11:50:19 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_96.nc 文件下载成功!
+2017-02-24 11:50:20 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:50:21 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:50:21 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:50:21 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@36592246
+2017-02-24 11:50:21 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@15d93d8a
+2017-02-24 11:50:25 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_108.nc 文件下载成功!
+2017-02-24 11:50:27 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_108.nc 文件下载成功!
+2017-02-24 11:50:27 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_108.nc 文件下载成功!
+2017-02-24 11:50:27 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_102.nc 文件下载成功!
+2017-02-24 11:50:28 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:50:29 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:50:29 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:50:29 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@476fab3a
+2017-02-24 11:50:29 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@74529179
+2017-02-24 11:50:33 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_114.nc 文件下载成功!
+2017-02-24 11:50:34 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_114.nc 文件下载成功!
+2017-02-24 11:50:34 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_114.nc 文件下载成功!
+2017-02-24 11:50:34 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_108.nc 文件下载成功!
+2017-02-24 11:50:35 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:50:36 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:50:36 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:50:36 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@5e3597e0
+2017-02-24 11:50:36 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@10862372
+2017-02-24 11:50:40 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_120.nc 文件下载成功!
+2017-02-24 11:50:41 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_120.nc 文件下载成功!
+2017-02-24 11:50:42 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_120.nc 文件下载成功!
+2017-02-24 11:50:42 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_114.nc 文件下载成功!
+2017-02-24 11:50:43 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:50:44 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:50:44 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:50:44 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@7acd3730
+2017-02-24 11:50:44 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@36e26f4c
+2017-02-24 11:50:48 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_126.nc 文件下载成功!
+2017-02-24 11:50:49 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_126.nc 文件下载成功!
+2017-02-24 11:50:50 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_126.nc 文件下载成功!
+2017-02-24 11:50:50 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_120.nc 文件下载成功!
+2017-02-24 11:50:51 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:50:52 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:50:52 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:50:52 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@520dab41
+2017-02-24 11:50:52 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@7f66627c
+2017-02-24 11:50:56 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_132.nc 文件下载成功!
+2017-02-24 11:50:58 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_132.nc 文件下载成功!
+2017-02-24 11:50:58 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_132.nc 文件下载成功!
+2017-02-24 11:50:58 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_126.nc 文件下载成功!
+2017-02-24 11:50:59 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:51:00 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:51:00 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:51:00 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@3cd072cc
+2017-02-24 11:51:00 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@1920ce45
+2017-02-24 11:51:05 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_138.nc 文件下载成功!
+2017-02-24 11:51:07 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_138.nc 文件下载成功!
+2017-02-24 11:51:07 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_138.nc 文件下载成功!
+2017-02-24 11:51:07 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_132.nc 文件下载成功!
+2017-02-24 11:51:08 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:51:09 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:51:09 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:51:09 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@34a9ae6c
+2017-02-24 11:51:09 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@6ffa4f76
+2017-02-24 11:51:13 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_144.nc 文件下载成功!
+2017-02-24 11:51:14 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_144.nc 文件下载成功!
+2017-02-24 11:51:14 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_144.nc 文件下载成功!
+2017-02-24 11:51:14 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_138.nc 文件下载成功!
+2017-02-24 11:51:15 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:51:17 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:51:17 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:51:17 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@5abdbef3
+2017-02-24 11:51:17 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@5f43720f
+2017-02-24 11:51:20 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_150.nc 文件下载成功!
+2017-02-24 11:51:22 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_150.nc 文件下载成功!
+2017-02-24 11:51:22 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_150.nc 文件下载成功!
+2017-02-24 11:51:22 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_144.nc 文件下载成功!
+2017-02-24 11:51:23 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:51:24 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:51:24 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:51:24 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@6db196c3
+2017-02-24 11:51:24 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@26211478
+2017-02-24 11:51:28 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_156.nc 文件下载成功!
+2017-02-24 11:51:30 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_156.nc 文件下载成功!
+2017-02-24 11:51:30 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_156.nc 文件下载成功!
+2017-02-24 11:51:30 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_150.nc 文件下载成功!
+2017-02-24 11:51:31 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:51:32 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:51:32 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:51:32 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@621bc141
+2017-02-24 11:51:32 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@c2cc4b9
+2017-02-24 11:51:36 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_162.nc 文件下载成功!
+2017-02-24 11:51:37 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_162.nc 文件下载成功!
+2017-02-24 11:51:38 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_162.nc 文件下载成功!
+2017-02-24 11:51:38 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_156.nc 文件下载成功!
+2017-02-24 11:51:39 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:51:40 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:51:40 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:51:40 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@2e7167d3
+2017-02-24 11:51:40 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@17576577
+2017-02-24 11:51:43 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_168.nc 文件下载成功!
+2017-02-24 11:51:45 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_168.nc 文件下载成功!
+2017-02-24 11:51:45 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_168.nc 文件下载成功!
+2017-02-24 11:51:45 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_162.nc 文件下载成功!
+2017-02-24 11:51:46 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:51:47 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:51:47 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:51:47 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@7c2ee528
+2017-02-24 11:51:47 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@6ac6e4c9
+2017-02-24 11:51:51 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_174.nc 文件下载成功!
+2017-02-24 11:51:52 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_174.nc 文件下载成功!
+2017-02-24 11:51:53 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_174.nc 文件下载成功!
+2017-02-24 11:51:53 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_168.nc 文件下载成功!
+2017-02-24 11:51:54 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:51:55 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:51:55 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:51:55 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@4b30bda1
+2017-02-24 11:51:55 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@6cf1bb97
+2017-02-24 11:51:59 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_180.nc 文件下载成功!
+2017-02-24 11:52:01 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_180.nc 文件下载成功!
+2017-02-24 11:52:01 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_180.nc 文件下载成功!
+2017-02-24 11:52:01 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_174.nc 文件下载成功!
+2017-02-24 11:52:02 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:52:03 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:52:03 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:52:03 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@315ca356
+2017-02-24 11:52:03 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@38e77c6b
+2017-02-24 11:52:07 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_186.nc 文件下载成功!
+2017-02-24 11:52:08 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_186.nc 文件下载成功!
+2017-02-24 11:52:09 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_186.nc 文件下载成功!
+2017-02-24 11:52:09 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_180.nc 文件下载成功!
+2017-02-24 11:52:10 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:52:11 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:52:11 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:52:11 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@3eb6e875
+2017-02-24 11:52:11 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@5a57797d
+2017-02-24 11:52:15 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_192.nc 文件下载成功!
+2017-02-24 11:52:16 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_192.nc 文件下载成功!
+2017-02-24 11:52:16 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_192.nc 文件下载成功!
+2017-02-24 11:52:16 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_186.nc 文件下载成功!
+2017-02-24 11:52:17 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:52:19 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:52:19 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:52:19 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@2d08518a
+2017-02-24 11:52:19 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@7d21521e
+2017-02-24 11:52:23 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_198.nc 文件下载成功!
+2017-02-24 11:52:25 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_198.nc 文件下载成功!
+2017-02-24 11:52:25 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_198.nc 文件下载成功!
+2017-02-24 11:52:25 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_192.nc 文件下载成功!
+2017-02-24 11:52:26 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:52:27 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:52:27 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:52:27 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@260e3c62
+2017-02-24 11:52:27 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@709e5972
+2017-02-24 11:52:31 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_204.nc 文件下载成功!
+2017-02-24 11:52:32 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_204.nc 文件下载成功!
+2017-02-24 11:52:32 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_204.nc 文件下载成功!
+2017-02-24 11:52:33 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_198.nc 文件下载成功!
+2017-02-24 11:52:33 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:52:35 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:52:35 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:52:35 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@70ecec70
+2017-02-24 11:52:35 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@5296e6fb
+2017-02-24 11:52:39 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_210.nc 文件下载成功!
+2017-02-24 11:52:40 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_210.nc 文件下载成功!
+2017-02-24 11:52:40 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_210.nc 文件下载成功!
+2017-02-24 11:52:40 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_204.nc 文件下载成功!
+2017-02-24 11:52:41 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:52:42 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:52:42 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:52:42 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@4527ed62
+2017-02-24 11:52:42 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@4051e066
+2017-02-24 11:52:46 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_216.nc 文件下载成功!
+2017-02-24 11:52:48 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_216.nc 文件下载成功!
+2017-02-24 11:52:48 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_216.nc 文件下载成功!
+2017-02-24 11:52:48 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_210.nc 文件下载成功!
+2017-02-24 11:52:49 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:52:50 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:52:50 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:52:50 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@21e49af2
+2017-02-24 11:52:50 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@27789740
+2017-02-24 11:52:54 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_222.nc 文件下载成功!
+2017-02-24 11:52:56 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_222.nc 文件下载成功!
+2017-02-24 11:52:56 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_222.nc 文件下载成功!
+2017-02-24 11:52:56 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_216.nc 文件下载成功!
+2017-02-24 11:52:57 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:52:58 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:52:58 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:52:58 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@29b26cac
+2017-02-24 11:52:58 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@fca597
+2017-02-24 11:53:03 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_228.nc 文件下载成功!
+2017-02-24 11:53:04 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_228.nc 文件下载成功!
+2017-02-24 11:53:04 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_228.nc 文件下载成功!
+2017-02-24 11:53:05 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_222.nc 文件下载成功!
+2017-02-24 11:53:06 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:53:07 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:53:07 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:53:07 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@71aceb36
+2017-02-24 11:53:07 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@f866088
+2017-02-24 11:53:11 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_234.nc 文件下载成功!
+2017-02-24 11:53:12 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_234.nc 文件下载成功!
+2017-02-24 11:53:12 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_234.nc 文件下载成功!
+2017-02-24 11:53:12 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_228.nc 文件下载成功!
+2017-02-24 11:53:13 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 11:53:14 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 11:53:14 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 11:53:14 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@3cd8f154
+2017-02-24 11:53:14 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@46cbe101
+2017-02-24 11:53:18 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_240.nc 文件下载成功!
+2017-02-24 11:53:19 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_240.nc 文件下载成功!
+2017-02-24 11:53:20 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_240.nc 文件下载成功!
+2017-02-24 11:53:20 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_234.nc 文件下载成功!
+2017-02-24 11:53:21 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-24 15:53:10 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 15:53:10 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 15:53:10 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@4e8aa935
+2017-02-24 15:53:10 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@716afedb
+2017-02-24 15:53:13 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_15.nc 文件下载成功!
+2017-02-24 15:53:14 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_15.nc 文件下载成功!
+2017-02-24 15:53:15 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_15.nc 文件下载成功!
+2017-02-24 15:53:15 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_12.nc 文件下载成功!
+2017-02-24 16:07:39 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 16:07:53 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:57)
+[BestNumber:INFO] D:/mnt/data/local/origin/ecmwf/ER03/20170222/20/15 目录创建成功 ！
+2017-02-24 16:09:32 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:175)
+[BestNumber:ERROR] 删除 20170222 文件异常  , 异常 : java.lang.NumberFormatException: For input string: "ecmwf"
+2017-02-24 16:11:34 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 16:12:06 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:76)
+[BestNumber:ERROR] 获取最优成员异常 , 异常 : java.lang.NullPointerException
+2017-02-24 16:13:57 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 16:17:10 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-24 16:17:37 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:170)
+[BestNumber:INFO] 删除 20170210 时间的数据
+2017-02-24 16:17:37 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  delFiles  (line:170)
+[BestNumber:INFO] 删除 20170220 时间的数据
+2017-02-24 16:17:37 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@13440bd8
+2017-02-24 16:17:37 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@58659bc9
+2017-02-24 16:17:41 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_pl_20170222_20_15.nc 文件下载成功!
+2017-02-24 16:17:42 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_1_20170222_20_15.nc 文件下载成功!
+2017-02-24 16:17:43 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_15.nc 文件下载成功!
+2017-02-24 16:17:43 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170222/20/ECWMF_sfc_2_20170222_20_12.nc 文件下载成功!
+2017-02-24 16:17:44 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-02-27 09:03:43 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-27 09:04:33 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-02-27 09:04:59 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:57)
+[BestNumber:INFO] D:/mnt/data/local/origin/ecmwf/ER03/20170222/20/0/15 目录创建成功 ！
+2017-03-06 12:02:47 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-06 12:02:47 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:57)
+[BestNumber:INFO] D:/mnt/data/local/origin/ecmwf/ER03/20170305/20/0/15 目录创建成功 ！
+2017-03-06 12:02:47 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@201a9109
+2017-03-06 12:02:47 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@3027f656
+2017-03-06 12:02:51 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:02:53 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_1_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:02:53 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:02:53 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_12.nc 文件下载成功!
+2017-03-06 12:02:54 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-03-06 12:02:55 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-06 12:02:55 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:57)
+[BestNumber:INFO] D:/mnt/data/local/origin/ecmwf/ER03/20170305/20/0/18 目录创建成功 ！
+2017-03-06 12:02:55 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@414ad9fb
+2017-03-06 12:02:55 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@192d0f3a
+2017-03-06 12:02:59 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_18.nc 文件下载成功!
+2017-03-06 12:03:00 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_1_20170305_20_18.nc 文件下载成功!
+2017-03-06 12:03:00 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_18.nc 文件下载成功!
+2017-03-06 12:03:00 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:03:01 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-03-06 12:03:01 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-06 12:03:01 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:57)
+[BestNumber:INFO] D:/mnt/data/local/origin/ecmwf/ER03/20170305/20/0/21 目录创建成功 ！
+2017-03-06 12:03:01 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@658c349c
+2017-03-06 12:03:01 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@57d221d9
+2017-03-06 12:03:05 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_21.nc 文件下载成功!
+2017-03-06 12:03:06 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_1_20170305_20_21.nc 文件下载成功!
+2017-03-06 12:03:06 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_21.nc 文件下载成功!
+2017-03-06 12:03:06 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_18.nc 文件下载成功!
+2017-03-06 12:03:07 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-03-06 12:03:07 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-06 12:03:07 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:57)
+[BestNumber:INFO] D:/mnt/data/local/origin/ecmwf/ER03/20170305/20/0/24 目录创建成功 ！
+2017-03-06 12:03:07 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@573db55e
+2017-03-06 12:03:07 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@144e5b11
+2017-03-06 12:03:11 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_24.nc 文件下载成功!
+2017-03-06 12:03:13 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_1_20170305_20_24.nc 文件下载成功!
+2017-03-06 12:03:13 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_24.nc 文件下载成功!
+2017-03-06 12:03:13 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_21.nc 文件下载成功!
+2017-03-06 12:03:14 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-03-06 12:03:14 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-06 12:03:14 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:57)
+[BestNumber:INFO] D:/mnt/data/local/origin/ecmwf/ER03/20170305/20/0/27 目录创建成功 ！
+2017-03-06 12:03:14 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@50dbcaa4
+2017-03-06 12:03:14 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@dd4fe75
+2017-03-06 12:03:18 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_27.nc 文件下载成功!
+2017-03-06 12:03:20 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_1_20170305_20_27.nc 文件下载成功!
+2017-03-06 12:03:20 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_27.nc 文件下载成功!
+2017-03-06 12:03:20 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_24.nc 文件下载成功!
+2017-03-06 12:03:21 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-03-06 12:03:21 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-06 12:03:21 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:57)
+[BestNumber:INFO] D:/mnt/data/local/origin/ecmwf/ER03/20170305/20/0/30 目录创建成功 ！
+2017-03-06 12:03:21 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@173b1ec3
+2017-03-06 12:03:21 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@2a60a01f
+2017-03-06 12:03:25 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_30.nc 文件下载成功!
+2017-03-06 12:03:26 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_1_20170305_20_30.nc 文件下载成功!
+2017-03-06 12:03:27 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_30.nc 文件下载成功!
+2017-03-06 12:03:27 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_27.nc 文件下载成功!
+2017-03-06 12:03:28 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-03-06 12:03:28 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-06 12:03:28 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:57)
+[BestNumber:INFO] D:/mnt/data/local/origin/ecmwf/ER03/20170305/20/0/33 目录创建成功 ！
+2017-03-06 12:03:28 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@25b7a298
+2017-03-06 12:03:28 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@3b13bc80
+2017-03-06 12:03:32 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_33.nc 文件下载成功!
+2017-03-06 12:03:33 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_1_20170305_20_33.nc 文件下载成功!
+2017-03-06 12:03:33 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_33.nc 文件下载成功!
+2017-03-06 12:03:33 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_30.nc 文件下载成功!
+2017-03-06 12:03:34 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-03-06 12:03:34 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-06 12:03:34 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:57)
+[BestNumber:INFO] D:/mnt/data/local/origin/ecmwf/ER03/20170305/20/0/36 目录创建成功 ！
+2017-03-06 12:03:34 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@18074c85
+2017-03-06 12:03:34 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@730bc16
+2017-03-06 12:03:38 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_36.nc 文件下载成功!
+2017-03-06 12:03:39 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_1_20170305_20_36.nc 文件下载成功!
+2017-03-06 12:03:39 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_36.nc 文件下载成功!
+2017-03-06 12:03:39 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_33.nc 文件下载成功!
+2017-03-06 12:03:40 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-03-06 12:03:40 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-06 12:03:40 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:57)
+[BestNumber:INFO] D:/mnt/data/local/origin/ecmwf/ER03/20170305/20/0/39 目录创建成功 ！
+2017-03-06 12:03:40 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@509b7160
+2017-03-06 12:03:40 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@d307ef8
+2017-03-06 12:03:44 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_39.nc 文件下载成功!
+2017-03-06 12:04:18 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-06 12:04:28 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@4478e1b5
+2017-03-06 12:04:29 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@5c2a5531
+2017-03-06 12:04:32 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:04:34 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_1_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:04:34 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:04:34 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_12.nc 文件下载成功!
+2017-03-06 12:04:35 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-03-06 12:40:06 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-06 12:40:06 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@4652d334
+2017-03-06 12:40:06 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@67a81efd
+2017-03-06 12:40:09 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:40:11 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_1_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:40:11 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:40:11 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_12.nc 文件下载成功!
+2017-03-06 12:40:12 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-03-06 12:40:22 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-06 12:40:22 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@7d34a4c3
+2017-03-06 12:40:22 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@b2d3e6d
+2017-03-06 12:40:26 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:40:27 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_1_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:40:27 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:40:27 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_12.nc 文件下载成功!
+2017-03-06 12:40:28 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-03-06 12:40:47 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-06 12:40:47 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@27821609
+2017-03-06 12:40:47 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@4d74bd22
+2017-03-06 12:40:50 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:40:52 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_1_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:40:52 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:40:52 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_12.nc 文件下载成功!
+2017-03-06 12:40:53 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-03-06 12:41:15 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-06 12:41:15 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@7d34a4c3
+2017-03-06 12:41:15 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@b2d3e6d
+2017-03-06 12:41:19 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:41:20 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_1_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:41:20 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:41:20 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_12.nc 文件下载成功!
+2017-03-06 12:41:21 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-03-06 12:42:39 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-06 12:42:39 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@11c7f72d
+2017-03-06 12:42:39 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@5f34b479
+2017-03-06 12:42:43 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:42:44 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_1_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:42:44 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:42:44 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_12.nc 文件下载成功!
+2017-03-06 12:42:45 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-03-06 12:43:06 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-06 12:43:06 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@716afedb
+2017-03-06 12:43:06 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@27821609
+2017-03-06 12:43:10 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:43:11 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_1_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:43:12 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:43:12 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_12.nc 文件下载成功!
+2017-03-06 12:43:23 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-03-06 12:46:50 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-06 12:46:50 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@3e9513b7
+2017-03-06 12:46:50 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@2d41737a
+2017-03-06 12:46:54 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:46:55 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_1_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:46:55 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:46:55 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_12.nc 文件下载成功!
+2017-03-06 12:46:56 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-03-06 12:47:19 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-06 12:47:19 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@27821609
+2017-03-06 12:47:19 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@4d74bd22
+2017-03-06 12:47:23 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:47:25 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_1_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:47:25 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:47:25 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_12.nc 文件下载成功!
+2017-03-06 12:47:26 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-03-06 12:48:45 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-06 12:48:45 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@4e8aa935
+2017-03-06 12:48:45 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@716afedb
+2017-03-06 12:48:49 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:48:51 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_1_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:48:51 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:48:51 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_12.nc 文件下载成功!
+2017-03-06 12:48:52 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-03-06 12:50:35 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-06 12:50:35 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@4652d334
+2017-03-06 12:50:35 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@67a81efd
+2017-03-06 12:50:39 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:50:40 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_1_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:50:40 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_15.nc 文件下载成功!
+2017-03-06 12:50:40 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_12.nc 文件下载成功!
+2017-03-06 12:50:42 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！
+2017-03-08 10:12:55 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:38)
+[BestNumber:INFO] 读取配置文件完成！
+2017-03-08 10:12:55 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:64)
+[BestNumber:INFO] ftp连接对象， org.apache.commons.net.ftp.FTPClient@1fd348f8
+2017-03-08 10:12:55 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:72)
+[BestNumber:INFO] 需要下载的文件 : [Ljava.lang.String;@685ba21a
+2017-03-08 10:12:59 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_pl_20170305_20_15.nc 文件下载成功!
+2017-03-08 10:13:00 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_1_20170305_20_15.nc 文件下载成功!
+2017-03-08 10:13:00 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_15.nc 文件下载成功!
+2017-03-08 10:13:01 com.supermap.gwfs.rainproduct.bestnumber.LoadFiles  loadFile  (line:95)
+[BestNumber:DEBUG] /daily/en_netcdf/20170305/20/ECWMF_sfc_2_20170305_20_12.nc 文件下载成功!
+2017-03-08 10:13:04 com.supermap.gwfs.rainproduct.bestnumber.BestNumber  findBestNumber  (line:61)
+[BestNumber:INFO] 最优成员选取完毕！

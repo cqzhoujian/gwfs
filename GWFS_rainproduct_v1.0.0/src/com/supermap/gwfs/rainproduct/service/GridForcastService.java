@@ -1,0 +1,104 @@
+package com.supermap.gwfs.rainproduct.service;
+
+import java.util.Map;
+
+import com.supermap.gcpp.core.common.UniObject;
+import com.supermap.gwfs.rainproduct.dao.Grid_forcastDao;
+
+/**  
+ * @Description: TODO
+ * @author zhoujian
+ * @date 2016-10-30
+ * @version V1.0 
+ */
+public class GridForcastService
+{
+	private Grid_forcastDao grid_forcastDao = null;
+	public GridForcastService()
+	{
+		grid_forcastDao = new Grid_forcastDao();
+	}
+	/**
+	 * 
+	 * @Description: 查询grid_forcast数据
+	 * @return UniObject
+	 * @throws
+	 */
+	public UniObject findGribForcast(String origin_value , String element_value)
+	{
+		return grid_forcastDao.findGridForcast(origin_value, element_value);
+	}
+	/**
+	 * 
+	 * @Description: 查询sequnce数据
+	 * @return UniObject
+	 * @throws
+	 */
+	public UniObject findGridForcastSequnce(UniObject uniObject , String origin_val)
+	{
+		return grid_forcastDao.findGridForcastSequnce(uniObject, origin_val);
+	}
+	/**
+	 * 
+	 * @Description: 查询valid数据
+	 * @return UniObject
+	 * @throws
+	 */
+	public UniObject findGridForcastValid(UniObject uniObject , String element_val , int origin_id)
+	{
+		return grid_forcastDao.findGridForcastValid(uniObject, element_val , origin_id);
+	}
+	/**
+	 * 
+	 * @Description: 查询服务器Id
+	 * @return UniObject
+	 * @throws
+	 */
+	public UniObject findGribForcasServer(UniObject uniObject)
+	{	
+		return grid_forcastDao.findGridForcastServer(uniObject);
+	}
+	/**
+	 * 
+	 * @Description: 保存grid_forcast数据
+	 * @return void
+	 * @throws
+	 */
+	@SuppressWarnings("unchecked")
+	public int savaGridForcast(UniObject uniObject ,String sequnce , String valid  )
+	{
+		System.out.println(uniObject);
+		//时效
+		Map<String , Map<String, String>> sequnceMap = (Map<String, Map<String,String>>)uniObject.getValue("sequnce");
+		for (String id : sequnceMap.keySet())
+		{
+			for (String val : sequnceMap.get(id).keySet())
+			{
+				if(val.equals(sequnce))
+				{
+					uniObject.setIntegerValue("sequnce_id", Integer.parseInt(id));
+					uniObject.setStringValue("sequnce_name", sequnceMap.get(id).get(val));
+					uniObject.setStringValue("sequnce_value", val);
+					break ;
+				}
+			}
+		}
+		
+		//时效
+		Map<String, Map<String, String>> validMap = (Map<String, Map<String,String>>) uniObject.getValue("valid");
+		for (String id : validMap.keySet())
+		{
+			for (String val : validMap.get(id).keySet())
+			{
+				if(val.equals(valid))
+				{
+					uniObject.setIntegerValue("valid_id", Integer.parseInt(id));
+					uniObject.setStringValue("valid_name", validMap.get(id).get(val));
+					uniObject.setIntegerValue("valid_value", Integer.parseInt(val));
+					break ;
+				}
+			}
+		}
+		return grid_forcastDao.saveGridForcast(uniObject);
+	}
+}

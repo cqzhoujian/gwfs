@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_GCPP"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_Tools"/>
+	<classpathentry kind="lib" path="lib/commons-net-3.4.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/quartz-2.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/quartz-jobs-2.2.2.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_Logger"/>
+	<classpathentry kind="lib" path="lib/netcdf-4.3.23.jar"/>
+	<classpathentry kind="lib" path="/MGObjectsJava_64_x64_win_v1.0.0.35/lib/jersey-core-1.12.jar"/>
+	<classpathentry kind="lib" path="/MGObjectsJava_64_x64_win_v1.0.0.35/lib/jersey-json-1.12.jar"/>
+	<classpathentry kind="lib" path="/MGObjectsJava_64_x64_win_v1.0.0.35/lib/jersey-multipart-1.12.jar"/>
+	<classpathentry kind="lib" path="/MGObjectsJava_64_x64_win_v1.0.0.35/lib/jersey-server-1.12.jar"/>
+	<classpathentry kind="lib" path="/MGObjectsJava_64_x64_win_v1.0.0.35/lib/jersey-servlet-1.12.jar"/>
+	<classpathentry kind="lib" path="/MGObjectsJava_64_x64_win_v1.0.0.35/lib/jettison-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.34.jar"/>
+	<classpathentry kind="lib" path="/GWFS_Tools/lib/builder/javabuilder-2015b.jar"/>
+	<classpathentry kind="lib" path="lib/bilinear1.0.3.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_DB"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_Disruptor"/>
+	<classpathentry kind="lib" path="/gwfs_ncclipper/lib/disruptor-3.2.0.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_mg"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MGObjectsJava_64_x64_win_v1.0.0.38"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

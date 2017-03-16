@@ -1,0 +1,587 @@
+2016-12-12 20:51:14 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:239)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@69f5605b
+2016-12-12 20:51:14 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:241)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2016-12-12 20:51:22 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:239)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@41f2cbc0
+2016-12-12 20:51:22 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:241)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2016-12-12 20:51:29 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:239)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@4166432
+2016-12-12 20:51:29 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:241)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-22 14:39:55 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@3e77b29a
+2017-02-22 14:39:55 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:42:41 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:248)
+[DB:ERROR] 保存grid_forcast数据异常 ， 异常 : java.lang.NullPointerException
+2017-02-24 09:47:38 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@7840f6fb
+2017-02-24 09:47:44 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:50:15 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@3cf08d9e
+2017-02-24 09:50:15 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:50:47 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@27027e30
+2017-02-24 09:50:47 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:50:47 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@3a0645a3
+2017-02-24 09:50:47 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:51:18 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@16318c10
+2017-02-24 09:51:18 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:51:51 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@381831b4
+2017-02-24 09:51:51 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:51:51 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@5540d765
+2017-02-24 09:51:51 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:52:22 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@7ff56c87
+2017-02-24 09:52:22 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:52:36 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@402bff41
+2017-02-24 09:52:36 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:52:36 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@4c60f02a
+2017-02-24 09:52:36 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:52:51 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@5542b764
+2017-02-24 09:52:51 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:53:06 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@56a77bbc
+2017-02-24 09:53:06 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:53:06 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@45d2f66f
+2017-02-24 09:53:06 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:53:21 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@233756f4
+2017-02-24 09:53:21 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:53:38 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@2c751ef9
+2017-02-24 09:53:38 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:53:38 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@3001c9f1
+2017-02-24 09:53:38 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:53:53 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@774c5380
+2017-02-24 09:53:53 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:54:07 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@59629735
+2017-02-24 09:54:07 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:54:07 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@50fa48b6
+2017-02-24 09:54:07 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:54:23 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@23c389c2
+2017-02-24 09:54:23 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:54:39 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@5436c247
+2017-02-24 09:54:39 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:54:39 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@4baba658
+2017-02-24 09:54:39 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:54:54 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@6c6a0ff3
+2017-02-24 09:54:54 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:55:09 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@b3eef44
+2017-02-24 09:55:09 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:55:09 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@6c529b01
+2017-02-24 09:55:09 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:55:26 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@702fe2f9
+2017-02-24 09:55:26 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:55:41 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@198d8541
+2017-02-24 09:55:41 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:55:41 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@4748177c
+2017-02-24 09:55:41 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 09:55:57 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@230886a8
+2017-02-24 09:55:57 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:29:18 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@5f43c773
+2017-02-24 10:29:18 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:29:49 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@32a76178
+2017-02-24 10:29:49 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:29:49 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@d206be1
+2017-02-24 10:29:49 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:30:23 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@60785ecd
+2017-02-24 10:30:23 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:30:55 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@31ece11e
+2017-02-24 10:30:55 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:30:55 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@ddf402c
+2017-02-24 10:30:55 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:31:27 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@4f66fd33
+2017-02-24 10:31:27 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:31:42 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@4d68c07a
+2017-02-24 10:31:42 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:31:42 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@12d065b8
+2017-02-24 10:31:42 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:31:57 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@337d0ea3
+2017-02-24 10:31:57 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:32:11 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@3cb48056
+2017-02-24 10:32:11 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:32:11 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@3276d4d9
+2017-02-24 10:32:11 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:32:26 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@732be3a3
+2017-02-24 10:32:26 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:32:41 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@1357b887
+2017-02-24 10:32:41 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:32:41 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@2b7fdc3b
+2017-02-24 10:32:41 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:32:55 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@62d641a6
+2017-02-24 10:32:55 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:33:10 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@1531380
+2017-02-24 10:33:10 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:33:10 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@59414c21
+2017-02-24 10:33:10 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:33:25 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@5db7f3f9
+2017-02-24 10:33:25 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:33:40 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@39496f4a
+2017-02-24 10:33:40 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:33:40 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@89522b6
+2017-02-24 10:33:40 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:33:55 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@33e5d7b6
+2017-02-24 10:33:55 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:34:10 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@76d93ddf
+2017-02-24 10:34:10 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:34:10 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@4c677ea7
+2017-02-24 10:34:10 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:34:25 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@4368ef1c
+2017-02-24 10:34:25 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:34:40 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@7b26b2e3
+2017-02-24 10:34:40 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:34:40 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@1d28d120
+2017-02-24 10:34:40 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 10:34:55 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@29fcf52a
+2017-02-24 10:34:55 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:28:16 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@7f749872
+2017-02-24 11:28:16 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:28:46 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@3cb9774b
+2017-02-24 11:28:46 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:28:46 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@7948c036
+2017-02-24 11:28:46 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:29:16 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@21e2f77
+2017-02-24 11:29:16 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:29:46 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@60232fff
+2017-02-24 11:29:46 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:29:46 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@27af3e8
+2017-02-24 11:29:46 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:30:15 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@1bbaf4ed
+2017-02-24 11:30:15 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:30:30 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@58062eab
+2017-02-24 11:30:30 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:30:30 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@2c65a740
+2017-02-24 11:30:30 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:30:44 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@2066c27e
+2017-02-24 11:30:44 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:30:58 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@558d330a
+2017-02-24 11:30:58 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:30:59 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@65be0f95
+2017-02-24 11:30:59 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:31:13 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@1bc2affd
+2017-02-24 11:31:13 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:31:28 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@59640bcb
+2017-02-24 11:31:28 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:31:28 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@1cff06e1
+2017-02-24 11:31:28 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:31:43 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@7bb24c8
+2017-02-24 11:31:43 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:31:59 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@65fa802d
+2017-02-24 11:31:59 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:31:59 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@ea9bdf6
+2017-02-24 11:31:59 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:32:15 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@1d7f95ca
+2017-02-24 11:32:15 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:32:30 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@36612161
+2017-02-24 11:32:30 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:32:30 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@24d53f04
+2017-02-24 11:32:30 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:32:45 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@3942f16c
+2017-02-24 11:32:45 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:33:01 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@5265a34f
+2017-02-24 11:33:01 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:33:01 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@10a4befb
+2017-02-24 11:33:01 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:33:19 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@5aaf24d4
+2017-02-24 11:33:19 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:33:34 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@e29bc69
+2017-02-24 11:33:34 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:33:34 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@48bc7114
+2017-02-24 11:33:34 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:33:50 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@7f5d4f1
+2017-02-24 11:33:50 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:47:38 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@3c5ea542
+2017-02-24 11:47:38 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:48:09 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@2793ee51
+2017-02-24 11:48:09 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:48:09 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@757ed50e
+2017-02-24 11:48:09 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:48:41 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@1f76bad7
+2017-02-24 11:48:41 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:49:13 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@79f840b6
+2017-02-24 11:49:13 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:49:13 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@2fdcbfed
+2017-02-24 11:49:13 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:49:44 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@6103ec11
+2017-02-24 11:49:44 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:49:59 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@5a0a17a2
+2017-02-24 11:49:59 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:49:59 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@43544a31
+2017-02-24 11:49:59 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:50:14 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@1c8dfd99
+2017-02-24 11:50:14 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:50:29 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@44ec7064
+2017-02-24 11:50:29 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:50:29 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@5176d1f2
+2017-02-24 11:50:29 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:50:44 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@2f4bcb73
+2017-02-24 11:50:44 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:51:00 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@5c02f81b
+2017-02-24 11:51:00 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:51:00 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@3e016d52
+2017-02-24 11:51:00 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:51:17 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@54520a5b
+2017-02-24 11:51:17 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:51:32 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@5b7269da
+2017-02-24 11:51:32 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:51:32 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@574f9169
+2017-02-24 11:51:32 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:51:47 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@565cb242
+2017-02-24 11:51:47 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:52:03 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@1bd782f6
+2017-02-24 11:52:03 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:52:03 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@5ce8112c
+2017-02-24 11:52:03 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:52:19 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@17c42271
+2017-02-24 11:52:19 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:52:35 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@5995c912
+2017-02-24 11:52:35 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:52:35 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@50c62b
+2017-02-24 11:52:35 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:52:50 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@89fc779
+2017-02-24 11:52:50 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:53:07 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@5e6e9be1
+2017-02-24 11:53:07 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:53:07 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@568dfc09
+2017-02-24 11:53:07 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1
+2017-02-24 11:53:22 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:242)
+[DB:INFO] executeUpdate 
+com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@370b3c8f
+2017-02-24 11:53:22 com.supermap.gwfs.rainproduct.dao.Grid_forcastDao  saveGridForcast  (line:244)
+[DB:INFO] 保存操作 ，受影响的行数 ： 1

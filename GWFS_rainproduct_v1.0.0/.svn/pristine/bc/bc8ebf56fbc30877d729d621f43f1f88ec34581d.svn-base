@@ -1,0 +1,54 @@
+package com.supermap.gwfs.rainproduct.test;
+
+import com.supermap.gwfs.rainproduct.correction.CustomCorrection;
+
+/**  
+ * @Description: TODO
+ * @author zhoujian
+ * @date 2016-11-9
+ * @version V1.0 
+ */
+public class TestCustonCorrection
+{
+
+	/** 
+	 * @Description: TODO
+	 * @return void
+	 * @throws 
+	 */
+	public static void main(String[] args)
+	{
+		for (int i = 3; i < 240; )
+		{
+			
+			if (i <= 72)
+			{
+				new CustomCorrection("20170116", "08", String.valueOf(i)).ObjectiveCorrection();
+			}
+			i = i + 3;
+			if (i > 72)
+			{
+				i = i + 3;
+				new CustomCorrection("20170115", "08", String.valueOf(i)).ObjectiveCorrection();
+			}
+		}
+		System.out.println("时间 ：20170115 时次 ：08   时效：0~240  完成！");
+		for (int i = 3; i < 240; )
+		{
+			
+			if (i <= 72)
+			{
+				new CustomCorrection("20170115", "20", String.valueOf(i)).ObjectiveCorrection();
+			}
+			i = i + 3;
+			if (i > 72)
+			{
+				i = i + 3;
+				new CustomCorrection("20170115", "20", String.valueOf(i)).ObjectiveCorrection();
+			}
+		}
+		System.out.println("时间 ：20170115 时次 ：20   时效：0~240  完成！");
+
+	}
+
+}

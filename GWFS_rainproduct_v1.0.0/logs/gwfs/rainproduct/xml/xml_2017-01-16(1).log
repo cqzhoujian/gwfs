@@ -1,0 +1,2 @@
+2017-02-22 15:45:33 com.supermap.gwfs.rainproduct.util.ReadConfig  getValidParameter  (line:164)
+[ReadXml:ERROR] 解析XML文件异常，异常：java.lang.NullPointerException

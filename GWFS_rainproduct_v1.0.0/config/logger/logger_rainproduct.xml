@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger_config>
+	<logger name="CustomHandler" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console" />
+			<handler type="file"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="CustomHandler_"
+				suffix=".log" append="true" directory="logs/gwfs/rainproduct" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+	<logger name="ProbabilityAvg" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console" />
+			<handler type="file"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="probabilityAvg_"
+				suffix=".log" append="true" directory="logs/gwfs/rainproduct/probability" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	<logger name="Netcdf_Rain" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console" />
+			<handler type="file"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="netcdf_"
+				suffix=".log" append="true" directory="logs/gwfs/rainproduct/netcdf" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	<logger name="InterPolation" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console" />
+			<handler type="file"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="InterPolation_"
+				suffix=".log" append="true" directory="logs/gwfs/rainproduct/interpolation" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	<logger name="DB" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console" />
+			<handler type="file"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="db_"
+				suffix=".log" append="true" directory="logs/gwfs/rainproduct/DB" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+	<logger name="Custom" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console" />
+			<handler type="file"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="Custom_"
+				suffix=".log" append="true" directory="logs/gwfs/rainproduct" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+	<logger name="CustomHandler" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console" />
+			<handler type="file"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="customhandler_"
+				suffix=".log" append="true" directory="logs/gwfs/rainproduct" limit="1"
+				count="10" />
+		</handlers>
+	</logger> 
+	
+	<logger name="ReadXml" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console" />
+			<handler type="file"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="xml_"
+				suffix=".log" append="true" directory="logs/gwfs/rainproduct/xml" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+	<logger name="BestNumber" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console" />
+			<handler type="file"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="bestNumber_"
+				suffix=".log" append="true" directory="logs/gwfs/rainproduct/bestnumber" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+	<logger name="AccumulativeRainfull" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console" />
+			<handler type="file"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="Accumulative_"
+				suffix=".log" append="true" directory="logs/gwfs/rainproduct/accumulative" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+</logger_config>
