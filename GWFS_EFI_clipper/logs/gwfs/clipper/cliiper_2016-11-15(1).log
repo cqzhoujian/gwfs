@@ -1,0 +1,174 @@
+2016-11-15 15:30:21 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/efi_sfc_20161113_120.nc
+2016-11-15 15:30:21 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:30:22 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of efi_sfc_20161113_120.nc successfully.
+2016-11-15 15:30:45 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/efi_sfc_20161113_144.nc
+2016-11-15 15:30:45 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:30:46 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of efi_sfc_20161113_144.nc successfully.
+2016-11-15 15:31:01 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/efi_sfc_20161113_168.nc
+2016-11-15 15:31:01 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:02 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of efi_sfc_20161113_168.nc successfully.
+2016-11-15 15:31:02 com.supermap.gwfs.executors.synchronizer.clipper.util.ClipperUtil  getClipperData  (line:138)
+[Clipper:ERROR] prigg:C:\Users\LQ\Desktop\grib_simple\EFI\20161113\0\efi_sfc_20161113_192.grib1.ncvariable :sfinot exist!
+2016-11-15 15:31:02 com.supermap.gwfs.executors.synchronizer.clipper.util.ClipperUtil  getClipperData  (line:138)
+[Clipper:ERROR] prigg:C:\Users\LQ\Desktop\grib_simple\EFI\20161113\0\efi_sfc_20161113_192.grib1.ncvariable :mx2tinot exist!
+2016-11-15 15:31:02 com.supermap.gwfs.executors.synchronizer.clipper.util.ClipperUtil  getClipperData  (line:138)
+[Clipper:ERROR] prigg:C:\Users\LQ\Desktop\grib_simple\EFI\20161113\0\efi_sfc_20161113_192.grib1.ncvariable :mn2tinot exist!
+2016-11-15 15:31:02 com.supermap.gwfs.executors.synchronizer.clipper.util.ClipperUtil  getClipperData  (line:138)
+[Clipper:ERROR] prigg:C:\Users\LQ\Desktop\grib_simple\EFI\20161113\0\efi_sfc_20161113_192.grib1.ncvariable :fg10inot exist!
+2016-11-15 15:31:02 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/efi_sfc_20161113_192.nc
+2016-11-15 15:31:02 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:03 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of efi_sfc_20161113_192.nc successfully.
+2016-11-15 15:31:03 com.supermap.gwfs.executors.synchronizer.clipper.util.ClipperUtil  getClipperData  (line:138)
+[Clipper:ERROR] prigg:C:\Users\LQ\Desktop\grib_simple\EFI\20161113\0\efi_sfc_20161113_216.grib1.ncvariable :sfinot exist!
+2016-11-15 15:31:03 com.supermap.gwfs.executors.synchronizer.clipper.util.ClipperUtil  getClipperData  (line:138)
+[Clipper:ERROR] prigg:C:\Users\LQ\Desktop\grib_simple\EFI\20161113\0\efi_sfc_20161113_216.grib1.ncvariable :mx2tinot exist!
+2016-11-15 15:31:03 com.supermap.gwfs.executors.synchronizer.clipper.util.ClipperUtil  getClipperData  (line:138)
+[Clipper:ERROR] prigg:C:\Users\LQ\Desktop\grib_simple\EFI\20161113\0\efi_sfc_20161113_216.grib1.ncvariable :mn2tinot exist!
+2016-11-15 15:31:03 com.supermap.gwfs.executors.synchronizer.clipper.util.ClipperUtil  getClipperData  (line:138)
+[Clipper:ERROR] prigg:C:\Users\LQ\Desktop\grib_simple\EFI\20161113\0\efi_sfc_20161113_216.grib1.ncvariable :fg10inot exist!
+2016-11-15 15:31:03 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/efi_sfc_20161113_216.nc
+2016-11-15 15:31:03 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:03 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of efi_sfc_20161113_216.nc successfully.
+2016-11-15 15:31:07 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/efi_sfc_20161113_24.nc
+2016-11-15 15:31:07 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:08 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of efi_sfc_20161113_24.nc successfully.
+2016-11-15 15:31:08 com.supermap.gwfs.executors.synchronizer.clipper.util.ClipperUtil  getClipperData  (line:138)
+[Clipper:ERROR] prigg:C:\Users\LQ\Desktop\grib_simple\EFI\20161113\0\efi_sfc_20161113_240.grib1.ncvariable :sfinot exist!
+2016-11-15 15:31:08 com.supermap.gwfs.executors.synchronizer.clipper.util.ClipperUtil  getClipperData  (line:138)
+[Clipper:ERROR] prigg:C:\Users\LQ\Desktop\grib_simple\EFI\20161113\0\efi_sfc_20161113_240.grib1.ncvariable :mx2tinot exist!
+2016-11-15 15:31:08 com.supermap.gwfs.executors.synchronizer.clipper.util.ClipperUtil  getClipperData  (line:138)
+2016-11-15 15:31:08 com.supermap.gwfs.executors.synchronizer.clipper.util.ClipperUtil  getClipperData  (line:138)
+[Clipper:ERROR] prigg:C:\Users\LQ\Desktop\grib_simple\EFI\20161113\0\efi_sfc_20161113_240.grib1.ncvariable :fg10inot exist!
+[Clipper:ERROR] prigg:C:\Users\LQ\Desktop\grib_simple\EFI\20161113\0\efi_sfc_20161113_240.grib1.ncvariable :mn2tinot exist!
+2016-11-15 15:31:08 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/efi_sfc_20161113_240.nc
+2016-11-15 15:31:08 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:08 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of efi_sfc_20161113_240.nc successfully.
+2016-11-15 15:31:13 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/efi_sfc_20161113_48.nc
+2016-11-15 15:31:13 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:13 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of efi_sfc_20161113_48.nc successfully.
+2016-11-15 15:31:24 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/efi_sfc_20161113_72.nc
+2016-11-15 15:31:24 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:24 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of efi_sfc_20161113_72.nc successfully.
+2016-11-15 15:31:34 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/efi_sfc_20161113_96.nc
+2016-11-15 15:31:34 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of efi_sfc_20161113_96.nc successfully.
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/ep_pl_20161113_120.nc
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of ep_pl_20161113_120.nc successfully.
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/ep_pl_20161113_144.nc
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of ep_pl_20161113_144.nc successfully.
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/ep_pl_20161113_168.nc
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of ep_pl_20161113_168.nc successfully.
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/ep_pl_20161113_192.nc
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of ep_pl_20161113_192.nc successfully.
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/ep_pl_20161113_216.nc
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of ep_pl_20161113_216.nc successfully.
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/ep_pl_20161113_24.nc
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of ep_pl_20161113_24.nc successfully.
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/ep_pl_20161113_240.nc
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of ep_pl_20161113_240.nc successfully.
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/ep_pl_20161113_264.nc
+2016-11-15 15:31:35 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of ep_pl_20161113_264.nc successfully.
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/ep_pl_20161113_288.nc
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of ep_pl_20161113_288.nc successfully.
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/ep_pl_20161113_312.nc
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of ep_pl_20161113_312.nc successfully.
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/ep_pl_20161113_336.nc
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of ep_pl_20161113_336.nc successfully.
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/ep_pl_20161113_360.nc
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of ep_pl_20161113_360.nc successfully.
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/ep_pl_20161113_48.nc
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of ep_pl_20161113_48.nc successfully.
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/ep_pl_20161113_72.nc
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of ep_pl_20161113_72.nc successfully.
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:46)
+[Clipper:DEBUG] 本地文件 ： D:/mnt/simple/ecmwf/clipper/efi/20161113/0/ep_pl_20161113_96.nc
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:52)
+[Clipper:INFO] 远程文件目录 ： /daily/efi/test/20161113/0 创建 ，状态 ： true
+2016-11-15 15:31:36 com.supermap.gwfs.execuctors.synchronizer.clipper.UploadFile  upload  (line:65)
+[Clipper:DEBUG] Piggy:Upload the file of ep_pl_20161113_96.nc successfully.

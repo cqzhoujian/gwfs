@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger_config>
+	<logger name="ENSClipperHandler" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console_handler" />
+			<handler type="file_handler"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="clipperHandler_"
+				suffix=".log" append="true" directory="logs/gwfs/clipper/ENS" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+	<logger name="ENSClipper" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console_handler" />
+			<handler type="file_handler"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="cliiper_"
+				suffix=".log" append="true" directory="logs/gwfs/clipper/ENS" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+	<logger name="ReadXML" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console_handler" />
+			<handler type="file_handler"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="xml_"
+				suffix=".log" append="true" directory="logs/gwfs/clipper/EFI" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	<logger name="Upload" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console_handler" />
+			<handler type="file_handler"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="upload_"
+				suffix=".log" append="true" directory="logs/gwfs/clipper/EFI" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+</logger_config>

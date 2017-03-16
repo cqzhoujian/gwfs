@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!-- 要素 -->
+	<feature>
+		<efi_sfc>sfi,mx2ti,mn2ti,tpi,ws10i,fg10i,t2i</efi_sfc>
+		<ep_pl>talm4,tag4,talm8,tag8</ep_pl>
+		<es_pl>gh,t</es_pl>
+		<sot_sfc>sfi,t2i,ws10i,mn2ti,mx2ti,tpi,fg10i</sot_sfc>
+	</feature>
+	<!-- 范围 -->
+	<size>
+		<pl>60,140,10,60</pl>
+		<sfc>70,140,10,55</sfc>
+	</size>
+	<!-- 层次 -->
+	<level>
+		<efi_sfc>0</efi_sfc>
+		<ep_pl>0</ep_pl>
+		<es_pl>500,850</es_pl>
+		<sot_sfc>0</sot_sfc>
+	</level>
+	<!-- 数量 -->
+	<number>
+		<efi_sfc>0</efi_sfc>
+		<ep_pl>0</ep_pl>
+		<es_pl>0</es_pl>
+		<sot_sfc>2</sot_sfc>
+	</number>
+	<!-- 目录 -->
+	<write>
+		<!-- /mnt/clippedNetcdf/ -->
+		<rootpathLocal>D:/mnt/simple/ecmwf/clipper/efi</rootpathLocal> 
+		<!-- /JiHeYuBao/Product/ 为FTP根目录 -->
+		<rootpath147>/daily/efi</rootpath147>
+	</write>
+</list>
