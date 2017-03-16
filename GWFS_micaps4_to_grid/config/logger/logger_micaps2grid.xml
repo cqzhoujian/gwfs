@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger_config>
+	<logger name="MicapsHandler" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console_handler" />
+			<handler type="file_handler"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="handler_"
+				suffix=".log" append="true" directory="logs/gwfs/micapse2grid/handler" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+	<logger name="Micaps2NetcdfThread" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console_handler" />
+			<handler type="file_handler"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="thread_"
+				suffix=".log" append="true" directory="logs/gwfs/micapse2grid" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+	
+	<logger name="MicapsAnalytical" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console_handler" />
+			<handler type="file_handler"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="analytical_"
+				suffix=".log" append="true" directory="logs/gwfs/micapse2grid/analytical" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	<logger name="Interpolation" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console_handler" />
+			<handler type="file_handler"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="InterPolation_"
+				suffix=".log" append="true" directory="logs/gwfs/micapse2grid/interpolation" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	<logger name="NetcdfLog" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console_handler" />
+			<handler type="file_handler"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="netcdf_"
+				suffix=".log" append="true" directory="logs/gwfs/micapse2grid/netcdf" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+	<logger name="DBMicaps" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console_handler" />
+			<handler type="file_handler"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="db_"
+				suffix=".log" append="true" directory="logs/gwfs/micapse2grid/db" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+	<logger name="Specialized" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console_handler" />
+			<handler type="file_handler"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="Specialized_"
+				suffix=".log" append="true" directory="logs/gwfs/micapse2grid/specialized" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+	<logger name="SpecializedWind" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console_handler" />
+			<handler type="file_handler"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="SpecializedWind_"
+				suffix=".log" append="true" directory="logs/gwfs/micapse2grid/specialized" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+	<logger name="MicapsToLocal" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console_handler" />
+			<handler type="file_handler"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="MicapsToLocal_"
+				suffix=".log" append="true" directory="logs/gwfs/micapse2grid/micapsToLocal" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+	<logger name="RelativeHumidity" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console_handler" />
+			<handler type="file_handler"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="Relative_"
+				suffix=".log" append="true" directory="logs/gwfs/micapse2grid/specialized" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+	<logger name="RelativeHumidityTmaxOrTmin" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console_handler" />
+			<handler type="file_handler"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="RelativeTmaxOrTmin_"
+				suffix=".log" append="true" directory="logs/gwfs/micapse2grid/specialized" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+</logger_config>

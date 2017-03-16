@@ -1,0 +1,2 @@
+2017-03-03 14:16:28 com.supermap.gwfs.synchronizer.micaps4grid.local.MicapsToLocal  getFileName  (line:136)
+[MicapsToLocal:ERROR] ZJ:getFileName error , error : java.lang.NullPointerException

@@ -1,0 +1,14 @@
+2017-02-15 11:44:02 com.supermap.gwfs.synchronizer.micaps4grid.netcdf.Netcdf  Write  (line:423)
+[NetcdfLog:ERROR] ZJ:writed  D:/test/nc/EDA10/20170207/08/500/ecthin/2017020708_0.nc file error , error : java.lang.NullPointerException
+2017-02-16 17:24:57 com.supermap.gwfs.synchronizer.micaps4grid.netcdf.Netcdf  Write  (line:415)
+[NetcdfLog:ERROR] ZJ:writed  D:/test/nc/MSL/20170216/20/0/ecthin/2017021620_33.nc file error , error : java.lang.IllegalArgumentException: Attribute value cannot be null
+2017-02-21 10:08:04 com.supermap.gwfs.synchronizer.micaps4grid.netcdf.Netcdf  Write  (line:445)
+[NetcdfLog:ERROR] ZJ:writed  D:/test/nc/EDA10/20170219/20/500/ecthin/2017021920_0.nc file error , error : java.io.FileNotFoundException: D:\test\nc\EDA10\20170219\20\500\ecthin\2017021920_0.nc (系统找不到指定的路径。)
+2017-02-22 10:41:15 com.supermap.gwfs.synchronizer.micaps4grid.netcdf.Netcdf  writeNetcdf  (line:304)
+[NetcdfLog:ERROR] ZJ:get Netcdf data to write error , error : java.lang.NullPointerException
+2017-02-22 10:41:50 com.supermap.gwfs.synchronizer.micaps4grid.netcdf.Netcdf  writeNetcdf  (line:304)
+[NetcdfLog:ERROR] ZJ:get Netcdf data to write error , error : java.lang.NullPointerException
+2017-02-24 17:03:31 com.supermap.gwfs.synchronizer.micaps4grid.netcdf.Netcdf  Write  (line:445)
+[NetcdfLog:ERROR] ZJ:writed  D:/test/nc/MSL/20170224/08/0/ecthin/2017022408_162.nc file error , error : java.lang.IllegalArgumentException: Attribute value cannot be null
+2017-02-27 15:57:16 com.supermap.gwfs.synchronizer.micaps4grid.netcdf.Netcdf  writeNetcdf  (line:304)
+[NetcdfLog:ERROR] ZJ:get Netcdf data to write error , error : java.lang.NullPointerException

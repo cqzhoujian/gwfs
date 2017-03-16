@@ -1,0 +1,26 @@
+2017-01-16 11:21:59 com.supermap.gwfs.sychronizer.micaps4grid.micapsanalytical.MicapsAnalytical  Analytical  (line:173)
+[MicapsAnalytical:ERROR] ZJ:Analytical D:/test/micaps/R/100 Micapse ERROR,ERROR : java.lang.NullPointerException
+2017-01-16 11:21:59 com.supermap.gwfs.sychronizer.micaps4grid.micapsanalytical.MicapsAnalytical  Analytical  (line:173)
+[MicapsAnalytical:ERROR] ZJ:Analytical D:/test/micaps/R/1000 Micapse ERROR,ERROR : java.lang.NullPointerException
+2017-01-16 11:21:59 com.supermap.gwfs.sychronizer.micaps4grid.micapsanalytical.MicapsAnalytical  Analytical  (line:173)
+[MicapsAnalytical:ERROR] ZJ:Analytical D:/test/micaps/R/200 Micapse ERROR,ERROR : java.lang.NullPointerException
+2017-01-16 11:21:59 com.supermap.gwfs.sychronizer.micaps4grid.micapsanalytical.MicapsAnalytical  Analytical  (line:173)
+[MicapsAnalytical:ERROR] ZJ:Analytical D:/test/micaps/R/300 Micapse ERROR,ERROR : java.lang.NullPointerException
+2017-01-16 11:21:59 com.supermap.gwfs.sychronizer.micaps4grid.micapsanalytical.MicapsAnalytical  Analytical  (line:173)
+[MicapsAnalytical:ERROR] ZJ:Analytical D:/test/micaps/R/400 Micapse ERROR,ERROR : java.lang.NullPointerException
+2017-01-16 11:21:59 com.supermap.gwfs.sychronizer.micaps4grid.micapsanalytical.MicapsAnalytical  Analytical  (line:173)
+[MicapsAnalytical:ERROR] ZJ:Analytical D:/test/micaps/R/500 Micapse ERROR,ERROR : java.lang.NullPointerException
+2017-01-16 11:21:59 com.supermap.gwfs.sychronizer.micaps4grid.micapsanalytical.MicapsAnalytical  Analytical  (line:173)
+[MicapsAnalytical:ERROR] ZJ:Analytical D:/test/micaps/R/600 Micapse ERROR,ERROR : java.lang.NullPointerException
+2017-01-16 11:21:59 com.supermap.gwfs.sychronizer.micaps4grid.micapsanalytical.MicapsAnalytical  Analytical  (line:173)
+[MicapsAnalytical:ERROR] ZJ:Analytical D:/test/micaps/R/700 Micapse ERROR,ERROR : java.lang.NullPointerException
+2017-01-16 11:21:59 com.supermap.gwfs.sychronizer.micaps4grid.micapsanalytical.MicapsAnalytical  Analytical  (line:173)
+[MicapsAnalytical:ERROR] ZJ:Analytical D:/test/micaps/R/850 Micapse ERROR,ERROR : java.lang.NullPointerException
+2017-01-16 11:21:59 com.supermap.gwfs.sychronizer.micaps4grid.micapsanalytical.MicapsAnalytical  Analytical  (line:173)
+[MicapsAnalytical:ERROR] ZJ:Analytical D:/test/micaps/R/925 Micapse ERROR,ERROR : java.lang.NullPointerException
+2017-02-03 09:47:19 com.supermap.gwfs.sychronizer.micaps4grid.micapsanalytical.MicapsAnalytical  Analytical  (line:58)
+[MicapsAnalytical:ERROR] D:/test/micaps/R/600/17012208.039 Datasource is null .
+2017-02-03 09:47:58 com.supermap.gwfs.sychronizer.micaps4grid.micapsanalytical.MicapsAnalytical  Analytical  (line:58)
+[MicapsAnalytical:ERROR] D:/test/micaps/R/600/17012208.039 Datasource is null .
+2017-02-03 15:02:33 com.supermap.gwfs.sychronizer.micaps4grid.micapsanalytical.MicapsAnalytical  Analytical  (line:58)
+[MicapsAnalytical:ERROR] D:/test/micaps/R/600/17012208.039 Datasource is null .

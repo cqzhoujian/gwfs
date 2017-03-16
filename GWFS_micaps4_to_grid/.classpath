@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/GWFS_rainproduct_v1.0.0/lib/bilinear1.0.3.jar"/>
+	<classpathentry kind="lib" path="/GWFS_rainproduct_v1.0.0/lib/commons-net-3.4.jar"/>
+	<classpathentry kind="lib" path="/GWFS_rainproduct_v1.0.0/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/GWFS_rainproduct_v1.0.0/lib/mysql-connector-java-5.1.34.jar"/>
+	<classpathentry kind="lib" path="/GWFS_rainproduct_v1.0.0/lib/netcdf-4.3.23.jar"/>
+	<classpathentry kind="lib" path="/GWFS_rainproduct_v1.0.0/lib/quartz-2.2.2.jar"/>
+	<classpathentry kind="lib" path="/GWFS_rainproduct_v1.0.0/lib/quartz-jobs-2.2.2.jar"/>
+	<classpathentry kind="lib" path="/TestDome/lib/javabuilder-2015b.jar"/>
+	<classpathentry kind="lib" path="/TestDome/lib/jettison-1.1.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_DB"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_Disruptor"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_GCPP"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_mg"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_Tools"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MGObjectsJava_64_x64_win_v1.0.0.38"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_Logger"/>
+	<classpathentry kind="lib" path="/GWFS_Synchronizer/lib/disruptor/disruptor-3.2.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
