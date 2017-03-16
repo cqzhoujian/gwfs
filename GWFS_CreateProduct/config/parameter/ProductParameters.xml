@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 产品参数 -->
+<parameters>
+
+	<!-- 雷达产品 -->
+	<radar>
+		<!-- 雷达产品图片分辨率 -->
+		<img_resolution>1024,768</img_resolution>
+		<!-- 说明：地图投影和数据投影不一致时可能会使得出来的图片变形 -->
+		<!-- 雷达产品地图投影方式 -->
+		<projection>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</projection>
+		<!-- 产品配色方案xml文件 -->
+		<xml_file>
+			<!-- 产品配色方案xml文件路径 -->
+			<xml_path>config\colour\RadarProductColour_hubei.xml</xml_path>
+			<!-- 配色xml文件字符集 -->
+			<xml_Encoding>gb2312</xml_Encoding>
+		</xml_file>
+		<!-- shp文件路径 -->
+		<shp_path>shp\China_Province_pl.shp</shp_path>
+		<!-- 产品输出路径 -->
+		<out_path>F:\test\雷达产品</out_path>
+		<!-- 产品类型.png .jpg... -->
+		<out_type>.png</out_type>
+	</radar>
+	
+	<!-- 卫星产品 -->
+	<satellite>
+		<!-- 卫星产品图片分辨率 -->
+		<img_resolution>1024,1265</img_resolution>
+		<!-- 说明：地图投影和数据投影不一致时可能会使得出来的图片变形 -->
+		<!-- 卫星产品地图投影方式 -->
+		<projection>+proj=lcc +ellps=krass +lon_0=100 +lat_0=35 +lat_1=30 +lat_2=60 +units=m +no_defs</projection>
+		<!-- shp文件路径 -->
+		<shp_path>shp\China_Province_pl.shp</shp_path>
+		<!-- 产品输出路径 -->
+		<out_path>F:\test\卫星产品</out_path>
+		<!-- 产品类型.png .jpg... -->
+		<out_type>.png</out_type>
+	</satellite>
+	
+</parameters>

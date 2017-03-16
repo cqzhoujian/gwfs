@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Layer Type="RasterRange" Name="" Datasource="" Dataset="" MinScale="0" MaxScale="0">
+  <State Visible="true" Selectable="false" Editable="false" Snapable="false"/>
+  <SelectedStyle Color="RGB(0,0,255)"/>
+  <!--雷达产品19类数据显示颜色设置-->
+  <RasterRangeItem>
+    <Item Value="-5" Caption="" Color="RGBA(0,172,164,255)"/>
+    <Item Value="0" Caption="" Color="RGBA(192,192,254,255)"/>
+    <Item Value="5" Caption="" Color="RGBA(122,114,238,255)"/>
+    <Item Value="10" Caption="" Color="RGBA(30,38,208,255)"/>
+    <Item Value="15" Caption="" Color="RGBA(166,254,168,255)"/>
+    <Item Value="20" Caption="" Color="RGBA(0,234,0,255)"/>
+    <Item Value="25" Caption="" Color="RGBA(16,146,26,255)"/>
+    <Item Value="30" Caption="" Color="RGBA(252,244,100,255)"/>
+    <Item Value="35" Caption="" Color="RGBA(200,200,2,255)"/>
+    <Item Value="40" Caption="" Color="RGBA(140,140,0,255)"/>
+    <Item Value="45" Caption="" Color="RGBA(254,172,172,255)"/>
+    <Item Value="50" Caption="" Color="RGBA(254,100,94,255)"/>
+    <Item Value="55" Caption="" Color="RGBA(238,2,48,255)"/>
+    <Item Value="60" Caption="" Color="RGBA(212,142,254,255)"/>
+    <Item Value="65" Caption="" Color="RGBA(170,36,250,255)"/>
+  </RasterRangeItem>
+</Layer>

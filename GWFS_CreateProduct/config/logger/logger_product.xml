@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger_config>
+	<logger name="ProductHandler" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console" />
+			<handler type="file"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="productHandler_"
+				suffix=".log" append="true" directory="logs/gwfs/product" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+	<logger name="RadarThread" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console" />
+			<handler type="file"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="radarThread_"
+				suffix=".log" append="true" directory="logs/gwfs/product/thread" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+	<logger name="SatelliteThread" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console" />
+			<handler type="file"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="satelliteThread_"
+				suffix=".log" append="true" directory="logs/gwfs/product/thread" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+
+	<logger name="RadarAnalyze" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console" />
+			<handler type="file"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="radarAnalyze_"
+				suffix=".log" append="true" directory="logs/gwfs/product/analyze" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+	<logger name="SatelliteAnalyze" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console" />
+			<handler type="file"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="satelliteAnalyze_"
+				suffix=".log" append="true" directory="logs/gwfs/product/analyze" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+	<logger name="DrawImage" level="ALL">
+		<context show_timestamp="true" show_method_info="true"
+			show_logger_name="true" />
+		<handlers>
+			<handler type="console" />
+			<handler type="file"
+				class="com.supermap.commons.logging.handler.impl.FileHandler" prefix="drawImage_"
+				suffix=".log" append="true" directory="logs/gwfs/product/draw" limit="1"
+				count="10" />
+		</handlers>
+	</logger>
+	
+</logger_config>

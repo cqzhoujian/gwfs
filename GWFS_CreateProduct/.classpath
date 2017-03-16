@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_80"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_Dispatcher"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_Disruptor"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_GCPP"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MGObjectsJava_64_x64_win_v1.0.0.43"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_Common"/>
+	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/jersey-json-1.12.jar"/>
+	<classpathentry kind="lib" path="lib/jettison-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/disruptor-3.2.0.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWFS_Logger"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
