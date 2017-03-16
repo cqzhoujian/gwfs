@@ -1,0 +1,2 @@
+[GWFS_sys] 2016-12-14 09:01:51 ERROR ClipData:66 : 文件为空-:20161213_0
+[GWFS_sys] 2016-12-14 09:02:23 ERROR ClipData:66 : 删除 20161213文件数据异常 , 异常  ： java.lang.NumberFormatException: For input string: "ctl_file"

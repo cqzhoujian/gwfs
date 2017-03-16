@@ -1,0 +1,32 @@
+[GWFS_sys] 2016-12-27 08:57:37 DEBUG ClipData:42 : FileParameter: [D:/mnt/simple/ecmwf/clipper/20161222/12/228/cf_pl_20161222_228.grib1.nc, D:/mnt/simple/ecmwf/clipper/20161222/12/228/pf_pl_20161222_228.grib1.nc], [D:/mnt/simple/ecmwf/clipper/20161222/12/228/cf_sfc_20161222_228.grib1.nc, D:/mnt/simple/ecmwf/clipper/20161222/12/228/pf_sfc_20161222_228.grib1.nc], [D:/mnt/simple/ecmwf/clipper/20161222/12/228/cf_sfc_20161222_228.grib2.nc, D:/mnt/simple/ecmwf/clipper/20161222/12/228/pf_sfc_20161222_228.grib2.nc], ECWMF_pl_20161222_20_228.nc, ECWMF_sfc_1_20161222_20_228.nc, ECWMF_sfc_2_20161222_20_228.nc
+[GWFS_sys] 2016-12-27 08:57:37  INFO ClipData:50 : 创建本地目录:-D:\mnt\simple\ecmwf\clipper\ens\20161222\20状态 ： true
+[GWFS_sys] 2016-12-27 08:57:37  INFO ClipData:50 : 当前时间 : 20161222 文件名 : 20161222
+[GWFS_sys] 2016-12-27 08:57:37  INFO ClipData:50 : 当前时间 : 20161222 文件名 : ctl_file
+[GWFS_sys] 2016-12-27 08:57:37 ERROR ClipData:66 : 删除 20161222文件数据异常 , 异常  ： java.lang.NumberFormatException: For input string: "ctl_file"
+[GWFS_sys] 2016-12-27 08:57:37 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-27 08:57:37 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-27 08:57:37 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-27 08:57:37 DEBUG ClipData:42 : ClipperEntity [plTime=0, plCellBounds=java.awt.geom.Rectangle2D$Float[x=60.0,y=30.0,w=81.0,h=51.0], plsizeCell=Point2D.Float[1.0, 1.0], plNoDataValue=-32767.0]
+[GWFS_sys] 2016-12-27 08:57:37 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-27 08:57:37 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-27 08:57:39 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-27 08:57:39 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-27 08:57:40 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-27 08:57:40 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-27 08:57:42 DEBUG ClipData:42 : ClipperData [plDataMap={w=[[Lucar.ma2.Array;@50dc907a, v=[[Lucar.ma2.Array;@4091630f, u=[[Lucar.ma2.Array;@8fe8ee7, t=[[Lucar.ma2.Array;@57e44e, r=[[Lucar.ma2.Array;@a4dbd0f, q=[[Lucar.ma2.Array;@75b72911, gh=[[Lucar.ma2.Array;@4be95777}, plfactors={w=[Ljava.lang.Double;@446d6c90, v=[Ljava.lang.Double;@6bf28508, u=[Ljava.lang.Double;@7efc0795, t=[Ljava.lang.Double;@54560854, r=[Ljava.lang.Double;@5c3cee0d, q=[Ljava.lang.Double;@2430c6ca, gh=[Ljava.lang.Double;@7e4b0a55}, time=1025624]
+[GWFS_sys] 2016-12-27 08:58:45 DEBUG ClipData:42 : FileParameter: [D:/mnt/simple/ecmwf/clipper/20161222/12/228/cf_pl_20161222_228.grib1.nc, D:/mnt/simple/ecmwf/clipper/20161222/12/228/pf_pl_20161222_228.grib1.nc], [D:/mnt/simple/ecmwf/clipper/20161222/12/228/cf_sfc_20161222_228.grib1.nc, D:/mnt/simple/ecmwf/clipper/20161222/12/228/pf_sfc_20161222_228.grib1.nc], [D:/mnt/simple/ecmwf/clipper/20161222/12/228/cf_sfc_20161222_228.grib2.nc, D:/mnt/simple/ecmwf/clipper/20161222/12/228/pf_sfc_20161222_228.grib2.nc], ECWMF_pl_20161222_20_228.nc, ECWMF_sfc_1_20161222_20_228.nc, ECWMF_sfc_2_20161222_20_228.nc
+[GWFS_sys] 2016-12-27 08:58:46 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-27 08:58:46 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-27 08:58:46 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-27 08:58:46 DEBUG ClipData:42 : ClipperEntity [plTime=0, plCellBounds=java.awt.geom.Rectangle2D$Float[x=60.0,y=30.0,w=81.0,h=51.0], plsizeCell=Point2D.Float[1.0, 1.0], plNoDataValue=-32767.0]
+[GWFS_sys] 2016-12-27 08:58:46 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-27 08:58:46 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-27 08:58:46 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-27 08:58:46 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-27 08:58:46 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-27 08:58:46 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-27 08:58:46 DEBUG ClipData:42 : ClipperData [plDataMap={w=[[Lucar.ma2.Array;@65794556, v=[[Lucar.ma2.Array;@7cb74525, u=[[Lucar.ma2.Array;@641cc01a, t=[[Lucar.ma2.Array;@1b881e4f, r=[[Lucar.ma2.Array;@57de2a8, q=[[Lucar.ma2.Array;@bab8669, gh=[[Lucar.ma2.Array;@2a055d7b}, plfactors={w=[Ljava.lang.Double;@463c4bca, v=[Ljava.lang.Double;@2093decc, u=[Ljava.lang.Double;@4c0833c9, t=[Ljava.lang.Double;@2e7ff81e, r=[Ljava.lang.Double;@537a916b, q=[Ljava.lang.Double;@13e1329e, gh=[Ljava.lang.Double;@25c22d44}, time=1025624]
+[GWFS_sys] 2016-12-27 08:58:47  INFO Clip2Netcdf:50 : ECWMF_pl_20161222_20_228.nc...写完
+[GWFS_sys] 2016-12-27 08:58:47  INFO Clip2Netcdf:50 : ECWMF_sfc_1_20161222_20_228.nc...写完
+[GWFS_sys] 2016-12-27 08:58:47  INFO Clip2Netcdf:50 : ECWMF_sfc_2_20161222_20_228.nc...写完
+[GWFS_sys] 2016-12-27 08:58:47  INFO ClipperThread:50 : ----时效：228 调用ManagerHandler ： com.supermap.disruptor.UniDisruptor@15a4792f

@@ -1,0 +1,166 @@
+[GWFS_sys] 2016-12-02 16:39:42 DEBUG ClipData:42 : FileParameter: [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_pl_20161101_0.grib1.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_pl_20161101_0.grib1.nc], [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_sfc_20161101_0.grib1.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_sfc_20161101_0.grib1.nc], [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_sfc_20161101_0.grib2.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_sfc_20161101_0.grib2.nc], ECWMF_pl_20161101_08_0.nc, ECWMF_sfc_1_20161101_08_0.nc, ECWMF_sfc_2_20161101_08_0.nc
+[GWFS_sys] 2016-12-02 16:39:42 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:39:42 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:39:42 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:39:42 DEBUG ClipData:42 : ClipperEntity [plTime=0, plCellBounds=java.awt.geom.Rectangle2D$Float[x=60.0,y=30.0,w=81.0,h=51.0], plsizeCell=Point2D.Float[1.0, 1.0], plNoDataValue=-32767.0]
+[GWFS_sys] 2016-12-02 16:39:42 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:39:42 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:39:42 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:39:42 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:39:42 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:39:42 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:39:42 DEBUG ClipData:42 : ClipperData [plDataMap={w=[[Lucar.ma2.Array;@65794556, v=[[Lucar.ma2.Array;@7cb74525, u=[[Lucar.ma2.Array;@641cc01a, t=[[Lucar.ma2.Array;@1b881e4f, r=[[Lucar.ma2.Array;@57de2a8, q=[[Lucar.ma2.Array;@bab8669, gh=[[Lucar.ma2.Array;@2a055d7b}, plfactors={w=[Ljava.lang.Double;@463c4bca, v=[Ljava.lang.Double;@2093decc, u=[Ljava.lang.Double;@4c0833c9, t=[Ljava.lang.Double;@2e7ff81e, r=[Ljava.lang.Double;@537a916b, q=[Ljava.lang.Double;@13e1329e, gh=[Ljava.lang.Double;@25c22d44}, time=1024160]
+[GWFS_sys] 2016-12-02 16:39:43  INFO Clip2Netcdf:50 : ECWMF_pl_20161101_08_0.nc...写完
+[GWFS_sys] 2016-12-02 16:39:43  INFO Clip2Netcdf:50 : ECWMF_sfc_1_20161101_08_0.nc...写完
+[GWFS_sys] 2016-12-02 16:39:43  INFO Clip2Netcdf:50 : ECWMF_sfc_2_20161101_08_0.nc...写完
+[GWFS_sys] 2016-12-02 16:39:47  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_pl_20161101_00_0.nc成功！
+[GWFS_sys] 2016-12-02 16:39:51  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_pl_20161101_08_0.nc成功！
+[GWFS_sys] 2016-12-02 16:39:52  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_sfc_1_20161101_00_0.nc成功！
+[GWFS_sys] 2016-12-02 16:39:54  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_sfc_1_20161101_08_0.nc成功！
+[GWFS_sys] 2016-12-02 16:39:54  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_sfc_2_20161101_00_0.nc成功！
+[GWFS_sys] 2016-12-02 16:39:54  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_sfc_2_20161101_08_0.nc成功！
+[GWFS_sys] 2016-12-02 16:39:54 DEBUG WriteCtlTo147:42 : 服务器连接成功
+[GWFS_sys] 2016-12-02 16:39:54 DEBUG WriteCtlTo147:42 : 服务器ip:/172.24.186.147
+[GWFS_sys] 2016-12-02 16:39:54  INFO WriteCtlTo147:50 : ...ctl文件:-/daily/en_netcdf/ctl_file/ECWMF_pl_0.ctl 写完
+[GWFS_sys] 2016-12-02 16:39:54  INFO WriteCtlTo147:50 : ...ctl文件:-/daily/en_netcdf/ctl_file/ECWMF_sfc_1_0.ctl 写完
+[GWFS_sys] 2016-12-02 16:39:54  INFO WriteCtlTo147:50 : ...ctl文件:-/daily/en_netcdf/ctl_file/ECWMF_sfc_2_0.ctl 写完
+[GWFS_sys] 2016-12-02 16:41:31 DEBUG ClipData:42 : FileParameter: [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_pl_20161101_0.grib1.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_pl_20161101_0.grib1.nc], [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_sfc_20161101_0.grib1.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_sfc_20161101_0.grib1.nc], [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_sfc_20161101_0.grib2.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_sfc_20161101_0.grib2.nc], ECWMF_pl_20161101_08_0.nc, ECWMF_sfc_1_20161101_08_0.nc, ECWMF_sfc_2_20161101_08_0.nc
+[GWFS_sys] 2016-12-02 16:41:31 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:41:31 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:41:31 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:41:31 DEBUG ClipData:42 : ClipperEntity [plTime=0, plCellBounds=java.awt.geom.Rectangle2D$Float[x=60.0,y=30.0,w=81.0,h=51.0], plsizeCell=Point2D.Float[1.0, 1.0], plNoDataValue=-32767.0]
+[GWFS_sys] 2016-12-02 16:41:31 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:41:31 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:41:31 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:41:31 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:41:31 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:41:31 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:41:31 DEBUG ClipData:42 : ClipperData [plDataMap={w=[[Lucar.ma2.Array;@537a916b, v=[[Lucar.ma2.Array;@13e1329e, u=[[Lucar.ma2.Array;@25c22d44, t=[[Lucar.ma2.Array;@6f29deb9, r=[[Lucar.ma2.Array;@25dd7cb3, q=[[Lucar.ma2.Array;@7025df30, gh=[[Lucar.ma2.Array;@466001d5}, plfactors={w=[Ljava.lang.Double;@49186b0b, v=[Ljava.lang.Double;@621bc4aa, u=[Ljava.lang.Double;@d0ca738, t=[Ljava.lang.Double;@39b65439, r=[Ljava.lang.Double;@715387c8, q=[Ljava.lang.Double;@22f79598, gh=[Ljava.lang.Double;@2c7e4017}, time=1024160]
+[GWFS_sys] 2016-12-02 16:41:32  INFO Clip2Netcdf:50 : ECWMF_pl_20161101_08_0.nc...写完
+[GWFS_sys] 2016-12-02 16:41:32  INFO Clip2Netcdf:50 : ECWMF_sfc_1_20161101_08_0.nc...写完
+[GWFS_sys] 2016-12-02 16:41:32  INFO Clip2Netcdf:50 : ECWMF_sfc_2_20161101_08_0.nc...写完
+[GWFS_sys] 2016-12-02 16:41:32  INFO FTPClientFactory:50 : 创建目录-/daily/en_netcdf/test/20161101/08
+[GWFS_sys] 2016-12-02 16:41:36  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_pl_20161101_00_0.nc成功！
+[GWFS_sys] 2016-12-02 16:41:40  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_pl_20161101_08_0.nc成功！
+[GWFS_sys] 2016-12-02 16:41:41  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_sfc_1_20161101_00_0.nc成功！
+[GWFS_sys] 2016-12-02 16:41:42  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_sfc_1_20161101_08_0.nc成功！
+[GWFS_sys] 2016-12-02 16:41:42  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_sfc_2_20161101_00_0.nc成功！
+[GWFS_sys] 2016-12-02 16:41:43  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_sfc_2_20161101_08_0.nc成功！
+[GWFS_sys] 2016-12-02 16:41:43 DEBUG WriteCtlTo147:42 : 服务器连接成功
+[GWFS_sys] 2016-12-02 16:41:43 DEBUG WriteCtlTo147:42 : 服务器ip:/172.24.186.147
+[GWFS_sys] 2016-12-02 16:41:43  INFO WriteCtlTo147:50 : 创建文件夹：-/daily/en_netcdf/test/ctl_file
+[GWFS_sys] 2016-12-02 16:41:43  INFO FTPClientFactory:50 : 创建目录-/daily/en_netcdf/test/ctl_file
+[GWFS_sys] 2016-12-02 16:41:43  INFO WriteCtlTo147:50 : ...ctl文件:-/daily/en_netcdf/test/ctl_file/ECWMF_pl_0.ctl 写完
+[GWFS_sys] 2016-12-02 16:41:43  INFO WriteCtlTo147:50 : ...ctl文件:-/daily/en_netcdf/test/ctl_file/ECWMF_sfc_1_0.ctl 写完
+[GWFS_sys] 2016-12-02 16:41:43  INFO WriteCtlTo147:50 : ...ctl文件:-/daily/en_netcdf/test/ctl_file/ECWMF_sfc_2_0.ctl 写完
+[GWFS_sys] 2016-12-02 16:42:14 DEBUG ClipData:42 : FileParameter: [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_pl_20161101_0.grib1.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_pl_20161101_0.grib1.nc], [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_sfc_20161101_0.grib1.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_sfc_20161101_0.grib1.nc], [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_sfc_20161101_0.grib2.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_sfc_20161101_0.grib2.nc], ECWMF_pl_20161101_08_0.nc, ECWMF_sfc_1_20161101_08_0.nc, ECWMF_sfc_2_20161101_08_0.nc
+[GWFS_sys] 2016-12-02 16:42:14 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:42:14 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:42:14 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:42:14 DEBUG ClipData:42 : ClipperEntity [plTime=0, plCellBounds=java.awt.geom.Rectangle2D$Float[x=60.0,y=30.0,w=81.0,h=51.0], plsizeCell=Point2D.Float[1.0, 1.0], plNoDataValue=-32767.0]
+[GWFS_sys] 2016-12-02 16:42:14 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:42:14 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:42:15 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:42:15 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:42:15 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:42:15 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:42:15 DEBUG ClipData:42 : ClipperData [plDataMap={w=[[Lucar.ma2.Array;@4c0833c9, v=[[Lucar.ma2.Array;@2e7ff81e, u=[[Lucar.ma2.Array;@537a916b, t=[[Lucar.ma2.Array;@13e1329e, r=[[Lucar.ma2.Array;@25c22d44, q=[[Lucar.ma2.Array;@6f29deb9, gh=[[Lucar.ma2.Array;@25dd7cb3}, plfactors={w=[Ljava.lang.Double;@7025df30, v=[Ljava.lang.Double;@466001d5, u=[Ljava.lang.Double;@49186b0b, t=[Ljava.lang.Double;@621bc4aa, r=[Ljava.lang.Double;@d0ca738, q=[Ljava.lang.Double;@39b65439, gh=[Ljava.lang.Double;@715387c8}, time=1024160]
+[GWFS_sys] 2016-12-02 16:42:15  INFO Clip2Netcdf:50 : ECWMF_pl_20161101_08_0.nc...写完
+[GWFS_sys] 2016-12-02 16:42:16  INFO Clip2Netcdf:50 : ECWMF_sfc_1_20161101_08_0.nc...写完
+[GWFS_sys] 2016-12-02 16:42:16  INFO Clip2Netcdf:50 : ECWMF_sfc_2_20161101_08_0.nc...写完
+[GWFS_sys] 2016-12-02 16:42:16  INFO FTPClientFactory:50 : 创建目录-/daily/en_netcdf/test/20161101/08
+[GWFS_sys] 2016-12-02 16:42:19  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_pl_20161101_00_0.nc成功！
+[GWFS_sys] 2016-12-02 16:42:23  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_pl_20161101_08_0.nc成功！
+[GWFS_sys] 2016-12-02 16:42:24  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_sfc_1_20161101_00_0.nc成功！
+[GWFS_sys] 2016-12-02 16:42:26  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_sfc_1_20161101_08_0.nc成功！
+[GWFS_sys] 2016-12-02 16:42:26  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_sfc_2_20161101_00_0.nc成功！
+[GWFS_sys] 2016-12-02 16:42:26  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_sfc_2_20161101_08_0.nc成功！
+[GWFS_sys] 2016-12-02 16:42:26 DEBUG WriteCtlTo147:42 : 服务器连接成功
+[GWFS_sys] 2016-12-02 16:42:26 DEBUG WriteCtlTo147:42 : 服务器ip:/172.24.186.147
+[GWFS_sys] 2016-12-02 16:42:26  INFO WriteCtlTo147:50 : 创建文件夹：-/daily/en_netcdf/test/ctl_file
+[GWFS_sys] 2016-12-02 16:42:26  INFO FTPClientFactory:50 : 创建目录-/daily/en_netcdf/test/ctl_file
+[GWFS_sys] 2016-12-02 16:42:26  INFO WriteCtlTo147:50 : ...ctl文件:-/daily/en_netcdf/test/ctl_file/ECWMF_pl_0.ctl 写完
+[GWFS_sys] 2016-12-02 16:42:26  INFO WriteCtlTo147:50 : ...ctl文件:-/daily/en_netcdf/test/ctl_file/ECWMF_sfc_1_0.ctl 写完
+[GWFS_sys] 2016-12-02 16:42:26  INFO WriteCtlTo147:50 : ...ctl文件:-/daily/en_netcdf/test/ctl_file/ECWMF_sfc_2_0.ctl 写完
+[GWFS_sys] 2016-12-02 16:45:13 DEBUG ClipData:42 : FileParameter: [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_pl_20161101_0.grib1.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_pl_20161101_0.grib1.nc], [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_sfc_20161101_0.grib1.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_sfc_20161101_0.grib1.nc], [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_sfc_20161101_0.grib2.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_sfc_20161101_0.grib2.nc], ECWMF_pl_20161101_08_0.nc, ECWMF_sfc_1_20161101_08_0.nc, ECWMF_sfc_2_20161101_08_0.nc
+[GWFS_sys] 2016-12-02 16:45:13 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:45:13 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:45:13 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:45:13 DEBUG ClipData:42 : ClipperEntity [plTime=0, plCellBounds=java.awt.geom.Rectangle2D$Float[x=60.0,y=30.0,w=81.0,h=51.0], plsizeCell=Point2D.Float[1.0, 1.0], plNoDataValue=-32767.0]
+[GWFS_sys] 2016-12-02 16:45:13 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:45:13 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:45:21 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:45:21 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:45:24 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:45:24 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:45:25 DEBUG ClipData:42 : ClipperData [plDataMap={w=[[Lucar.ma2.Array;@77231a68, v=[[Lucar.ma2.Array;@219adef3, u=[[Lucar.ma2.Array;@3ea334c1, t=[[Lucar.ma2.Array;@4cdc8b07, r=[[Lucar.ma2.Array;@232b9ffd, q=[[Lucar.ma2.Array;@514ad15, gh=[[Lucar.ma2.Array;@106f404e}, plfactors={w=[Ljava.lang.Double;@77e6c94f, v=[Ljava.lang.Double;@50aa9f08, u=[Ljava.lang.Double;@71aeef97, t=[Ljava.lang.Double;@13f3dcd0, r=[Ljava.lang.Double;@6f25e5eb, q=[Ljava.lang.Double;@2119e04f, gh=[Ljava.lang.Double;@29d57383}, time=1024160]
+[GWFS_sys] 2016-12-02 16:46:32 DEBUG ClipData:42 : FileParameter: [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_pl_20161101_0.grib1.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_pl_20161101_0.grib1.nc], [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_sfc_20161101_0.grib1.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_sfc_20161101_0.grib1.nc], [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_sfc_20161101_0.grib2.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_sfc_20161101_0.grib2.nc], ECWMF_pl_20161101_08_0.nc, ECWMF_sfc_1_20161101_08_0.nc, ECWMF_sfc_2_20161101_08_0.nc
+[GWFS_sys] 2016-12-02 16:46:32 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:46:33 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:46:33 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:46:33 DEBUG ClipData:42 : ClipperEntity [plTime=0, plCellBounds=java.awt.geom.Rectangle2D$Float[x=60.0,y=30.0,w=81.0,h=51.0], plsizeCell=Point2D.Float[1.0, 1.0], plNoDataValue=-32767.0]
+[GWFS_sys] 2016-12-02 16:46:33 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:46:33 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:46:33 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:46:33 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:46:33 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:46:33 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:46:33 DEBUG ClipData:42 : ClipperData [plDataMap={w=[[Lucar.ma2.Array;@462bf9b5, v=[[Lucar.ma2.Array;@7116fe10, u=[[Lucar.ma2.Array;@1c820671, t=[[Lucar.ma2.Array;@1c74f356, r=[[Lucar.ma2.Array;@4213a1b2, q=[[Lucar.ma2.Array;@16dccf02, gh=[[Lucar.ma2.Array;@7a9a9807}, plfactors={w=[Ljava.lang.Double;@3b733273, v=[Ljava.lang.Double;@7f53a83, u=[Ljava.lang.Double;@74d47289, t=[Ljava.lang.Double;@27abbc4b, r=[Ljava.lang.Double;@7bd6f445, q=[Ljava.lang.Double;@5d3f1d87, gh=[Ljava.lang.Double;@5aabb9e4}, time=1024160]
+[GWFS_sys] 2016-12-02 16:46:34  INFO Clip2Netcdf:50 : ECWMF_pl_20161101_08_0.nc...写完
+[GWFS_sys] 2016-12-02 16:46:34  INFO Clip2Netcdf:50 : ECWMF_sfc_1_20161101_08_0.nc...写完
+[GWFS_sys] 2016-12-02 16:46:34  INFO Clip2Netcdf:50 : ECWMF_sfc_2_20161101_08_0.nc...写完
+[GWFS_sys] 2016-12-02 16:47:21  INFO FTPClientFactory:50 : 创建目录-/daily/en_netcdf/test/20161101/08
+[GWFS_sys] 2016-12-02 16:47:25  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_pl_20161101_00_0.nc成功！
+[GWFS_sys] 2016-12-02 16:47:32  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_pl_20161101_08_0.nc成功！
+[GWFS_sys] 2016-12-02 16:47:36  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_sfc_1_20161101_00_0.nc成功！
+[GWFS_sys] 2016-12-02 16:48:22 DEBUG ClipData:42 : FileParameter: [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_pl_20161101_0.grib1.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_pl_20161101_0.grib1.nc], [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_sfc_20161101_0.grib1.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_sfc_20161101_0.grib1.nc], [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_sfc_20161101_0.grib2.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_sfc_20161101_0.grib2.nc], ECWMF_pl_20161101_08_0.nc, ECWMF_sfc_1_20161101_08_0.nc, ECWMF_sfc_2_20161101_08_0.nc
+[GWFS_sys] 2016-12-02 16:48:22 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:48:22 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:48:22 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:48:22 DEBUG ClipData:42 : ClipperEntity [plTime=0, plCellBounds=java.awt.geom.Rectangle2D$Float[x=60.0,y=30.0,w=81.0,h=51.0], plsizeCell=Point2D.Float[1.0, 1.0], plNoDataValue=-32767.0]
+[GWFS_sys] 2016-12-02 16:48:22 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:48:22 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:48:22 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:48:22 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:48:22 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:48:22 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:48:22 DEBUG ClipData:42 : ClipperData [plDataMap={w=[[Lucar.ma2.Array;@bab8669, v=[[Lucar.ma2.Array;@2a055d7b, u=[[Lucar.ma2.Array;@463c4bca, t=[[Lucar.ma2.Array;@2093decc, r=[[Lucar.ma2.Array;@4c0833c9, q=[[Lucar.ma2.Array;@2e7ff81e, gh=[[Lucar.ma2.Array;@537a916b}, plfactors={w=[Ljava.lang.Double;@13e1329e, v=[Ljava.lang.Double;@25c22d44, u=[Ljava.lang.Double;@6f29deb9, t=[Ljava.lang.Double;@25dd7cb3, r=[Ljava.lang.Double;@7025df30, q=[Ljava.lang.Double;@466001d5, gh=[Ljava.lang.Double;@49186b0b}, time=1024160]
+[GWFS_sys] 2016-12-02 16:48:23  INFO Clip2Netcdf:50 : ECWMF_pl_20161101_08_0.nc...写完
+[GWFS_sys] 2016-12-02 16:48:23  INFO Clip2Netcdf:50 : ECWMF_sfc_1_20161101_08_0.nc...写完
+[GWFS_sys] 2016-12-02 16:48:23  INFO Clip2Netcdf:50 : ECWMF_sfc_2_20161101_08_0.nc...写完
+[GWFS_sys] 2016-12-02 16:48:27  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_pl_20161101_08_0.nc成功！
+[GWFS_sys] 2016-12-02 16:48:28  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_sfc_1_20161101_08_0.nc成功！
+[GWFS_sys] 2016-12-02 16:48:28  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_sfc_2_20161101_08_0.nc成功！
+[GWFS_sys] 2016-12-02 16:48:28 DEBUG WriteCtlTo147:42 : 服务器连接成功
+[GWFS_sys] 2016-12-02 16:48:28 DEBUG WriteCtlTo147:42 : 服务器ip:/172.24.186.147
+[GWFS_sys] 2016-12-02 16:48:28  INFO WriteCtlTo147:50 : 创建文件夹：-/daily/en_netcdf/test/ctl_file
+[GWFS_sys] 2016-12-02 16:48:28  INFO FTPClientFactory:50 : 创建目录-/daily/en_netcdf/test/ctl_file
+[GWFS_sys] 2016-12-02 16:48:28  INFO WriteCtlTo147:50 : ...ctl文件:-/daily/en_netcdf/test/ctl_file/ECWMF_pl_0.ctl 写完
+[GWFS_sys] 2016-12-02 16:48:28  INFO WriteCtlTo147:50 : ...ctl文件:-/daily/en_netcdf/test/ctl_file/ECWMF_sfc_1_0.ctl 写完
+[GWFS_sys] 2016-12-02 16:48:29  INFO WriteCtlTo147:50 : ...ctl文件:-/daily/en_netcdf/test/ctl_file/ECWMF_sfc_2_0.ctl 写完
+[GWFS_sys] 2016-12-02 16:49:14 DEBUG ClipData:42 : FileParameter: [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_pl_20161101_0.grib1.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_pl_20161101_0.grib1.nc], [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_sfc_20161101_0.grib1.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_sfc_20161101_0.grib1.nc], [D:/mnt/simple/ecmwf/clipper/20161101/00/0/cf_sfc_20161101_0.grib2.nc, D:/mnt/simple/ecmwf/clipper/20161101/00/0/pf_sfc_20161101_0.grib2.nc], ECWMF_pl_20161101_08_0.nc, ECWMF_sfc_1_20161101_08_0.nc, ECWMF_sfc_2_20161101_08_0.nc
+[GWFS_sys] 2016-12-02 16:49:14 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:49:14 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:49:14 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:49:14 DEBUG ClipData:42 : ClipperEntity [plTime=0, plCellBounds=java.awt.geom.Rectangle2D$Float[x=60.0,y=30.0,w=81.0,h=51.0], plsizeCell=Point2D.Float[1.0, 1.0], plNoDataValue=-32767.0]
+[GWFS_sys] 2016-12-02 16:49:14 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:49:14 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:49:14 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:49:14 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:49:14 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:49:14 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-02 16:49:14 DEBUG ClipData:42 : ClipperData [plDataMap={w=[[Lucar.ma2.Array;@2e7ff81e, v=[[Lucar.ma2.Array;@537a916b, u=[[Lucar.ma2.Array;@13e1329e, t=[[Lucar.ma2.Array;@25c22d44, r=[[Lucar.ma2.Array;@6f29deb9, q=[[Lucar.ma2.Array;@25dd7cb3, gh=[[Lucar.ma2.Array;@7025df30}, plfactors={w=[Ljava.lang.Double;@466001d5, v=[Ljava.lang.Double;@49186b0b, u=[Ljava.lang.Double;@621bc4aa, t=[Ljava.lang.Double;@d0ca738, r=[Ljava.lang.Double;@39b65439, q=[Ljava.lang.Double;@715387c8, gh=[Ljava.lang.Double;@22f79598}, time=1024160]
+[GWFS_sys] 2016-12-02 16:49:15  INFO Clip2Netcdf:50 : ECWMF_pl_20161101_08_0.nc...写完
+[GWFS_sys] 2016-12-02 16:49:15  INFO Clip2Netcdf:50 : ECWMF_sfc_1_20161101_08_0.nc...写完
+[GWFS_sys] 2016-12-02 16:49:15  INFO Clip2Netcdf:50 : ECWMF_sfc_2_20161101_08_0.nc...写完
+[GWFS_sys] 2016-12-02 16:49:15  INFO FTPClientFactory:50 : 创建目录-/daily/en_netcdf/test/20161101/08
+[GWFS_sys] 2016-12-02 16:49:19  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_pl_20161101_08_0.nc成功！
+[GWFS_sys] 2016-12-02 16:49:20  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_sfc_1_20161101_08_0.nc成功！
+[GWFS_sys] 2016-12-02 16:49:21  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161101\08\ECWMF_sfc_2_20161101_08_0.nc成功！
+[GWFS_sys] 2016-12-02 16:49:21 DEBUG WriteCtlTo147:42 : 服务器连接成功
+[GWFS_sys] 2016-12-02 16:49:21 DEBUG WriteCtlTo147:42 : 服务器ip:/172.24.186.147
+[GWFS_sys] 2016-12-02 16:49:21  INFO WriteCtlTo147:50 : 创建文件夹：-/daily/en_netcdf/test/ctl_file
+[GWFS_sys] 2016-12-02 16:49:21  INFO FTPClientFactory:50 : 创建目录-/daily/en_netcdf/test/ctl_file
+[GWFS_sys] 2016-12-02 16:49:21  INFO WriteCtlTo147:50 : ...ctl文件:-/daily/en_netcdf/test/ctl_file/ECWMF_pl_0.ctl 写完
+[GWFS_sys] 2016-12-02 16:49:21  INFO WriteCtlTo147:50 : ...ctl文件:-/daily/en_netcdf/test/ctl_file/ECWMF_sfc_1_0.ctl 写完
+[GWFS_sys] 2016-12-02 16:49:21  INFO WriteCtlTo147:50 : ...ctl文件:-/daily/en_netcdf/test/ctl_file/ECWMF_sfc_2_0.ctl 写完

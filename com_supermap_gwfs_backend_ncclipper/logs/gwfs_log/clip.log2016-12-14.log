@@ -1,0 +1,33 @@
+[GWFS_sys] 2016-12-14 09:01:51  INFO ClipData:50 : 目录不存在：D:\mnt\simple\ecmwf\clipper\20161213\00\0
+[GWFS_sys] 2016-12-14 09:01:51 ERROR ClipData:66 : 文件为空-:20161213_0
+[GWFS_sys] 2016-12-14 09:02:23 DEBUG ClipData:42 : FileParameter: [D:/mnt/simple/ecmwf/clipper/20161213/00/120/cf_pl_20161212_120.grib1.nc, D:/mnt/simple/ecmwf/clipper/20161213/00/120/pf_pl_20161212_120.grib1.nc], [D:/mnt/simple/ecmwf/clipper/20161213/00/120/cf_sfc_20161212_120.grib1.nc, D:/mnt/simple/ecmwf/clipper/20161213/00/120/pf_sfc_20161212_120.grib1.nc], [D:/mnt/simple/ecmwf/clipper/20161213/00/120/cf_sfc_20161212_120.grib2.nc, D:/mnt/simple/ecmwf/clipper/20161213/00/120/pf_sfc_20161212_120.grib2.nc], ECWMF_pl_20161212_08_120.nc, ECWMF_sfc_1_20161212_08_120.nc, ECWMF_sfc_2_20161212_08_120.nc
+[GWFS_sys] 2016-12-14 09:02:23  INFO ClipData:50 : 创建本地目录:-D:\mnt\simple\ecmwf\clipper\ens\20161213\08状态 ： true
+[GWFS_sys] 2016-12-14 09:02:23  INFO ClipData:50 : 当前时间 : 20161213 文件名 : 20161101
+[GWFS_sys] 2016-12-14 09:02:23  INFO ClipData:50 : 删除 20161101 文件的数据
+[GWFS_sys] 2016-12-14 09:02:23  INFO ClipData:50 : 当前时间 : 20161213 文件名 : 20161213
+[GWFS_sys] 2016-12-14 09:02:23  INFO ClipData:50 : 当前时间 : 20161213 文件名 : ctl_file
+[GWFS_sys] 2016-12-14 09:02:23 ERROR ClipData:66 : 删除 20161213文件数据异常 , 异常  ： java.lang.NumberFormatException: For input string: "ctl_file"
+[GWFS_sys] 2016-12-14 09:02:23 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-14 09:02:23 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-14 09:02:23 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-14 09:02:23 DEBUG ClipData:42 : ClipperEntity [plTime=0, plCellBounds=java.awt.geom.Rectangle2D$Float[x=60.0,y=30.0,w=81.0,h=51.0], plsizeCell=Point2D.Float[1.0, 1.0], plNoDataValue=-32767.0]
+[GWFS_sys] 2016-12-14 09:02:23 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-14 09:02:23 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-14 09:02:23 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-14 09:02:23 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-14 09:02:23 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-14 09:02:23 DEBUG NetcdfFile:811 : Using IOSP ucar.nc2.iosp.netcdf3.N3raf
+[GWFS_sys] 2016-12-14 09:02:23 DEBUG ClipData:42 : ClipperData [plDataMap={w=[[Lucar.ma2.Array;@715387c8, v=[[Lucar.ma2.Array;@22f79598, u=[[Lucar.ma2.Array;@2c7e4017, t=[[Lucar.ma2.Array;@14a1bcd3, r=[[Lucar.ma2.Array;@673cb3a, q=[[Lucar.ma2.Array;@1c235025, gh=[[Lucar.ma2.Array;@5262bb91}, plfactors={w=[Ljava.lang.Double;@500856d8, v=[Ljava.lang.Double;@537da7f4, u=[Ljava.lang.Double;@5e9daefe, t=[Ljava.lang.Double;@424bd639, r=[Ljava.lang.Double;@dd5a30, q=[Ljava.lang.Double;@444c05c1, gh=[Ljava.lang.Double;@5b0de4ee}, time=1025264]
+[GWFS_sys] 2016-12-14 09:02:24  INFO Clip2Netcdf:50 : ECWMF_pl_20161212_08_120.nc...写完
+[GWFS_sys] 2016-12-14 09:02:25  INFO Clip2Netcdf:50 : ECWMF_sfc_1_20161212_08_120.nc...写完
+[GWFS_sys] 2016-12-14 09:02:25  INFO Clip2Netcdf:50 : ECWMF_sfc_2_20161212_08_120.nc...写完
+[GWFS_sys] 2016-12-14 09:02:25  INFO FTPClientFactory:50 : 创建目录-/daily/en_netcdf/test/20161213/08
+[GWFS_sys] 2016-12-14 09:02:29  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161213\08\ECWMF_pl_20161212_08_120.nc成功！
+[GWFS_sys] 2016-12-14 09:02:30  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161213\08\ECWMF_sfc_1_20161212_08_120.nc成功！
+[GWFS_sys] 2016-12-14 09:02:31  INFO FTPClientFactory:50 : 上传文件-D:\mnt\simple\ecmwf\clipper\ens\20161213\08\ECWMF_sfc_2_20161212_08_120.nc成功！
+[GWFS_sys] 2016-12-14 09:02:31 DEBUG WriteCtlTo147:42 : 服务器连接成功
+[GWFS_sys] 2016-12-14 09:02:31 DEBUG WriteCtlTo147:42 : 服务器ip:/172.24.186.147
+[GWFS_sys] 2016-12-14 09:02:31  INFO WriteCtlTo147:50 : ...ctl文件:-/daily/en_netcdf/test/ctl_file/ECWMF_pl_120.ctl 写完
+[GWFS_sys] 2016-12-14 09:02:31  INFO WriteCtlTo147:50 : ...ctl文件:-/daily/en_netcdf/test/ctl_file/ECWMF_sfc_1_120.ctl 写完
+[GWFS_sys] 2016-12-14 09:02:31  INFO WriteCtlTo147:50 : ...ctl文件:-/daily/en_netcdf/test/ctl_file/ECWMF_sfc_2_120.ctl 写完
+[GWFS_sys] 2016-12-14 09:02:31  INFO ClipperThread:50 : ----时效：120 调用ManagerHandler ： com.supermap.disruptor.UniDisruptor@4f139c27

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<feature>
+		<pl>gh,u,v,r,t,w,q</pl>
+		<sfc1>u10,v10,u100,V100,t2m,msl</sfc1>
+		<sfc2>
+			d2m,cape,sf,tcc,tp,P10FG6,cbh,cin,hcc,mcc,lcc,kx,MX2T6,MN2T6,tcw,deg0l
+		</sfc2>
+	</feature>
+	<size>
+		<pl>60,140,10,60</pl>
+		<sfc1>70,140,10,55</sfc1>
+		<sfc2>100,114,25,35</sfc2>
+	</size>
+	<layer>
+		<pl>100,200,500,700,850,925,1000</pl>
+	</layer>
+	<time>240</time>
+	<number>50</number>
+	<write>
+		<!-- /mnt/clippedNetcdf/ -->
+		<rootpathLocal>D:/mnt/simple/ecmwf/clipper/ens</rootpathLocal>
+		<!-- /JiHeYuBao/Product/ 为FTP根目录 -->
+		<rootpath147>/daily/en_netcdf</rootpath147>
+	</write>
+</list>
